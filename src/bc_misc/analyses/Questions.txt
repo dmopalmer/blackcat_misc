@@ -1,0 +1,10 @@
+# %%
+
+
+What is the per-frame bias distribution like for each detector and each ph_ file
+
+Do the bimodal island4 distributions  correspond to frame-to-frame variations or within frames?
+
+What frame is the DRAM dump at teh end of a boot cycle and does it mean that the data continues in to DRAM
+
+What are hot pixels doing?  Are they being decreased wiht counts?

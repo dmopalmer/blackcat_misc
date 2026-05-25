@@ -1,0 +1,49 @@
+[project]
+name = "bc-misc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "David M. Palmer", email = "palmer@lanl.gov" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "astropy>=7.2.0",
+    "bc-imager",
+    "blackcat-py",
+    "blackcat_data",
+    "matplotlib>=3.10.8",
+    "scipy>=1.16.3",
+    "mylab",
+    "numpy-quaternion>=2024.0.13",
+    "pykernel>=0.1.6",
+    "ipykernel>=7.2.0",
+    "pip>=26.0.1",
+    # "mission_planner",
+]
+
+[project.scripts]
+bc-misc = "bc_misc:main"
+
+[build-system]
+requires = ["uv_build>=0.8.14,<0.9.0"]
+build-backend = "uv_build"
+
+[tool.uv.sources]
+# bc-imager = { git = "ssh://git@github.com/BlackCAT-CubeSat/bc-imager.git" }
+bc-imager = { path = "../bc-imager", editable=True }
+blackcat-py = { git = "ssh://git@github.com/BlackCAT-CubeSat/blackcat_py.git" }
+blackcat_data = { git = "file:////Users/palmer/repo/blackcat/BlackCAT-Data" }
+mylab = { git = "ssh://git@github.com/dmopalmer/mylab_py.git", branch = "bc"}
+mission_planner = {git = "ssh://git@github.com/BlackCAT-CubeSat/mission_planner.git" }
+
+[tool.uv]
+override-dependencies = [
+    "stored-command-transcriber @ git+ssh://git@github.com/BlackCAT-CubeSat/stored-command-transcriber.git",
+]
+
+[dependency-groups]
+dev = [
+    "ipympl>=0.10.0",
+    "ipython>=9.9.0",
+]
