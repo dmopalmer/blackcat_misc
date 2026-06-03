@@ -28,12 +28,12 @@ for ph in recent_ph:
     else:
         print(f'{ph.name} OK {len(d):6d} / {np.ptp(d['TIME']):.1f} s = {len(d) /np.ptp(d['TIME']):6.0f} cps in {len(set(d['detid']))} detectors')
 # %%
-dloop = fits.getdata('/Volumes/data_x8/blackcat/soc_archive_mirror/payload_checkout/CHECKOUT_26_05_20/level1_tmp/ph_2605191543.gz')
+dloop = fits.getdata('/Volumes/data_x8/blackcat/soc_archive_mirror/payload_checkout/CHECKOUT_26_05_23/level1_tmp/ph_2605191543.gz')
 dlp = dloop[(dloop['framenum'] == 9) & (dloop['detid'] == 3)]
 d3 = dloop[dloop['detid'] == 3]
 print(len(dlp))
 # %%
-for f in Path('/Volumes/data_x8/blackcat/soc_archive_mirror/payload_checkout/CHECKOUT_26_05_23/level1_tmp/').glob('ph_May*_xx.gz'):
+for f in Path('/Volumes/data_x8/blackcat/soc_archive_mirror/payload_checkout/CHECKOUT_26_05_23/level1_tmp/').glob('ph_*.gz'):
     plot_photons_isl4(f.name, f)
 # %%
 

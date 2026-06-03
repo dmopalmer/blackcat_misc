@@ -30,8 +30,9 @@ requires = ["uv_build>=0.8.14,<0.9.0"]
 build-backend = "uv_build"
 
 [tool.uv.sources]
-# bc-imager = { git = "ssh://git@github.com/BlackCAT-CubeSat/bc-imager.git" }
-bc-imager = { path = "../bc-imager", editable=True }
+bc-imager = { git = "ssh://git@github.com/BlackCAT-CubeSat/bc-imager.git" }
+# bc-imager = { path = "../bc-imager", editable=true }
+xraysky = { path = "/Users/palmer/repo/xraysky", editable=true }
 blackcat-py = { git = "ssh://git@github.com/BlackCAT-CubeSat/blackcat_py.git" }
 blackcat_data = { git = "file:////Users/palmer/repo/blackcat/BlackCAT-Data" }
 mylab = { git = "ssh://git@github.com/dmopalmer/mylab_py.git", branch = "bc"}
@@ -40,6 +41,7 @@ mission_planner = {git = "ssh://git@github.com/BlackCAT-CubeSat/mission_planner.
 [tool.uv]
 override-dependencies = [
     "stored-command-transcriber @ git+ssh://git@github.com/BlackCAT-CubeSat/stored-command-transcriber.git",
+    "xraysky @ /Users/palmer/repo/xraysky"
 ]
 
 [dependency-groups]

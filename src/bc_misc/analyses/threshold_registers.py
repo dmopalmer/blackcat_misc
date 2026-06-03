@@ -16,7 +16,7 @@ from tools import *
 
 
 ds = bcd.DataSource(
-    list(bcd.topdir.rglob("**/CHECKOUT_26_05_*/**/raw_level0/**/HOUSEKEEPING*"))
+    list(bcd.topdir.rglob("**/CHECKOUT_26_05_2*/**/raw_level0/**/HOUSEKEEPING*"))
 )
 
 lines=ds.messages(fmt=True, supress=False)

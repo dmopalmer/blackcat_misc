@@ -6,6 +6,7 @@ import mission_planner
 import xraysky
 import blackcat_data as bcd
 from collections import Counter
+from astropy.coordinates import SkyCoord
 
 top_dir = Path("/Volumes/data_x8/blackcat/soc_archive_mirror")
 
@@ -262,15 +263,65 @@ def obsdata(obsname: str|Path):
     obsname = obsname.split('.')[0]
     obsname = obsname.split('_')[-1]
     result = dict(obsname = obsname)
-    for name, pat in (('l1', f'level1_tmp/ph_{obsname}*'),
-                      ('l0', f'raw_level0/ph_{obsname}*'),
-                      ('orientation', f'level1_tmp/or_{obsname}*')):
+    for name, pat in (('l1_file', f'level1_tmp/ph_{obsname}*'),
+                      ('l0_file', f'raw_level0/ph_{obsname}*'),
+                      ('ori_file', f'level1_tmp/or_{obsname}*')):
         try:
             f = next(top_dir.rglob(pat))
             result[name] = f
         except:
             result[name] = None
     return result
+
+
+def obs_photons(obsname: str|Path, pointing_tolerance=0.25):
+    result = obsdata(obsname)
+    try:
+        photons,ph_header = fits.getdata(result['l1_file'], header=True)
+        # Add a 't' column of np.datetime64
+        # photons['t'] = ts_to_time(photons['time'])
+        result['photons'] = photons
+        result['header'] = ph_header
+    except:
+        pass
+    try:
+        ori = fits.getdata(result['ori_file'])
+        # Add a 't' column of np.datetime64
+        # ori['t'] = ts_to_time(ori['time'])
+        
+        result['orientation'] = ori
+        radecroll = ori['pointing']
+        for c in (0,2):
+            # Remove the wraps so that 359->360->361 for RA and roll
+            radecroll[:,c] = np.unwrap(radecroll[:,c], period=360)
+        radecroll_med = np.median(radecroll, axis=0)
+        # Convert output to ranges [0,360),[-90,+90],[0,360)
+
+        result['radecroll'] = (radecroll_med + [0,180,0]) % 360 - [0,180,0]
+        # Offset from wrapped median values, sum of squares in degrees
+        offset_sq = np.sum((radecroll - radecroll_med)**2, axis=1)
+        # Map of where the pointing is off by more than the tolerance
+        off_point_indices = np.ravel(np.argwhere(offset_sq > pointing_tolerance**2))
+        zero_lengths = np.diff(off_point_indices, append=len(offset_sq))
+        ii_max_zero_length = np.argmax(zero_lengths)
+        # First ori point within tolerance
+        i_start = off_point_indices[ii_max_zero_length] + 1
+        # Number of within-tolerance points in the run
+        maxlen = max(np.max(zero_lengths)-1,0)
+        if maxlen == 0:
+            # guard kicks to exception
+            raise RuntimeError("No stable times")
+        assert np.all(offset_sq[i_start:i_start+maxlen] < 1.01*pointing_tolerance**2)
+        stable_times = ori['time'][[i_start, i_start+maxlen-1]]
+        stable_photons = photons[(stable_times[0] < photons['time']) & (photons['time'] < stable_times[1])]
+        result['stable_times'] = ts_to_time(stable_times)
+        result['stable_photons'] = stable_photons
+    except:
+        pass
+    
+    return result
+    
+    
 
 def plot_stack(data, name=None, cols=['dety','bias','energy','ISLAND4']):
     fig,ax = plt.subplots(len(cols),1,sharex=True, figsize=(8,2.5*len(cols)))
@@ -291,29 +342,13 @@ def loopcheck(data):
     if count > 1:
         print(f"{count} copies of framenum, detid, rawx, rawy = {vals}")
         return True
-    
-    
-    # too slow
-    if False:
-        splits = np.ravel(np.argwhere((data['detid'][:-1] != data['detid'][1:])
-                            | (data['framenum'][:-1] != data['framenum'][1:]))
-                        + 1)
-        for seg in np.split(data, splits):
-            assert np.all(seg['framenum'] == seg['framenum'][0])
-            # Check if rawy goes backwards within the same frame
-            if np.any(np.diff(seg['RAWY'].astype(np.int16) < 0)):
-                print(f"Loop of {len(seg)} points found at framenum {seg['framenum']}")
-                return True
-    if False:
-        for det in range(4):
-            detdata = data[data['detid'] == det]
-            if len(detdata) > 0:
-                loops = np.ravel(np.argwhere((detdata['framenum'][:-1] >= detdata['framenum'][1:])
-                                    & (detdata['dety'][:-1] > detdata['dety'][1:])))
-                if len(loops) > 0:
-                    dloop0 = data[loops[0]:loops[0]+2]
-                    print(f"Loop of {len(loops)} jumps found\n{dloop0}")
-                    return True
-    return False
+
+balance_boxes = np.array([
+    [[ 0.00210067,  0.00210067], [ 0.02206067,  0.02206067]],
+    [[-0.02206067, -0.02206067],[-0.00210067, -0.00210067]],
+    [[-0.02202067,  0.00210067],[-0.00210067,  0.02206067]],
+    [[ 0.00214067, -0.02206067],[ 0.02206067, -0.00210067]]], dtype=np.float32)
+
+scox1_coords  = SkyCoord(ra='244.9794552787600d', dec='-15.6402826851500d', frame='icrs')
 
 # %%
