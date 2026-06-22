@@ -63,7 +63,7 @@ imager = BC_Imager(
         -stable_roll,
     ],
     overwrite = True,
-    balance=balance_boxes
+    balance=calibration["balance_boxes"],
 )
 fig,axes = plt.subplots(2,2, sharex=True, sharey=True, figsize=(12,8))
 axes = np.ravel(axes)[[1,2,0,3]]

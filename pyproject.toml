@@ -19,7 +19,7 @@ dependencies = [
     "pykernel>=0.1.6",
     "ipykernel>=7.2.0",
     "pip>=26.0.1",
-    # "mission_planner",
+    "mission_planner",
 ]
 
 [project.scripts]
@@ -33,16 +33,21 @@ build-backend = "uv_build"
 bc-imager = { git = "ssh://git@github.com/BlackCAT-CubeSat/bc-imager.git" }
 # bc-imager = { path = "../bc-imager", editable=true }
 xraysky = { path = "/Users/palmer/repo/xraysky", editable=true }
-blackcat-py = { git = "ssh://git@github.com/BlackCAT-CubeSat/blackcat_py.git" }
+blackcat-py = { git = "ssh://git@github.com/BlackCAT-CubeSat/blackcat_py.git", branch="missing_import" }
+# blackcat-py = { path = "../blackcat_py", editable = true }
 blackcat_data = { git = "file:////Users/palmer/repo/blackcat/BlackCAT-Data" }
-mylab = { git = "ssh://git@github.com/dmopalmer/mylab_py.git", branch = "bc"}
+# mylab = { git = "ssh://git@github.com/dmopalmer/mylab_py.git", branch = "bc"}
+mylab = { path = "/Users/palmer/repo/mylab_py" }
 mission_planner = {git = "ssh://git@github.com/BlackCAT-CubeSat/mission_planner.git" }
 
 [tool.uv]
 override-dependencies = [
     "stored-command-transcriber @ git+ssh://git@github.com/BlackCAT-CubeSat/stored-command-transcriber.git",
-    "xraysky @ /Users/palmer/repo/xraysky"
+    "xraysky @ /Users/palmer/repo/xraysky",
+    "blackcat-py @ /Users/palmer/repo/blackcat/blackcat_py",
+    "cryptography; sys_platform=='never'"
 ]
+
 
 [dependency-groups]
 dev = [

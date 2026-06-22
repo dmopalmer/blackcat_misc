@@ -9,8 +9,15 @@ dir_latest = sorted(top_dir.glob("payload_checkout/CHECKOUT_26*"))[-1]
 print(f"Latest data is {dir_latest.name}")
 outdir = new_outdir()
 
-ph0_list_all = sorted(top_dir.glob("payload_checkout/CHECKOUT*/raw_level0/ph_*.gz"))
-ph1_list_all = sorted(top_dir.glob("payload_checkout/CHECKOUT*/level1*/*"))
+
+if False:
+    ph0_list_all = sorted(top_dir.glob("payload_checkout/CHECKOUT*/raw_level0/ph_*.gz"))
+    ph1_list_all = sorted(top_dir.glob("payload_checkout/CHECKOUT*/level1*/*"))
+else:
+    # Just June
+    ph0_list_all = sorted(top_dir.glob("payload_checkout/CHECKOUT_26_06*/raw_level0/ph_*.gz"))
+    ph1_list_all = sorted(top_dir.glob("payload_checkout/CHECKOUT_26_06*/level1*/*"))
+    
 
 headers0 = Headers(ph0_list_all)
 headers0[-1]

@@ -6,7 +6,11 @@ import mission_planner
 import xraysky
 import blackcat_data as bcd
 from collections import Counter
+from collections.abc import Sequence
+from typing import Tuple
 from astropy.coordinates import SkyCoord
+from scipy.spatial.transform import Rotation
+from blackcat import update_calibration
 
 top_dir = Path("/Volumes/data_x8/blackcat/soc_archive_mirror")
 
@@ -255,7 +259,7 @@ def ph_rate(data, binsize:float=1) -> tuple[NDArray[np.datetime64], NDArray[floa
     tedges = ts_to_time(tbins)
     return (tedges, rates)
     
-def obsdata(obsname: str|Path):
+def obs_data(obsname: str|Path):
     if isinstance(obsname, Path):
         obsname = str(obsname)
     # foo/path/ph_blah.gz -> blah
@@ -275,17 +279,19 @@ def obsdata(obsname: str|Path):
 
 
 def obs_photons(obsname: str|Path, pointing_tolerance=0.25):
-    result = obsdata(obsname)
+    result = obs_data(obsname)
     try:
         photons,ph_header = fits.getdata(result['l1_file'], header=True)
         # Add a 't' column of np.datetime64
         # photons['t'] = ts_to_time(photons['time'])
+        photons,ph_header = update_calibration(photons, ph_header)
         result['photons'] = photons
         result['header'] = ph_header
     except:
         pass
     try:
         ori = fits.getdata(result['ori_file'])
+        ori,_ = update_calibration(ori)
         # Add a 't' column of np.datetime64
         # ori['t'] = ts_to_time(ori['time'])
         
@@ -343,12 +349,89 @@ def loopcheck(data):
         print(f"{count} copies of framenum, detid, rawx, rawy = {vals}")
         return True
 
-balance_boxes = np.array([
-    [[ 0.00210067,  0.00210067], [ 0.02206067,  0.02206067]],
-    [[-0.02206067, -0.02206067],[-0.00210067, -0.00210067]],
-    [[-0.02202067,  0.00210067],[-0.00210067,  0.02206067]],
-    [[ 0.00214067, -0.02206067],[ 0.02206067, -0.00210067]]], dtype=np.float32)
+
+calibration = dict(
+    balance_boxes = np.array([
+        [[ 0.00210067,  0.00210067], [ 0.02206067,  0.02206067]],
+        [[-0.02206067, -0.02206067],[-0.00210067, -0.00210067]],
+        [[-0.02202067,  0.00210067],[-0.00210067,  0.02206067]],
+        [[ 0.00214067, -0.02206067],[ 0.02206067, -0.00210067]]], dtype=np.float32),
+
+    alignment_corr = np.array([ -1119.8e-6,   -379.9e-6]),
+
+    # How much to add to each detx, dety
+    # Adding to detx moves image spot to the right, adding to dety moves image spot down.
+    corr_by_det =\
+        np.array([
+        [    32.9e-6,    189.0e-6],
+        [     3.1e-6,   -167.7e-6],
+        [  -232.2e-6,     96.2e-6],
+        [   195.9e-6,   -117.6e-6],
+        ])
+
+)
+
+
+def manual_calibrate_data(photons:NDArray, radecroll:Sequence[float], calibration = calibration) -> Tuple[NDArray, Sequence[float]]:
+    """Data and pointing adjusted for calibration
+
+    Args:
+        photons (NDArray): _description_
+        radecroll (Sequence[float]): _description_
+
+    Returns:
+        Tuple[NDArray, Sequence[float]]: _description_
+    """
+    photons = photons.copy()
+    cbd = calibration['corr_by_det']
+    photons['DETX'] += cbd[photons['DETID'], 0]
+    photons['DETY'] += cbd[photons['DETID'], 1]
+    # Pointing alignment:
+    # This is the nominal way to get from (im_tanx, im_tany, +1) to (sc_x, sc_y, sc_z)
+    nom_inst2sc = np.array(
+        [[0., 0., -1.],
+         [0., 1.,  0.],
+         [1., 0.,  0.]])
+    nom_flength = 0.154
+    # Angle offsets
+    align_x_rad, align_y_rad = calibration['alignment_corr']/nom_flength
+    twist_rad = 0.0
+    # Rotate around im_y (to move image in x) then around im_x (to move in y) then around z (to twist)
+    # WARNING: I did not derive the signs from first principles
+    # For small angles, ignore non-commutation
+    rot = Rotation.from_euler('yxz', [align_x_rad, align_y_rad, twist_rad], degrees=False)
+    inst2sc_matrix = nom_inst2sc @ rot.as_matrix()
+    sc2inst_matrix = inst2sc_matrix.T
+    orientation_nom = xraysky.Orientation(radecroll_inst = radecroll)
+    orientation_corr = xraysky.Orientation(q_sc = orientation_nom.q_sc, sc2inst_matrix = sc2inst_matrix)
+    
+    new_radecroll = orientation_corr.radecroll()
+    
+    return (photons, new_radecroll)
 
 scox1_coords  = SkyCoord(ra='244.9794552787600d', dec='-15.6402826851500d', frame='icrs')
+
+def ltan(sat, hours=True):
+    """
+    Local time of Ascending Node of a satellite.
+
+    Makes the most sense for an SSO satellite.
+
+
+    :param sat: EarthSatellite
+    :param hours: if True, result is in hours, else degrees
+    :return: LTAN in hours or degrees
+    """
+    # gmst at gmt midnight in hours
+    epoch_utc = sat.epoch.utc
+    epoch_hours = epoch_utc.hour + epoch_utc.minute / 60 + epoch_utc.second / 3600
+    # Good enough approximation
+    gmst_midnight = sat.epoch.gmst - epoch_hours
+    ltan_h = ((np.rad2deg(sat.model.nodeo) * 24 / 360.0) - gmst_midnight) % 24
+    if hours:
+        return ltan_h
+    else:
+        return 15 * ltan_h
+
 
 # %%

@@ -28,7 +28,8 @@ outdir.mkdir(exist_ok=True)
 imager = BC_Imager(
     resolution=1,
     overwrite = True,
-    balance=balance_boxes
+    balance=calibration["balance_boxes"],
+    hide_frame=True,
 )
 
 
@@ -39,115 +40,26 @@ else:
         sorted(top_dir.rglob("payload_checkout/CHECKOUT_26_06_*/level1_tmp/ph_2*")))
     
 #%%
-plot=False
+plot=True
 # Corrective offsets to add to detector detx, dety
 detpixsize = 40e-6
 impixsize = imager.resolution * detpixsize
 
 # The gross offset which is probably due to instrument alignment of ~0.47°
 # comparable to the ~0.5° offset found between the two star camera nominals.
-# alignment_corr = np.array(  [0,0])  # 2605201842_d0 ij = 1155.0,598.0 = ScoX1+ -13.7,  -5.0 ra,dec = 215.31,-35.29  10.3 σ
-alignment_corr = np.array([-0.00115047, -0.00039763])  # 
+# alignment_corr = np.array([-0.00115047, -0.00039763])
+# with 2026-06-07 code, resolution =1 measured alignment corection is [30.70622999 17.69624394] um
+# And with resolution=4 the value is consistent
+alignment_corr = np.array([ -1119.8e-6,   -379.9e-6])
+
 # How much to add to each detx, dety
-# after iter 1
-# corr_by_det =\
-#     np.array([
-#     [    20.2e-6,   -182.5e-6],
-#     [    28.4e-6,    148.0e-6],
-#     [  -230.3e-6,    -64.1e-6],
-#     [   181.7e-6,     98.6e-6],
-#     ])
-# after iter 2
-# corr_by_det =\
-#     np.array([
-#     [    13.6e-6,   -203.4e-6],
-#     [    48.0e-6,    184.2e-6],
-#     [  -236.5e-6,    -99.3e-6],
-#     [   174.9e-6,    118.5e-6],
-#     ])
-# After iter 3 (resolution 4)
-# corr_by_det =\
-#     np.array([
-#     [    41.0e-6,   -183.0e-6],
-#     [   -34.7e-6,    173.2e-6],
-#     [  -208.6e-6,   -113.1e-6],
-#     [   202.2e-6,    122.9e-6],
-#     ])
-# After iter 4 (resolution now 2)
+# Adding to detx moves image spot to the right, adding to dety moves image spot down.
 corr_by_det =\
     np.array([
-    [    22.6e-6,   -183.4e-6],
-    [    16.7e-6,    176.2e-6],
-    [  -222.4e-6,    -87.4e-6],
-    [   182.9e-6,     94.6e-6],
-    ])
-# After 5 iterations:
-corr_by_det =\
-    np.array([
-    [    56.0e-6,   -198.3e-6],
-    [   -22.2e-6,    166.8e-6],
-    [  -253.3e-6,    -82.5e-6],
-    [   219.3e-6,    114.0e-6],
-    ])
-# After 6 iterations
-corr_by_det =\
-    np.array([
-    [    23.9e-6,   -204.9e-6],
-    [     2.6e-6,    157.4e-6],
-    [  -212.9e-6,    -80.9e-6],
-    [   186.2e-6,    128.4e-6],
-    ])
-# After 7 iterations, the last at resolution=1
-corr_by_det =\
-    np.array([
-    [    42.8e-6,   -177.0e-6],
-    [   -11.5e-6,    180.1e-6],
-    [  -222.7e-6,    -88.0e-6],
-    [   191.1e-6,     84.9e-6],
-    ])
-# After 8 iterations and 200 detections
-corr_by_det =\
-    np.array([
-    [    49.2e-6,   -185.8e-6],
-    [   -11.0e-6,    149.4e-6],
-    [  -229.5e-6,    -76.7e-6],
-    [   191.1e-6,    113.2e-6],
-    ])
-"""
-Per-detector residual correction =
-[[-1.76133614e-05 -7.03470001e-06]
- [ 1.99810275e-05 -8.49028884e-06]
- [-1.07802612e-05 -1.50402480e-06]
- [ 8.41259508e-06  1.70290136e-05]]
-Added to current correction = 
-[[ 4.280e-05 -1.770e-04]
- [-1.150e-05  1.801e-04]
- [-2.227e-04 -8.800e-05]
- [ 1.911e-04  8.490e-05]]
-Gives a new correction of
-corr_by_det =\
-    np.array([
-    [    25.2e-6,   -184.0e-6],
-    [     8.5e-6,    171.6e-6],
-    [  -233.5e-6,    -89.5e-6],
-    [   199.5e-6,    101.9e-6],
-    ])
-"""
-# After 8 iterations
-corr_by_det =\
-    np.array([
-    [    25.2e-6,   -184.0e-6],
-    [     8.5e-6,    171.6e-6],
-    [  -233.5e-6,    -89.5e-6],
-    [   199.5e-6,    101.9e-6],
-    ])
-# After 9 iterations
-corr_by_det =\
-    np.array([
-    [    55.9e-6,   -186.1e-6],
-    [     1.0e-6,    167.5e-6],
-    [  -230.8e-6,    -86.6e-6],
-    [   173.7e-6,    105.3e-6],
+    [    32.9e-6,    189.0e-6],
+    [     3.1e-6,   -167.7e-6],
+    [  -232.2e-6,     96.2e-6],
+    [   195.9e-6,   -117.6e-6],
     ])
 
 
@@ -171,8 +83,7 @@ for f in ph_all:
                 continue
 
             counts['DETX'] += corr[0]
-            # WHY NEGATIVE?
-            counts['DETY'] -= corr[1]
+            counts['DETY'] += corr[1]
             imager.imager.balance[det] = [[counts['DETX'].min(), counts['DETY'].min()],[counts['DETX'].max(), counts['DETY'].max()]]
             imager.set_radecroll(obs['radecroll'])
             imhdu = imager.evtlist2image(
@@ -216,21 +127,26 @@ for f in ph_all:
 # Per-detector measured correction
 # If the image shows the peak as in +i direction from ScoX-1, (offs is positive), then add the corresponding meters to detX
 # and subtract the corresponding meters from detY
-det_meas_corr_m = []
+imeas_im_offset_by_det_m = []
 for i in range(4):
     pixoffs[i] = np.array(pixoffs[i])
-    det_meas_corr_m.append(biweight_location(pixoffs[i], axis=0) * impixsize) 
+    imeas_im_offset_by_det_m.append(biweight_location(pixoffs[i], axis=0) * impixsize) 
     
-det_meas_corr_m = np.array(det_meas_corr_m)
-meas_alignment_corr = np.mean(det_meas_corr_m, axis=0)
-det_meas_corr_m -= meas_alignment_corr
+imeas_im_offset_by_det_m = np.array(imeas_im_offset_by_det_m)
+meas_alignment_corr = np.mean(imeas_im_offset_by_det_m, axis=0)
+imeas_im_offset_by_det_m -= meas_alignment_corr
 
-new_corr_by_det = det_meas_corr_m + corr_by_det
+new_alignment_corr = meas_alignment_corr + alignment_corr
+new_corr_by_det = imeas_im_offset_by_det_m *[+1,-1] + corr_by_det
 
-print(f"Measured alignment correction = {meas_alignment_corr * 1e6} u + previous {alignment_corr * 1e6}u = {meas_alignment_corr + alignment_corr}")
+print(f"Measured alignment correction = {meas_alignment_corr * 1e6} um + previous correction = {alignment_corr * 1e6}um gives")
+print(f"alignment_corr = np.array([{new_alignment_corr[0]*1e6:8.1f}e-6, {new_alignment_corr[1]*1e6:8.1f}e-6])")
 
-print(f"Per-detector residual correction =\n{det_meas_corr_m}")
-print(f"Added to current correction = \n{corr_by_det}")
+print(f"TODO: convert this to a quaternion")
+print(f"TODO: Include instrument twist")
+
+print(f"Per-detector image offset =\n{imeas_im_offset_by_det_m}")
+print(f"Added [+,-] to current correction = \n{corr_by_det}")
 print(f"Gives a new correction of\ncorr_by_det =\\\n    np.array([")
 for d in range(4):
     print(f"    [{new_corr_by_det[d,0]*1e6:8.1f}e-6, {new_corr_by_det[d,1]*1e6:8.1f}e-6],")
@@ -240,7 +156,7 @@ axes = axes.ravel()[[1,2,0,3]]
 for det,ax in enumerate(axes):
     ax.plot(*(pixoffs[det].T*impixsize*1e6), '.')
     ax.text(0,0,f'{det}')
-    ax.plot(*det_meas_corr_m[det,:]*1e6, 'r+', markersize=15)
-    ax.plot(*(det_meas_corr_m[det,:]+meas_alignment_corr)*1e6, 'rs', markersize=15, markerfacecolor='none')
+    ax.plot(*imeas_im_offset_by_det_m[det,:]*1e6, 'r+', markersize=15)
+    ax.plot(*(imeas_im_offset_by_det_m[det,:]+meas_alignment_corr)*1e6, 'rs', markersize=15, markerfacecolor='none')
 pass
 # %%
