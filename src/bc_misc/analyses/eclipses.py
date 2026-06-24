@@ -39,7 +39,7 @@ t = t_transition.utc_datetime()
 tstart,dur = zip(*[(t_in, (t_out - t_in).total_seconds()/60) for t_in,t_out in zip(t[::2], t[1::2])])
 with open('/tmp/eclipses.txt', "w") as f:
     for tstart_, dur_ in zip(tstart,dur):
-        print(f"{tstart_:%Y-%m-%dT%H:%M:%s} {dur_:5.2f}", file=f)
+        print(f"{tstart_:%Y-%m-%dT%H:%M:%S} {dur_:5.2f}", file=f)
 plt.plot(tstart, dur, '.')
 ax = plt.gca()
 ax.set(title="BlackCAT Eclipses", ylabel="Minutes of eclipse per orbit", xlabel ="Date (2026)")

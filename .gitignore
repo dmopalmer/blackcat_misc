@@ -14,3 +14,5 @@ data
 uv.lock
 
 .vscode
+src/bc_misc/analyses/messages.txt
+*.png

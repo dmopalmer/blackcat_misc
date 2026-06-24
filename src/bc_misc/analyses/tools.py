@@ -11,6 +11,8 @@ from typing import Tuple
 from astropy.coordinates import SkyCoord
 from scipy.spatial.transform import Rotation
 from blackcat import update_calibration
+from astropy.coordinates import SkyCoord
+from astropy import units as u
 
 top_dir = Path("/Volumes/data_x8/blackcat/soc_archive_mirror")
 
