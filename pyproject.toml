@@ -35,7 +35,7 @@ bc-imager = { git = "ssh://git@github.com/BlackCAT-CubeSat/bc-imager.git" }
 xraysky = { path = "/Users/palmer/repo/xraysky", editable=true }
 blackcat-py = { git = "ssh://git@github.com/BlackCAT-CubeSat/blackcat_py.git", branch="missing_import" }
 # blackcat-py = { path = "../blackcat_py", editable = true }
-blackcat_data = { git = "file:////Users/palmer/repo/blackcat/BlackCAT-Data" }
+blackcat_data = { path = "/Users/palmer/repo/blackcat/BlackCAT-Data", editable=true }
 # mylab = { git = "ssh://git@github.com/dmopalmer/mylab_py.git", branch = "bc"}
 mylab = { path = "/Users/palmer/repo/mylab_py" }
 mission_planner = {git = "ssh://git@github.com/BlackCAT-CubeSat/mission_planner.git" }

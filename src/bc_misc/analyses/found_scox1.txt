@@ -1,206 +1,1515 @@
-2605192003_alldets ij = 1188.0,531.0 = ScoX1+  -0.5,   0.8 ra,dec = 215.72,-39.44    6.9 σ for 15 s at 45 cps 2 dets
-2605201842_alldets ij = 1155.0,598.0 = ScoX1+   0.8,   0.3 ra,dec = 215.31,-35.29   11.9 σ for 176 s at 17 cps 1 dets
-2605210634_alldets ij = 1420.0,1055.0 = ScoX1+   0.0,  -0.6 ra,dec = 250.14, -3.54   13.7 σ for 34 s at 67 cps 4 dets
-2605211624_alldets ij = 1546.0,1078.0 = ScoX1+  -0.3,  -0.7 ra,dec = 257.90,-11.42   15.8 σ for 512 s at 128 cps 4 dets
-2605211935_alldets ij = 1507.0,1015.0 = ScoX1+  -0.5,   0.3 ra,dec = 257.17, -6.40   19.7 σ for 510 s at 69 cps 4 dets
-2605212205_alldets ij = 1192.0,596.0 = ScoX1+  -0.1,   0.5 ra,dec = 218.86,-38.79    5.4 σ for 47 s at 83 cps 4 dets
-2605212335_alldets ij = 1273.0,540.0 = ScoX1+   0.3,  -0.5 ra,dec = 226.23,-45.45   11.7 σ for 485 s at 170 cps 4 dets
-2605220246_alldets ij = 1312.0,530.0 = ScoX1+  -0.1,   0.6 ra,dec = 231.07,-47.39    7.2 σ for 288 s at 438 cps 4 dets
-2605221058_alldets ij = 1214.0,591.0 = ScoX1+  -0.1,   0.1 ra,dec = 221.54,-41.00   29.1 σ for 586 s at 66 cps 4 dets
-2605221233_alldets ij = 1228.0,582.0 = ScoX1+   0.1,   0.5 ra,dec = 222.98,-42.28   11.4 σ for 582 s at 58 cps 3 dets
-2605221416_alldets ij = 1174.0,642.0 = ScoX1+   0.6,  -0.2 ra,dec = 218.38,-35.86   25.2 σ for 411 s at 48 cps 4 dets
-2605221725_alldets ij = 1211.0,601.0 = ScoX1+  -0.5,   0.1 ra,dec = 221.82,-40.74   22.0 σ for 551 s at 31 cps 2 dets
-2605221905_alldets ij = 1182.0,637.0 = ScoX1+  -0.5,   0.5 ra,dec = 219.34,-37.07   19.4 σ for 536 s at 46 cps 4 dets
-2605222045_alldets ij = 1160.0,678.0 = ScoX1+   0.2,  -0.1 ra,dec = 217.77,-32.89    9.9 σ for 536 s at 42 cps 4 dets
-2605222225_alldets ij = 1145.0,727.0 = ScoX1+  -0.4,   1.4 ra,dec = 217.24,-28.22    5.8 σ for 7 s at 65 cps 4 dets
-2605230624_alldets ij = 1176.0,665.0 = ScoX1+   0.4,   0.5 ra,dec = 219.30,-35.46   12.2 σ for 377 s at 18 cps 1 dets
-2605231110_alldets ij = 1210.0,623.0 = ScoX1+  -0.3,   0.4 ra,dec = 223.08,-40.60   24.2 σ for 422 s at 41 cps 3 dets
-2605231608_alldets ij = 1162.0,717.0 = ScoX1+   0.2,   0.2 ra,dec = 218.54,-31.07   21.9 σ for 444 s at 14 cps 2 dets
-2605232058_alldets ij = 1168.0,709.0 = ScoX1+   0.1,  -0.2 ra,dec = 219.15,-32.44    9.4 σ for 67 s at 123 cps 4 dets
-2605240457_alldets ij = 1198.0,659.0 = ScoX1+  -0.0,  -0.0 ra,dec = 222.93,-38.86   20.1 σ for 506 s at 81 cps 4 dets
-2605240627_alldets ij = 1259.0,600.0 = ScoX1+   0.6,   0.9 ra,dec = 231.74,-45.32    7.1 σ for 39 s at 119 cps 4 dets
-2605240709_alldets ij = 1431.0,992.0 = ScoX1+  -0.5,   0.3 ra,dec = 248.04, -0.31   20.3 σ for 594 s at 81 cps 2 dets
-2605240948_alldets ij = 1197.0,666.0 = ScoX1+  -0.2,   0.0 ra,dec = 223.21,-38.73   36.0 σ for 570 s at 90 cps 4 dets
-2605241030_alldets ij = 1523.0,943.0 = ScoX1+  -0.5,  -0.5 ra,dec = 258.43, -3.55   11.2 σ for 597 s at 85 cps 4 dets
-2605241123_alldets ij = 1206.0,654.0 = ScoX1+  -0.3,  -0.1 ra,dec = 224.61,-40.20   24.4 σ for 570 s at 51 cps 4 dets
-2605241259_alldets ij = 1215.0,645.0 = ScoX1+   0.2,   0.4 ra,dec = 226.00,-41.39   22.7 σ for 571 s at 93 cps 4 dets
-2605241309_alldets ij = 1168.0,774.0 = ScoX1+   0.6,   0.6 ra,dec = 219.33,-27.30   23.1 σ for 192 s at 43 cps 4 dets
-2605241441_alldets ij = 1181.0,707.0 = ScoX1+   0.1,   0.7 ra,dec = 221.25,-34.95   23.1 σ for 310 s at 61 cps 4 dets
-2605241611_alldets ij = 1226.0,634.0 = ScoX1+  -0.2,  -0.2 ra,dec = 228.17,-42.85   12.4 σ for 436 s at 176 cps 4 dets
-2605241621_alldets ij = 1172.0,748.0 = ScoX1+   0.6,   0.5 ra,dec = 219.91,-30.59   23.7 σ for 456 s at 28 cps 4 dets
-2605241931_alldets ij = 1186.0,701.0 = ScoX1+  -0.0,   0.2 ra,dec = 222.19,-36.15    6.0 σ for 61 s at 108 cps 4 dets
-2605242331_alldets ij = 1567.0,997.0 = ScoX1+   0.1,   0.1 ra,dec = 260.97,-10.40   22.8 σ for 506 s at 95 cps 4 dets
-2605251454_alldets ij = 1184.0,738.0 = ScoX1+  -0.3,  -0.4 ra,dec = 222.65,-34.48   24.7 σ for 330 s at 44 cps 4 dets
-2605251944_alldets ij = 1188.0,734.0 = ScoX1+   0.5,   1.0 ra,dec = 223.59,-35.63    6.6 σ for 17 s at 31 cps 4 dets
-2605260523_alldets ij = 1193.0,724.0 = ScoX1+  -0.2,   0.4 ra,dec = 225.83,-37.86   10.2 σ for 563 s at 38 cps 1 dets
-2605271109_alldets ij = 1560.0,855.0 = ScoX1+   0.3,   0.1 ra,dec = 261.14, -1.20    8.2 σ for 158 s at 15 cps 2 dets
-2605271201_alldets ij = 1192.0,749.0 = ScoX1+   0.0,   0.5 ra,dec = 229.13,-38.80   28.5 σ for 584 s at 32 cps 2 dets
-2605272016_alldets ij = 1214.0,873.0 = ScoX1+   1.2,   1.3 ra,dec = 223.62,-25.20    8.2 σ for 22 s at 33 cps 4 dets
-2605272146_alldets ij = 1190.0,798.0 = ScoX1+   0.1,   0.1 ra,dec = 226.63,-34.78   11.6 σ for 47 s at 121 cps 4 dets
-2605280548_alldets ij = 1188.0,781.0 = ScoX1+   0.2,  -0.1 ra,dec = 229.31,-37.52   18.5 σ for 567 s at 13 cps 1 dets
-2605280628_alldets ij = 1557.0,864.0 = ScoX1+  -0.6,  -0.1 ra,dec = 258.08,  1.07   35.9 σ for 539 s at 72 cps 4 dets
-2605280718_alldets ij = 1200.0,714.0 = ScoX1+   0.5,   0.5 ra,dec = 237.91,-43.19    8.2 σ for 47 s at 158 cps 4 dets
-2605281537_alldets ij = 1212.0,200.0 = ScoX1+  -0.3,  -0.3 ra,dec = 197.19,-26.17   20.0 σ for 308 s at 20 cps 4 dets
-2605281617_alldets ij = 1578.0,857.0 = ScoX1+  -0.5,  -0.4 ra,dec = 265.07, -6.81   24.7 σ for 550 s at 70 cps 4 dets
-2605282028_alldets ij = 1220.0,213.0 = ScoX1+   0.3,   0.1 ra,dec = 197.60,-24.47   10.5 σ for 232 s at 35 cps 3 dets
-2605282159_alldets ij = 1180.0,135.0 = ScoX1+  -0.4,  -0.6 ra,dec = 198.64,-42.78   10.5 σ for 540 s at 48 cps 4 dets
-2605282239_alldets ij = 1578.0,540.0 = ScoX1+  -0.4,  -0.1 ra,dec = 266.10,  9.80   25.2 σ for 541 s at 49 cps 4 dets
-2605290731_alldets ij = 1183.0,529.0 = ScoX1+   0.4,  -0.1 ra,dec = 233.49,-49.41   14.6 σ for 542 s at 97 cps 2 dets
-2605290741_alldets ij = 1186.0,164.0 = ScoX1+  -0.3,   0.1 ra,dec = 198.56,-39.76   12.9 σ for 551 s at 23 cps 2 dets
-2605290813_alldets ij = 1561.0,197.0 = ScoX1+  -0.3,   0.4 ra,dec = 253.90, 27.74    9.7 σ for 488 s at 215 cps 4 dets
-2605290905_alldets ij = 1189.0,654.0 = ScoX1+  -0.5,   0.2 ra,dec = 242.21,-46.05    7.2 σ for 567 s at 134 cps 4 dets
-2605290916_alldets ij = 1178.0,143.0 = ScoX1+   0.3,   0.0 ra,dec = 199.91,-44.57    8.6 σ for 579 s at 57 cps 4 dets
-2605291051_alldets ij = 1174.0,163.0 = ScoX1+  -0.2,  -0.4 ra,dec = 202.79,-47.45   24.5 σ for 576 s at 38 cps 4 dets
-2605291409_alldets ij = 1193.0,184.0 = ScoX1+   0.1,  -0.5 ra,dec = 198.51,-37.22   11.1 σ for 391 s at 22 cps 4 dets
-2605291539_alldets ij = 1172.0,328.0 = ScoX1+  -0.3,  -0.8 ra,dec = 215.96,-50.45   11.5 σ for 545 s at 203 cps 4 dets
-2605291549_alldets ij = 1217.0,222.0 = ScoX1+   0.0,   0.1 ra,dec = 198.24,-28.63   17.9 σ for 355 s at 30 cps 4 dets
-2605291719_alldets ij = 1173.0,169.0 = ScoX1+  -0.6,  -0.4 ra,dec = 202.89,-47.20   22.0 σ for 377 s at 53 cps 4 dets
-2605291809_alldets ij = 1576.0,905.0 = ScoX1+   0.0,  -0.2 ra,dec = 264.49,-10.02   19.0 σ for 562 s at 28 cps 1 dets
-2605291859_alldets ij = 1187.0,179.0 = ScoX1+  -0.5,  -0.5 ra,dec = 199.24,-39.82   17.9 σ for 538 s at 40 cps 4 dets
-2605292039_alldets ij = 1210.0,217.0 = ScoX1+  -0.3,  -0.4 ra,dec = 198.46,-31.46   23.0 σ for 528 s at 51 cps 4 dets
-2605300028_alldets ij = 1594.0,492.0 = ScoX1+  -0.2,   0.7 ra,dec = 267.06, 11.27   23.8 σ for 538 s at 49 cps 4 dets
-2605300649_alldets ij = 1591.0,164.0 = ScoX1+  -0.2,   0.4 ra,dec = 257.20, 28.04   19.1 σ for 592 s at 34 cps 4 dets
-2605300753_alldets ij = 1185.0,189.0 = ScoX1+   0.3,  -0.4 ra,dec = 200.42,-41.56   18.4 σ for 596 s at 46 cps 4 dets
-2605300928_alldets ij = 1177.0,177.0 = ScoX1+  -0.6,  -0.8 ra,dec = 201.45,-44.49   11.2 σ for 578 s at 28 cps 1 dets
-2605301250_alldets ij = 1252.0,272.0 = ScoX1+  -0.1,   0.5 ra,dec = 199.86,-21.95   10.0 σ for 262 s at 13 cps 1 dets
-2605301602_alldets ij = 1228.0,254.0 = ScoX1+  -0.6,  -0.7 ra,dec = 199.50,-28.40   11.8 σ for 364 s at 11 cps 1 dets
-2605301912_alldets ij = 1191.0,214.0 = ScoX1+  -0.3,  -0.4 ra,dec = 200.64,-39.57   15.8 σ for 539 s at 34 cps 4 dets
-2606011129_alldets ij = 1166.0,296.0 = ScoX1+   0.1,  -0.3 ra,dec = 208.92,-46.57   22.4 σ for 580 s at 33 cps 4 dets
-2606011305_alldets ij = 1158.0,359.0 = ScoX1+  -0.1,  -0.4 ra,dec = 214.06,-47.89   17.5 σ for 578 s at 49 cps 3 dets
-2606011438_alldets ij = 1136.0,602.0 = ScoX1+  -0.2,   0.3 ra,dec = 235.35,-47.77   14.0 σ for 454 s at 280 cps 4 dets
-2606011448_alldets ij = 1209.0,287.0 = ScoX1+   0.1,  -0.6 ra,dec = 202.60,-36.39   22.5 σ for 503 s at 32 cps 4 dets
-2606011757_alldets ij = 1167.0,293.0 = ScoX1+  -0.1,  -0.0 ra,dec = 208.30,-46.06   13.7 σ for 538 s at 60 cps 4 dets
-2606011937_alldets ij = 1197.0,283.0 = ScoX1+  -0.9,  -0.8 ra,dec = 203.46,-38.99   13.2 σ for 537 s at 31 cps 3 dets
-2606012117_alldets ij = 1238.0,317.0 = ScoX1+  -0.1,  -0.1 ra,dec = 202.33,-30.54   11.4 σ for 538 s at 77 cps 4 dets
-2606012157_alldets ij = 1612.0,590.0 = ScoX1+  -0.3,   0.1 ra,dec = 270.66,  2.75   25.6 σ for 547 s at 38 cps 4 dets
-2606012327_alldets ij = 1654.0,220.0 = ScoX1+  -0.0,  -0.0 ra,dec = 266.26, 22.72   13.5 σ for 539 s at 63 cps 4 dets
-2606012337_alldets ij = 1586.0,739.0 = ScoX1+   0.0,   0.0 ra,dec = 268.96, -4.82   22.5 σ for 546 s at 46 cps 4 dets
-2606020117_alldets ij = 1553.0,879.0 = ScoX1+  -0.5,   0.3 ra,dec = 265.56,-10.92   17.5 σ for 505 s at 116 cps 4 dets
-2606020556_alldets ij = 1649.0,318.0 = ScoX1+  -0.7,   0.1 ra,dec = 269.23, 17.14   18.7 σ for 537 s at 51 cps 4 dets
-2606020831_alldets ij = 1189.0,292.0 = ScoX1+  -0.8,  -0.9 ra,dec = 204.79,-40.89   14.3 σ for 583 s at 74 cps 4 dets
-2606021142_alldets ij = 1162.0,339.0 = ScoX1+  -0.7,  -0.1 ra,dec = 210.96,-46.20   12.6 σ for 576 s at 47 cps 4 dets
-2606021318_alldets ij = 1153.0,400.0 = ScoX1+   0.1,   0.1 ra,dec = 215.96,-47.40   11.7 σ for 577 s at 28 cps 3 dets
-2606021328_alldets ij = 1297.0,362.0 = ScoX1+   1.0,   0.7 ra,dec = 203.37,-21.07    7.6 σ for 93 s at 21 cps 3 dets
-2606021450_alldets ij = 1123.0,639.0 = ScoX1+   0.3,  -0.2 ra,dec = 237.10,-46.96   10.0 σ for 407 s at 312 cps 4 dets
-2606021500_alldets ij = 1214.0,321.0 = ScoX1+   0.2,  -0.4 ra,dec = 203.96,-36.07   22.4 σ for 458 s at 31 cps 4 dets
-2606021640_alldets ij = 1261.0,351.0 = ScoX1+   0.2,  -0.4 ra,dec = 203.26,-27.49   22.0 σ for 548 s at 24 cps 4 dets
-2606021810_alldets ij = 1165.0,333.0 = ScoX1+   0.2,  -0.1 ra,dec = 210.06,-45.63   14.7 σ for 537 s at 94 cps 4 dets
-2606021820_alldets ij = 1316.0,373.0 = ScoX1+   0.2,   0.4 ra,dec = 203.97,-18.33   21.8 σ for 549 s at 55 cps 4 dets
-2606031155_alldets ij = 1159.0,382.0 = ScoX1+   0.0,   0.6 ra,dec = 212.94,-45.79   22.3 σ for 578 s at 27 cps 4 dets
-2606031331_alldets ij = 1148.0,439.0 = ScoX1+   0.0,  -0.2 ra,dec = 217.77,-46.87   28.1 σ for 577 s at 55 cps 4 dets
-2606031503_alldets ij = 1109.0,677.0 = ScoX1+   0.1,   0.5 ra,dec = 238.84,-46.11   12.3 σ for 379 s at 330 cps 4 dets
-2606031513_alldets ij = 1214.0,161.0 = ScoX1+  -0.6,  -0.6 ra,dec = 197.80,-37.01   20.5 σ for 500 s at 27 cps 4 dets
-2606031643_alldets ij = 1132.0,527.0 = ScoX1+   0.1,   0.2 ra,dec = 225.43,-47.54    8.9 σ for 489 s at 242 cps 4 dets
-2606031823_alldets ij = 1163.0,373.0 = ScoX1+   0.5,   0.3 ra,dec = 211.81,-45.17   15.6 σ for 537 s at 108 cps 4 dets
-2606032003_alldets ij = 1201.0,219.0 = ScoX1+  -0.3,  -0.3 ra,dec = 200.90,-39.39   20.9 σ for 537 s at 18 cps 3 dets
-2606032043_alldets ij = 1660.0,358.0 = ScoX1+  -0.5,   0.5 ra,dec = 272.20, 13.06    8.0 σ for 537 s at 173 cps 3 dets
-2606032143_alldets ij = 1251.0, 69.0 = ScoX1+   0.8,  -0.6 ra,dec = 193.48,-31.01    5.9 σ for 549 s at 110 cps 4 dets
-2606032222_alldets ij = 1628.0,513.0 = ScoX1+  -0.7,   0.3 ra,dec = 272.65,  4.65   27.3 σ for 563 s at 75 cps 4 dets
-2606032352_alldets ij = 1698.0,144.0 = ScoX1+  -0.0,   0.1 ra,dec = 267.98, 24.54    8.1 σ for 563 s at 136 cps 4 dets
-2606040002_alldets ij = 1591.0,663.0 = ScoX1+   0.2,   0.2 ra,dec = 271.08, -2.90   20.0 σ for 549 s at 102 cps 4 dets
-2606040402_alldets ij = 1139.0,490.0 = ScoX1+  -0.1,   0.3 ra,dec = 221.28,-46.89   27.0 σ for 505 s at 59 cps 4 dets
-2606040542_alldets ij = 1175.0,336.0 = ScoX1+   0.2,  -0.6 ra,dec = 208.38,-43.34   19.2 σ for 505 s at 46 cps 4 dets
-2606040622_alldets ij = 1686.0,240.0 = ScoX1+   0.1,   0.2 ra,dec = 271.05, 19.04   16.9 σ for 537 s at 57 cps 4 dets
-2606041430_alldets ij = 1641.0,460.0 = ScoX1+  -0.1,   0.9 ra,dec = 273.41,  6.72   10.6 σ for 473 s at 254 cps 3 dets
-2606041531_alldets ij = 1317.0, 59.0 = ScoX1+   0.5,  -1.0 ra,dec = 193.32,-21.38    8.3 σ for 196 s at 18 cps 4 dets
-2606041611_alldets ij = 1592.0,638.0 = ScoX1+  -0.5,   0.3 ra,dec = 271.75, -2.29   24.7 σ for 551 s at 105 cps 4 dets
-2606041701_alldets ij = 1193.0,291.0 = ScoX1+   0.2,   0.2 ra,dec = 204.63,-40.70   20.8 σ for 511 s at 44 cps 4 dets
-2606041741_alldets ij = 1678.0,298.0 = ScoX1+  -0.8,   0.9 ra,dec = 272.70, 15.31    7.3 σ for 432 s at 299 cps 4 dets
-2606041751_alldets ij = 1534.0,807.0 = ScoX1+  -0.6,  -0.1 ra,dec = 267.76, -9.36   19.3 σ for 550 s at 167 cps 4 dets
-2606041922_alldets ij = 1636.0,480.0 = ScoX1+   0.2,  -0.1 ra,dec = 273.52,  5.43   23.6 σ for 567 s at 42 cps 4 dets
-2606042152_alldets ij = 1202.0,269.0 = ScoX1+  -0.4,  -0.3 ra,dec = 203.07,-39.37   26.6 σ for 540 s at 34 cps 4 dets
-2606042232_alldets ij = 1675.0,320.0 = ScoX1+  -0.3,   0.9 ra,dec = 273.24, 13.87   20.0 σ for 540 s at 55 cps 4 dets
-2606050544_alldets ij = 1057.0,906.0 = ScoX1+   0.2,   0.1 ra,dec = 253.54,-38.54    8.8 σ for 375 s at 329 cps 4 dets
-2606050554_alldets ij = 1165.0,408.0 = ScoX1+  -0.2,  -0.1 ra,dec = 212.60,-43.88   29.0 σ for 552 s at 52 cps 4 dets
-2606050634_alldets ij = 1709.0,179.0 = ScoX1+  -0.2,   0.3 ra,dec = 271.44, 21.16   18.9 σ for 539 s at 42 cps 4 dets
-2606050724_alldets ij = 1086.0,742.0 = ScoX1+   0.4,   0.4 ra,dec = 241.95,-44.58   12.0 σ for 490 s at 258 cps 4 dets
-2606050734_alldets ij = 1223.0,227.0 = ScoX1+  -0.2,  -0.6 ra,dec = 200.33,-36.47   25.1 σ for 554 s at 51 cps 4 dets
-2606080947_alldets ij = 1192.0,451.0 = ScoX1+   0.5,  -0.4 ra,dec = 211.86,-39.85   29.9 σ for 579 s at 79 cps 4 dets
-2606081030_alldets ij = 1690.0,276.0 = ScoX1+  -0.7,   0.7 ra,dec = 276.98, 12.02   22.7 σ for 595 s at 47 cps 3 dets
-2606081123_alldets ij = 1163.0,522.0 = ScoX1+  -0.3,  -0.2 ra,dec = 217.28,-42.00   24.6 σ for 578 s at 22 cps 3 dets
-2606081206_alldets ij = 1715.0,208.0 = ScoX1+  -0.9,  -0.3 ra,dec = 276.69, 15.52    7.0 σ for 582 s at 143 cps 3 dets
-2606081930_alldets ij = 1236.0,368.0 = ScoX1+  -0.7,   0.3 ra,dec = 206.01,-35.49   19.3 σ for 548 s at 20 cps 1 dets
-2606090550_alldets ij = 1762.0, 87.0 = ScoX1+  -0.6,   0.1 ra,dec = 276.18, 21.11    9.4 σ for 563 s at 33 cps 3 dets
-2606090620_alldets ij = 963.0,1338.0 = ScoX1+   0.4,   0.5 ra,dec = 259.33, -5.53    7.0 σ for 291 s at 418 cps 3 dets
-2606090640_alldets ij = 1048.0,839.0 = ScoX1+  -0.2,   0.3 ra,dec = 244.25,-42.16   16.3 σ for 545 s at 126 cps 3 dets
-2606090649_alldets ij = 1267.0,328.0 = ScoX1+  -0.3,  -0.5 ra,dec = 203.55,-32.44   11.4 σ for 563 s at 77 cps 3 dets
-2606101002_alldets ij = 966.0,1046.0 = ScoX1+   0.2,  -0.3 ra,dec = 258.36,-34.66    5.1 σ for 192 s at 668 cps 3 dets
-2606101013_alldets ij = 1190.0,534.0 = ScoX1+  -0.1,  -0.3 ra,dec = 215.64,-39.11   31.2 σ for 579 s at 55 cps 3 dets
-2606101148_alldets ij = 1157.0,605.0 = ScoX1+  -0.1,  -0.1 ra,dec = 221.20,-41.05   26.6 σ for 582 s at 36 cps 2 dets
-2606101324_alldets ij = 1131.0,664.0 = ScoX1+   0.1,  -0.1 ra,dec = 226.16,-42.08   12.4 σ for 577 s at 30 cps 2 dets
-2606101506_alldets ij = 1272.0,385.0 = ScoX1+  -0.0,   0.3 ra,dec = 205.85,-32.23    8.3 σ for 547 s at 18 cps 3 dets
-2606110525_alldets ij = 962.0,1048.0 = ScoX1+  -0.3,   0.3 ra,dec = 257.74,-35.09    7.8 σ for 329 s at 390 cps 3 dets
-2606110535_alldets ij = 1193.0,560.0 = ScoX1+   0.1,  -0.1 ra,dec = 216.61,-38.54   17.0 σ for 548 s at 128 cps 3 dets
-2606110933_alldets ij = 1694.0,217.0 = ScoX1+  -0.4,   0.7 ra,dec = 279.67, 11.65   11.1 σ for 580 s at 114 cps 3 dets
-2606111108_alldets ij = 1730.0,143.0 = ScoX1+  -0.2,   0.2 ra,dec = 279.65, 15.30    8.2 σ for 579 s at 212 cps 3 dets
-2606111654_alldets ij = 1229.0,513.0 = ScoX1+   0.5,   0.1 ra,dec = 212.74,-35.85   31.9 σ for 548 s at 75 cps 4 dets
-2606112145_alldets ij = 1246.0,491.0 = ScoX1+   0.3,  -0.0 ra,dec = 211.16,-34.50   19.0 σ for 551 s at 24 cps 2 dets
-2606111524_alldets ij = 1441.0,281.0 = ScoX1+   0.3,   0.1 ra,dec = 201.52,-16.07   23.3 σ for 270 s at 37 cps 4 dets
-2606111654_alldets ij = 1229.0,513.0 = ScoX1+   0.5,   0.1 ra,dec = 212.74,-35.85   31.9 σ for 548 s at 75 cps 4 dets
-2606112145_alldets ij = 1246.0,491.0 = ScoX1+   0.3,  -0.0 ra,dec = 211.16,-34.50   19.0 σ for 551 s at 24 cps 2 dets
-2606121038_alldets ij = 1187.0,618.0 = ScoX1+  -0.2,   0.3 ra,dec = 219.50,-38.25   26.2 σ for 578 s at 56 cps 4 dets
-2606121213_alldets ij = 1151.0,687.0 = ScoX1+   0.3,  -0.1 ra,dec = 225.02,-39.93   23.9 σ for 579 s at 32 cps 4 dets
-2606121326_alldets ij = 829.0,1361.0 = ScoX1+   0.2,  -0.5 ra,dec = 263.14, -2.04    5.3 σ for 145 s at 264 cps 4 dets
-2606121346_alldets ij = 1036.0,908.0 = ScoX1+   0.8,  -0.2 ra,dec = 244.76,-40.22    6.0 σ for 529 s at 244 cps 4 dets
-2606121527_alldets ij = 1128.0,734.0 = ScoX1+   0.5,  -0.1 ra,dec = 228.88,-40.56    7.0 σ for 525 s at 153 cps 4 dets
-2606121707_alldets ij = 1231.0,553.0 = ScoX1+   0.7,   0.3 ra,dec = 214.46,-35.43   21.5 σ for 549 s at 23 cps 4 dets
-2606121847_alldets ij = 1348.0,365.0 = ScoX1+   0.9,  -0.1 ra,dec = 204.20,-25.98    6.5 σ for 551 s at 11 cps 4 dets
-2606121948_alldets ij = 979.0,1194.0 = ScoX1+   0.8,   0.4 ra,dec = 259.73, -3.88    8.2 σ for 366 s at 342 cps 4 dets
-2606130239_alldets ij = 982.0,1016.0 = ScoX1+  -0.2,   0.1 ra,dec = 253.03,-37.30    7.2 σ for 394 s at 320 cps 3 dets
-2606130730_alldets ij = 994.0,997.0 = ScoX1+   0.1,  -0.3 ra,dec = 251.19,-37.96    8.3 σ for 549 s at 177 cps 4 dets
-2606130740_alldets ij = 1288.0,484.0 = ScoX1+   0.4,  -0.2 ra,dec = 209.81,-31.11   20.4 σ for 549 s at 40 cps 4 dets
-2606130915_alldets ij = 1227.0,587.0 = ScoX1+   0.5,   0.3 ra,dec = 216.14,-35.46   20.2 σ for 583 s at 15 cps 4 dets
-2606131051_alldets ij = 1186.0,658.0 = ScoX1+   0.2,  -0.2 ra,dec = 221.33,-37.77   19.6 σ for 579 s at 17 cps 4 dets
-2606131226_alldets ij = 1148.0,727.0 = ScoX1+   0.6,   0.1 ra,dec = 226.84,-39.31   11.2 σ for 563 s at 230 cps 4 dets
-2606120547_alldets ij = 1176.0,631.0 = ScoX1+   0.4,   0.3 ra,dec = 220.44,-39.32    8.3 σ for 549 s at 52 cps 3 dets
-2606131650_alldets ij = 858.0,1288.0 = ScoX1+   1.6,  -0.1 ra,dec = 261.97, -1.13   12.6 σ for 258 s at 360 cps 4 dets
-2606131720_alldets ij = 1233.0,591.0 = ScoX1+   0.8,  -0.0 ra,dec = 215.71,-35.28   22.0 σ for 550 s at 24 cps 4 dets
-2606132211_alldets ij = 1252.0,568.0 = ScoX1+   0.1,   0.4 ra,dec = 214.00,-33.92   19.3 σ for 551 s at 24 cps 4 dets
-2606140252_alldets ij = 967.0,1055.0 = ScoX1+   0.2,   0.3 ra,dec = 254.55,-36.59    5.2 σ for 341 s at 378 cps 4 dets
-2606140432_alldets ij = 1066.0,888.0 = ScoX1+   0.4,   0.2 ra,dec = 239.85,-40.16    5.1 σ for 551 s at 133 cps 4 dets
-2606140613_alldets ij = 1173.0,709.0 = ScoX1+  -0.3,   0.4 ra,dec = 223.94,-38.18   18.8 σ for 549 s at 18 cps 4 dets
-2606140928_alldets ij = 1227.0,627.0 = ScoX1+  -0.2,   0.0 ra,dec = 217.56,-35.36   16.7 σ for 578 s at 21 cps 2 dets
-2606141103_alldets ij = 1184.0,700.0 = ScoX1+   0.5,   0.4 ra,dec = 222.90,-37.59   19.0 σ for 577 s at 24 cps 2 dets
-2606150940_alldets ij = 1227.0,668.0 = ScoX1+  -0.2,   0.3 ra,dec = 219.38,-34.92   32.7 σ for 578 s at 65 cps 4 dets
-2606151105_alldets ij = 857.0,1241.0 = ScoX1+   1.0,   0.0 ra,dec = 265.65,-28.00    7.5 σ for 252 s at 507 cps 4 dets
-2606151116_alldets ij = 1182.0,741.0 = ScoX1+   0.6,   0.4 ra,dec = 224.78,-37.05   31.3 σ for 578 s at 73 cps 4 dets
-2606151241_alldets ij = 823.0,1288.0 = ScoX1+   0.7,  -0.0 ra,dec = 268.10,-24.75    5.1 σ for 192 s at 647 cps 3 dets
-2606151252_alldets ij = 1141.0,806.0 = ScoX1+   0.3,  -0.1 ra,dec = 230.13,-38.36   31.0 σ for 576 s at 74 cps 4 dets
-2606151424_alldets ij = 992.0,1042.0 = ScoX1+   1.2,   0.1 ra,dec = 250.97,-37.20   20.4 σ for 542 s at 128 cps 4 dets
-2606151434_alldets ij = 1333.0,521.0 = ScoX1+   0.1,   0.2 ra,dec = 210.27,-28.00   34.0 σ for 515 s at 68 cps 4 dets
-2606151654_alldets ij = 1636.0,189.0 = ScoX1+   0.1,   0.1 ra,dec = 282.74,  9.19   16.9 σ for 412 s at 73 cps 3 dets
-2606151744_alldets ij = 1187.0,742.0 = ScoX1+  -0.1,  -0.0 ra,dec = 224.55,-36.66   25.9 σ for 547 s at 56 cps 2 dets
-2606151924_alldets ij = 1297.0,582.0 = ScoX1+  -0.3,   0.7 ra,dec = 213.47,-30.49   29.7 σ for 546 s at 51 cps 4 dets
-2606152024_alldets ij = 983.0,1043.0 = ScoX1+   0.7,  -0.5 ra,dec = 263.79, -2.96    7.5 σ for 290 s at 442 cps 4 dets
-2606152053_alldets ij = 1054.0,952.0 = ScoX1+   1.1,  -0.3 ra,dec = 242.57,-38.68    7.2 σ for 460 s at 266 cps 4 dets
-2606152054_alldets ij = 1054.0,952.0 = ScoX1+   1.1,  -0.3 ra,dec = 242.57,-38.68    7.2 σ for 461 s at 266 cps 4 dets
-2606152103_alldets ij = 1417.0,418.0 = ScoX1+  -0.2,  -0.1 ra,dec = 205.73,-21.61   14.8 σ for 552 s at 56 cps 4 dets
-2606152233_alldets ij = 1154.0,800.0 = ScoX1+  -0.1,   0.6 ra,dec = 228.94,-37.68   26.8 σ for 547 s at 51 cps 4 dets
-2606161129_alldets ij = 1180.0,782.0 = ScoX1+   0.8,   0.4 ra,dec = 226.66,-36.47   38.7 σ for 576 s at 124 cps 4 dets
-2606161437_alldets ij = 980.0,1080.0 = ScoX1+   0.9,  -0.6 ra,dec = 252.51,-36.14   28.7 σ for 536 s at 236 cps 4 dets
-2606161447_alldets ij = 1340.0,558.0 = ScoX1+   0.2,   0.4 ra,dec = 211.75,-27.55   33.0 σ for 548 s at 91 cps 4 dets
-2606161627_alldets ij = 1467.0,440.0 = ScoX1+   0.2,   0.6 ra,dec = 206.65,-17.90   28.5 σ for 432 s at 112 cps 4 dets
-2606171006_alldets ij = 1229.0,747.0 = ScoX1+   0.6,   0.1 ra,dec = 222.84,-33.88   34.4 σ for 579 s at 82 cps 4 dets
-2606171141_alldets ij = 1177.0,823.0 = ScoX1+   0.4,   0.6 ra,dec = 228.53,-35.86   21.5 σ for 576 s at 124 cps 3 dets
-2606171317_alldets ij = 1135.0,885.0 = ScoX1+   0.8,   0.2 ra,dec = 233.59,-36.89   29.8 σ for 576 s at 55 cps 3 dets
-2606171328_alldets ij = 1577.0,446.0 = ScoX1+   0.3,  -0.4 ra,dec = 207.99, -9.75   27.2 σ for 332 s at 39 cps 3 dets
-2606171449_alldets ij = 968.0,1119.0 = ScoX1+   1.0,  -0.5 ra,dec = 254.00,-35.04   21.1 σ for 541 s at 236 cps 3 dets
-2606171459_alldets ij = 1346.0,594.0 = ScoX1+  -0.2,  -0.2 ra,dec = 213.21,-27.11   35.3 σ for 548 s at 83 cps 3 dets
-2606171629_alldets ij = 1075.0,974.0 = ScoX1+   1.0,   0.2 ra,dec = 241.15,-37.27   10.8 σ for 527 s at 242 cps 3 dets
-2606171639_alldets ij = 1479.0,470.0 = ScoX1+   0.7,  -0.1 ra,dec = 207.79,-17.52   27.2 σ for 549 s at 35 cps 3 dets
-2606171719_alldets ij = 1645.0,104.0 = ScoX1+   0.3,   0.4 ra,dec = 284.54, 11.10   10.5 σ for 548 s at 65 cps 3 dets
-2606171809_alldets ij = 1188.0,817.0 = ScoX1+   0.6,  -0.4 ra,dec = 227.74,-35.34   17.6 σ for 545 s at 150 cps 3 dets
-2606171859_alldets ij = 1518.0,278.0 = ScoX1+  -0.4,   0.5 ra,dec = 282.23,  4.60   18.5 σ for 564 s at 144 cps 3 dets
-2606171939_alldets ij = 931.0,1172.0 = ScoX1+   0.3,  -0.3 ra,dec = 257.94,-33.26    5.4 σ for 535 s at 230 cps 3 dets
-2606171949_alldets ij = 1308.0,655.0 = ScoX1+   0.6,  -0.3 ra,dec = 216.47,-29.52   37.3 σ for 547 s at 74 cps 3 dets
-2606172049_alldets ij = 933.0,1000.0 = ScoX1+   1.2,   0.0 ra,dec = 265.84, -1.16    5.4 σ for 493 s at 127 cps 3 dets
-2606172129_alldets ij = 1438.0,487.0 = ScoX1+  -0.0,   0.1 ra,dec = 208.34,-20.75   21.7 σ for 547 s at 76 cps 3 dets
-2606180029_alldets ij = 895.0,1222.0 = ScoX1+   1.2,  -0.7 ra,dec = 261.44,-31.20    9.2 σ for 544 s at 237 cps 3 dets
-2606180209_alldets ij = 1002.0,1084.0 = ScoX1+   0.8,  -0.6 ra,dec = 250.21,-35.87   27.5 σ for 544 s at 231 cps 3 dets
-2606180518_alldets ij = 858.0,1271.0 = ScoX1+   1.3,  -0.8 ra,dec = 264.58,-28.81   10.9 σ for 543 s at 239 cps 3 dets
-2606180658_alldets ij = 965.0,1139.0 = ScoX1+   1.1,   0.1 ra,dec = 254.44,-34.47   23.4 σ for 545 s at 47 cps 3 dets
-2606180708_alldets ij = 1357.0,611.0 = ScoX1+   0.2,   0.3 ra,dec = 213.78,-26.39   27.0 σ for 548 s at 80 cps 3 dets
-2606181018_alldets ij = 1226.0,791.0 = ScoX1+  -0.1,   0.4 ra,dec = 224.88,-33.43   30.8 σ for 580 s at 68 cps 4 dets
-2606181154_alldets ij = 1175.0,863.0 = ScoX1+   1.0,  -0.5 ra,dec = 230.36,-35.24   19.5 σ for 577 s at 30 cps 4 dets
-2606181330_alldets ij = 1133.0,923.0 = ScoX1+   0.7,   0.4 ra,dec = 235.16,-36.08   21.3 σ for 488 s at 63 cps 4 dets
-2606181340_alldets ij = 1593.0,475.0 = ScoX1+   0.4,  -0.2 ra,dec = 209.08, -9.29   23.8 σ for 276 s at 57 cps 4 dets
+2606261210_alldets no sources found with Sco X-1 inside FOV  for 382 s, 0 cps, >7.5 keV
+2606261200_alldets ji = 1206.0,1121.0 = ScoX1+  -0.0,   0.3 ra,dec = 264.09,-11.41   28.4 σ for 576 s at 57 cps 4 dets
+2606261149_alldets no sources found with Sco X-1 outside FOV  for 573 s, 225 cps, >3.2 keV
+2606261139_alldets no sources found with Sco X-1 outside FOV  for 580 s, 0 cps, >7.7 keV
+2606261128_alldets no sources found with Sco X-1 inside FOV  for 589 s, 0 cps, >7.4 keV
+2606261117_alldets no sources found with Sco X-1 inside FOV  for 587 s, 2 cps, >7.2 keV
+2606261107_alldets no sources found with Sco X-1 outside FOV  for 242 s, 0 cps, >6.3 keV
+2606261056_alldets no sources found with Sco X-1 outside FOV  for 574 s, 223 cps, >3.3 keV
+2606261035_alldets no sources found with Sco X-1 inside FOV  for 557 s, 1 cps, >6.6 keV
+2606261024_alldets ji = 1276.0,1041.0 = ScoX1+  -0.1,  -0.8 ra,dec = 265.05, -8.86   27.7 σ for 578 s at 72 cps 4 dets
+2606261014_alldets no sources found with Sco X-1 outside FOV  for 502 s, 256 cps, >4.6 keV
+2606260952_alldets no sources found with Sco X-1 inside FOV  for 4 s, 18156 cps, >3.9 keV
+2606260921_alldets no sources found with Sco X-1 outside FOV  for 574 s, 222 cps, >4.0 keV
+2606260859_alldets no sources found with Sco X-1 inside FOV  for 590 s, 0 cps, >9.2 keV
+2606260827_alldets no sources found with Sco X-1 outside FOV  for 257 s, 0 cps, >11.7 keV
+2606260817_alldets no sources found with Sco X-1 inside FOV  for 569 s, 207 cps, >4.6 keV
+2606260745_alldets no sources found with Sco X-1 outside FOV  for 487 s, 25 cps, >5.2 keV
+2606220623_alldets no sources found with Sco X-1 inside FOV  for 542 s, 243 cps, >2.4 keV
+2606220613_alldets ji = 947.0,1253.0 = ScoX1+   0.2,  -0.3 ra,dec = 264.78,-20.56   22.6 σ for 539 s at 94 cps 4 dets
+2606220603_alldets no sources found with Sco X-1 outside FOV  for 542 s, 235 cps, >3.4 keV
+2606220553_alldets no sources found with Sco X-1 inside FOV  for 544 s, 241 cps, >2.8 keV
+2606220543_alldets no sources found with Sco X-1 inside FOV  for 547 s, 252 cps, >2.9 keV
+2606220513_alldets no sources found with Sco X-1 outside FOV  for 145 s, 862 cps, >2.9 keV
+2606220503_alldets no sources found with Sco X-1 outside FOV  for 542 s, 287 cps, >2.9 keV
+2606220453_alldets no sources found with Sco X-1 inside FOV  for 561 s, 272 cps, >3.2 keV
+2606220443_alldets no sources found with Sco X-1 inside FOV  for 542 s, 245 cps, >3.6 keV
+2606220433_alldets no sources found with Sco X-1 inside FOV  for 539 s, 243 cps, >3.4 keV
+2606220423_alldets no sources found with Sco X-1 outside FOV  for 349 s, 372 cps, >3.4 keV
+2606220413_alldets no sources found with Sco X-1 inside FOV  for 550 s, 240 cps, >2.5 keV
+2606220403_alldets no sources found with Sco X-1 inside FOV  for 557 s, 242 cps, >3.0 keV
+2606220353_alldets no sources found with Sco X-1 inside FOV  for 554 s, 242 cps, >3.1 keV
+2606220323_alldets no sources found with Sco X-1 inside FOV  for 557 s, 300 cps, >2.5 keV
+2606220313_alldets no sources found with Sco X-1 inside FOV  for 557 s, 236 cps, >2.7 keV
+2606220253_alldets no sources found with Sco X-1 inside FOV  for 539 s, 242 cps, >3.6 keV
+2606220243_alldets no sources found with Sco X-1 inside FOV  for 547 s, 238 cps, >3.5 keV
+2606220223_alldets no sources found with Sco X-1 inside FOV  for 557 s, 242 cps, >3.1 keV
+2606220153_alldets no sources found with Sco X-1 outside FOV  for 448 s, 15 cps, >4.0 keV
+2606220143_alldets no sources found with Sco X-1 inside FOV  for 557 s, 241 cps, >3.1 keV
+2606220133_alldets no sources found with Sco X-1 inside FOV  for 539 s, 253 cps, >3.4 keV
+2606220123_alldets ji = 992.0,1196.0 = ScoX1+  -0.1,  -0.6 ra,dec = 264.19,-19.06   28.2 σ for 540 s at 159 cps 4 dets
+2606220113_alldets no sources found with Sco X-1 outside FOV  for 542 s, 241 cps, >3.7 keV
+2606220103_alldets no sources found with Sco X-1 inside FOV  for 456 s, 317 cps, >3.6 keV
+2606220053_alldets no sources found with Sco X-1 inside FOV  for 555 s, 236 cps, >2.8 keV
+2606220043_alldets no sources found with Sco X-1 inside FOV  for 321 s, 408 cps, >3.3 keV
+2606220033_alldets no sources found with Sco X-1 outside FOV  for 560 s, 9 cps, >2.1 keV
+2606220023_alldets no sources found with Sco X-1 outside FOV  for 560 s, 226 cps, >3.6 keV
+2606220013_alldets no sources found with Sco X-1 outside FOV  for 557 s, 276 cps, >3.5 keV
+2606220004_alldets no sources found with Sco X-1 inside FOV  for 560 s, 256 cps, >2.9 keV
+2606212354_alldets no sources found with Sco X-1 inside FOV  for 544 s, 236 cps, >3.5 keV
+2606212344_alldets ji = 858.0,1338.0 = ScoX1+   1.0,  -1.3 ra,dec = 266.72,-23.10   14.7 σ for 541 s at 240 cps 4 dets
+2606212314_alldets no sources found with Sco X-1 inside FOV  for 559 s, 235 cps, >2.6 keV
+2606212304_alldets no sources found with Sco X-1 inside FOV  for 561 s, 93 cps, >2.6 keV
+2606212254_alldets no sources found with Sco X-1 outside FOV  for 561 s, 39 cps, >2.7 keV
+2606212244_alldets no sources found with Sco X-1 outside FOV  for 559 s, 229 cps, >3.5 keV
+2606212234_alldets no sources found with Sco X-1 inside FOV  for 544 s, 246 cps, >2.8 keV
+2606212224_alldets no sources found with Sco X-1 inside FOV  for 501 s, 259 cps, >3.6 keV
+2606212214_alldets no sources found with Sco X-1 inside FOV  for 377 s, 2 cps, >2.4 keV
+2606212154_alldets no sources found with Sco X-1 outside FOV  for 533 s, 237 cps, >3.1 keV
+2606212134_alldets no sources found with Sco X-1 inside FOV  for 559 s, 220 cps, >2.7 keV
+2606212124_alldets no sources found with Sco X-1 outside FOV  for 550 s, 0 cps, >2.0 keV
+2606212114_alldets no sources found with Sco X-1 outside FOV  for 532 s, 14 cps, >3.1 keV
+2606212104_alldets no sources found with Sco X-1 outside FOV  for 548 s, 239 cps, >2.7 keV
+2606212054_alldets no sources found with Sco X-1 inside FOV  for 550 s, 239 cps, >2.3 keV
+2606212044_alldets ji = 1515.0,596.0 = ScoX1+  -0.1,  -0.1 ra,dec = 270.83, -3.24   14.2 σ for 548 s at 28 cps 4 dets
+2606212024_alldets no sources found with Sco X-1 inside FOV  for 536 s, 241 cps, >1.4 keV
+2606212014_alldets no sources found with Sco X-1 inside FOV  for 527 s, 257 cps, >3.5 keV
+2606211954_alldets no sources found with Sco X-1 inside FOV  for 509 s, 259 cps, >3.0 keV
+2606211944_alldets no sources found with Sco X-1 outside FOV  for 562 s, 47 cps, >2.7 keV
+2606211934_alldets no sources found with Sco X-1 outside FOV  for 563 s, 231 cps, >3.5 keV
+2606211924_alldets no sources found with Sco X-1 outside FOV  for 545 s, 223 cps, >3.1 keV
+2606211914_alldets no sources found with Sco X-1 inside FOV  for 544 s, 244 cps, >2.5 keV
+2606211904_alldets ji = 1362.0,749.0 = ScoX1+  -0.4,  -0.3 ra,dec = 266.50, -6.87   19.7 σ for 545 s at 37 cps 4 dets
+2606211844_alldets no sources found with Sco X-1 outside FOV  for 544 s, 235 cps, >1.6 keV
+2606211834_alldets no sources found with Sco X-1 inside FOV  for 550 s, 233 cps, >3.3 keV
+2606211824_alldets ji = 948.0,784.0 = ScoX1+  -0.7,   0.2 ra,dec = 240.29,  3.15    5.7 σ for 555 s at 237 cps 4 dets
+2606211814_alldets ji = 1468.0,171.0 = ScoX1+   0.1,  -1.0 ra,dec = 223.13,-28.17    5.4 σ for 564 s at 84 cps 4 dets
+2606211814_alldets ji = 1468.0,173.0 = ScoX1+   0.1,   1.0 ra,dec = 223.17,-28.19    5.3 σ for 564 s at 84 cps 4 dets
+2606211804_alldets no sources found with Sco X-1 outside FOV  for 563 s, 234 cps, >3.4 keV
+2606211734_alldets no sources found with Sco X-1 inside FOV  for 545 s, 241 cps, >3.2 keV
+2606211724_alldets ji = 1219.0,918.0 = ScoX1+  -0.1,  -0.4 ra,dec = 264.12,-11.29   29.8 σ for 543 s at 32 cps 4 dets
+2606211714_alldets no sources found with Sco X-1 inside FOV  for 534 s, 234 cps, >3.2 keV
+2606211704_alldets no sources found with Sco X-1 outside FOV  for 544 s, 222 cps, >3.1 keV
+2606211654_alldets ji = 599.0,1200.0 = ScoX1+  -0.9,  -0.3 ra,dec = 268.36,  7.40    8.8 σ for 552 s at 237 cps 4 dets
+2606211644_alldets no sources found with Sco X-1 inside FOV  for 561 s, 207 cps, >2.8 keV
+2606211634_alldets no sources found with Sco X-1 outside FOV  for 563 s, 57 cps, >2.4 keV
+2606211624_alldets no sources found with Sco X-1 outside FOV  for 562 s, 232 cps, >3.3 keV
+2606211614_alldets no sources found with Sco X-1 outside FOV  for 560 s, 221 cps, >3.0 keV
+2606211554_alldets ji = 1563.0,581.0 = ScoX1+   0.2,  -0.1 ra,dec = 272.73, -2.50   26.5 σ for 366 s at 70 cps 4 dets
+2606211544_alldets ji = 1082.0,1081.0 = ScoX1+   0.4,  -0.1 ra,dec = 263.55,-15.96   23.1 σ for 542 s at 195 cps 4 dets
+2606211534_alldets no sources found with Sco X-1 inside FOV  for 541 s, 235 cps, >3.4 keV
+2606211524_alldets no sources found with Sco X-1 inside FOV  for 549 s, 195 cps, >3.2 keV
+2606211514_alldets no sources found with Sco X-1 inside FOV  for 557 s, 237 cps, >2.5 keV
+2606211504_alldets no sources found with Sco X-1 inside FOV  for 558 s, 209 cps, >3.0 keV
+2606211454_alldets no sources found with Sco X-1 outside FOV  for 563 s, 226 cps, >2.8 keV
+2606211444_alldets no sources found with Sco X-1 outside FOV  for 564 s, 173 cps, >3.0 keV
+2606211414_alldets ji = 1409.0,686.0 = ScoX1+   0.3,  -0.1 ra,dec = 267.60, -5.67   26.3 σ for 455 s at 68 cps 4 dets
+2606211404_alldets ji = 949.0,1232.0 = ScoX1+   0.5,  -0.7 ra,dec = 264.84,-20.33   15.6 σ for 538 s at 243 cps 4 dets
+2606211344_alldets ji = 471.0,1408.0 = ScoX1+  -0.7,  -0.3 ra,dec = 280.55, -1.21   11.1 σ for 548 s at 232 cps 4 dets
+2606211324_alldets no sources found with Sco X-1 inside FOV  for 560 s, 170 cps, >2.9 keV
+2606211314_alldets no sources found with Sco X-1 outside FOV  for 563 s, 231 cps, >3.0 keV
+2606211304_alldets no sources found with Sco X-1 outside FOV  for 558 s, 193 cps, >2.8 keV
+2606211242_alldets no sources found with Sco X-1 inside FOV  for 298 s, 1 cps, >5.3 keV
+2606211232_alldets ji = 1158.0,984.0 = ScoX1+   0.2,  -0.2 ra,dec = 263.63,-13.36   23.9 σ for 576 s at 43 cps 4 dets
+2606211150_alldets no sources found with Sco X-1 inside FOV  for 594 s, 115 cps, >3.0 keV
+2606211139_alldets no sources found with Sco X-1 outside FOV  for 596 s, 212 cps, >2.4 keV
+2606211129_alldets no sources found with Sco X-1 outside FOV  for 590 s, 218 cps, >2.7 keV
+2606211107_alldets no sources found with Sco X-1 inside FOV  for 578 s, 4 cps, >4.5 keV
+2606211056_alldets ji = 1215.0,912.0 = ScoX1+  -0.2,  -0.8 ra,dec = 264.07,-11.44   18.6 σ for 577 s at 64 cps 4 dets
+2606211046_alldets no sources found with Sco X-1 inside FOV  for 566 s, 230 cps, >3.2 keV
+2606211035_alldets no sources found with Sco X-1 inside FOV  for 581 s, 123 cps, >3.2 keV
+2606211025_alldets no sources found with Sco X-1 inside FOV  for 587 s, 216 cps, >2.4 keV
+2606211014_alldets no sources found with Sco X-1 inside FOV  for 592 s, 184 cps, >2.6 keV
+2606211004_alldets no sources found with Sco X-1 outside FOV  for 596 s, 30 cps, >1.6 keV
+2606210953_alldets no sources found with Sco X-1 outside FOV  for 590 s, 215 cps, >2.4 keV
+2606210931_alldets no sources found with Sco X-1 inside FOV  for 594 s, 123 cps, >2.8 keV
+2606210921_alldets ji = 1275.0,837.0 = ScoX1+  -0.2,  -0.4 ra,dec = 264.82, -9.52   24.2 σ for 580 s at 51 cps 4 dets
+2606210910_alldets ji = 808.0,1376.0 = ScoX1+   0.3,   0.0 ra,dec = 268.26,-23.99    5.4 σ for 496 s at 260 cps 4 dets
+2606210900_alldets no sources found with Sco X-1 outside FOV  for 578 s, 105 cps, >2.9 keV
+2606210849_alldets no sources found with Sco X-1 inside FOV  for 577 s, 227 cps, >2.3 keV
+2606210818_alldets no sources found with Sco X-1 outside FOV  for 591 s, 49 cps, >3.0 keV
+2606210756_alldets no sources found with Sco X-1 inside FOV  for 565 s, 97 cps, >3.0 keV
+2606210746_alldets ji = 1365.0,726.0 = ScoX1+   0.5,   0.0 ra,dec = 266.51, -6.90   30.3 σ for 552 s at 50 cps 4 dets
+2606210736_alldets ji = 912.0,1265.0 = ScoX1+   0.5,  -0.5 ra,dec = 265.56,-21.37   23.1 σ for 546 s at 47 cps 4 dets
+2606210726_alldets no sources found with Sco X-1 outside FOV  for 505 s, 250 cps, >3.2 keV
+2606210716_alldets no sources found with Sco X-1 inside FOV  for 526 s, 249 cps, >2.8 keV
+2606210706_alldets no sources found with Sco X-1 inside FOV  for 561 s, 155 cps, >3.0 keV
+2606210656_alldets no sources found with Sco X-1 inside FOV  for 567 s, 214 cps, >1.3 keV
+2606210646_alldets no sources found with Sco X-1 outside FOV  for 566 s, 16 cps, >2.2 keV
+2606210636_alldets no sources found with Sco X-1 outside FOV  for 562 s, 231 cps, >3.0 keV
+2606210626_alldets no sources found with Sco X-1 inside FOV  for 564 s, 238 cps, >1.6 keV
+2606210616_alldets no sources found with Sco X-1 inside FOV  for 566 s, 106 cps, >3.2 keV
+2606210606_alldets ji = 1199.0,924.0 = ScoX1+  -0.1,  -0.2 ra,dec = 263.89,-11.99   20.8 σ for 549 s at 63 cps 4 dets
+2606210556_alldets ji = 762.0,1416.0 = ScoX1+   0.7,  -0.5 ra,dec = 269.89,-24.77    5.4 σ for 542 s at 236 cps 4 dets
+2606210546_alldets no sources found with Sco X-1 outside FOV  for 548 s, 188 cps, >3.7 keV
+2606210536_alldets no sources found with Sco X-1 inside FOV  for 557 s, 62 cps, >2.7 keV
+2606210526_alldets no sources found with Sco X-1 inside FOV  for 564 s, 107 cps, >3.0 keV
+2606210516_alldets no sources found with Sco X-1 outside FOV  for 566 s, 174 cps, >2.8 keV
+2606210455_alldets no sources found with Sco X-1 outside FOV  for 361 s, 9 cps, >4.4 keV
+2606210445_alldets no sources found with Sco X-1 inside FOV  for 564 s, 234 cps, >2.6 keV
+2606210435_alldets no sources found with Sco X-1 inside FOV  for 566 s, 112 cps, >3.1 keV
+2606210425_alldets ji = 1042.0,1111.0 = ScoX1+  -0.3,  -0.8 ra,dec = 263.77,-17.26   33.9 σ for 549 s at 148 cps 4 dets
+2606210415_alldets no sources found with Sco X-1 inside FOV  for 541 s, 232 cps, >3.6 keV
+2606210405_alldets no sources found with Sco X-1 inside FOV  for 357 s, 1 cps, >5.4 keV
+2606210355_alldets no sources found with Sco X-1 inside FOV  for 557 s, 4 cps, >5.9 keV
+2606210345_alldets no sources found with Sco X-1 inside FOV  for 563 s, 183 cps, >2.6 keV
+2606210315_alldets no sources found with Sco X-1 outside FOV  for 465 s, 7 cps, >5.6 keV
+2606210305_alldets no sources found with Sco X-1 inside FOV  for 565 s, 26 cps, >2.9 keV
+2606210245_alldets ji = 891.0,1284.0 = ScoX1+   1.2,  -0.1 ra,dec = 266.05,-21.87   19.4 σ for 503 s at 254 cps 4 dets
+2606210235_alldets no sources found with Sco X-1 outside FOV  for 548 s, 194 cps, >3.7 keV
+2606210225_alldets no sources found with Sco X-1 inside FOV  for 555 s, 40 cps, >3.1 keV
+2606210215_alldets no sources found with Sco X-1 inside FOV  for 562 s, 53 cps, >2.9 keV
+2606210205_alldets no sources found with Sco X-1 inside FOV  for 564 s, 199 cps, >2.9 keV
+2606210145_alldets no sources found with Sco X-1 outside FOV  for 259 s, 7 cps, >4.1 keV
+2606210125_alldets no sources found with Sco X-1 inside FOV  for 565 s, 86 cps, >3.0 keV
+2606210105_alldets no sources found with Sco X-1 inside FOV  for 545 s, 232 cps, >3.3 keV
+2606210055_alldets no sources found with Sco X-1 inside FOV  for 549 s, 0 cps, >5.6 keV
+2606210034_alldets no sources found with Sco X-1 inside FOV  for 557 s, 0 cps, >4.8 keV
+2606210014_alldets no sources found with Sco X-1 outside FOV  for 565 s, 228 cps, >2.9 keV
+2606210004_alldets no sources found with Sco X-1 outside FOV  for 564 s, 101 cps, >3.2 keV
+2606202354_alldets no sources found with Sco X-1 inside FOV  for 564 s, 189 cps, >1.8 keV
+2606202344_alldets no sources found with Sco X-1 inside FOV  for 565 s, 2 cps, >6.0 keV
+2606202334_alldets ji = 1018.0,1133.0 = ScoX1+   0.0,  -0.6 ra,dec = 263.97,-18.04   18.6 σ for 549 s at 186 cps 4 dets
+2606202324_alldets no sources found with Sco X-1 inside FOV  for 546 s, 119 cps, >3.8 keV
+2606202314_alldets no sources found with Sco X-1 inside FOV  for 475 s, 0 cps, >6.1 keV
+2606202304_alldets ji = 847.0,940.0 = ScoX1+  -0.1,   0.0 ra,dec = 247.95,  6.78    5.5 σ for 511 s at 247 cps 4 dets
+2606202254_alldets no sources found with Sco X-1 inside FOV  for 545 s, 71 cps, >3.0 keV
+2606202244_alldets no sources found with Sco X-1 outside FOV  for 566 s, 47 cps, >2.3 keV
+2606202234_alldets no sources found with Sco X-1 outside FOV  for 564 s, 229 cps, >2.9 keV
+2606202224_alldets no sources found with Sco X-1 outside FOV  for 549 s, 69 cps, >2.9 keV
+2606202214_alldets no sources found with Sco X-1 inside FOV  for 563 s, 230 cps, >2.5 keV
+2606202204_alldets ji = 1308.0,776.0 = ScoX1+  -0.2,  -0.1 ra,dec = 265.33, -8.61   27.5 σ for 550 s at 102 cps 4 dets
+2606202124_alldets no sources found with Sco X-1 inside FOV  for 563 s, 231 cps, >2.4 keV
+2606202114_alldets no sources found with Sco X-1 inside FOV  for 565 s, 195 cps, >2.9 keV
+2606202104_alldets no sources found with Sco X-1 outside FOV  for 566 s, 230 cps, >3.0 keV
+2606202054_alldets no sources found with Sco X-1 outside FOV  for 563 s, 107 cps, >3.0 keV
+2606202044_alldets no sources found with Sco X-1 inside FOV  for 351 s, 138 cps, >1.7 keV
+2606202034_alldets no sources found with Sco X-1 inside FOV  for 549 s, 77 cps, >2.9 keV
+2606202023_alldets ji = 1149.0,971.0 = ScoX1+   0.4,  -0.0 ra,dec = 263.56,-13.67   12.6 σ for 544 s at 231 cps 4 dets
+2606202013_alldets no sources found with Sco X-1 inside FOV  for 531 s, 202 cps, >2.3 keV
+2606201953_alldets ji = 704.0,1115.0 = ScoX1+  -0.3,   0.1 ra,dec = 260.06,  8.24   14.6 σ for 557 s at 229 cps 4 dets
+2606201943_alldets no sources found with Sco X-1 inside FOV  for 560 s, 2 cps, >4.9 keV
+2606201933_alldets no sources found with Sco X-1 outside FOV  for 567 s, 39 cps, >2.3 keV
+2606201923_alldets no sources found with Sco X-1 outside FOV  for 565 s, 230 cps, >3.2 keV
+2606201913_alldets no sources found with Sco X-1 outside FOV  for 546 s, 4 cps, >2.7 keV
+2606201903_alldets no sources found with Sco X-1 inside FOV  for 552 s, 240 cps, >2.3 keV
+2606201853_alldets ji = 1450.0,600.0 = ScoX1+   0.3,   0.1 ra,dec = 268.65, -5.00   25.1 σ for 549 s at 36 cps 4 dets
+2606201843_alldets ji = 997.0,1154.0 = ScoX1+   0.8,  -0.7 ra,dec = 264.21,-18.66    7.0 σ for 539 s at 234 cps 4 dets
+2606201833_alldets no sources found with Sco X-1 inside FOV  for 547 s, 184 cps, >1.9 keV
+2606201813_alldets no sources found with Sco X-1 inside FOV  for 562 s, 224 cps, >2.6 keV
+2606201803_alldets ji = 1390.0,316.0 = ScoX1+   0.0,   0.4 ra,dec = 223.34,-22.86   17.7 σ for 559 s at 169 cps 4 dets
+2606201753_alldets no sources found with Sco X-1 outside FOV  for 567 s, 169 cps, >2.7 keV
+2606201743_alldets no sources found with Sco X-1 outside FOV  for 564 s, 200 cps, >3.1 keV
+2606201723_alldets no sources found with Sco X-1 inside FOV  for 553 s, 3 cps, >6.2 keV
+2606201713_alldets ji = 1281.0,802.0 = ScoX1+  -0.1,   0.2 ra,dec = 264.84, -9.44   31.4 σ for 548 s at 76 cps 4 dets
+2606201703_alldets ji = 849.0,1319.0 = ScoX1+   1.0,  -0.7 ra,dec = 267.22,-22.75    6.8 σ for 536 s at 238 cps 4 dets
+2606201653_alldets no sources found with Sco X-1 outside FOV  for 549 s, 190 cps, >3.0 keV
+2606201643_alldets no sources found with Sco X-1 inside FOV  for 556 s, 146 cps, >2.5 keV
+2606201633_alldets no sources found with Sco X-1 inside FOV  for 563 s, 1 cps, >4.4 keV
+2606201623_alldets ji = 1562.0,101.0 = ScoX1+   0.6,  -0.1 ra,dec = 223.05,-34.33    7.5 σ for 565 s at 73 cps 4 dets
+2606201613_alldets no sources found with Sco X-1 outside FOV  for 567 s, 232 cps, >3.1 keV
+2606201602_alldets no sources found with Sco X-1 outside FOV  for 563 s, 109 cps, >2.3 keV
+2606201542_alldets ji = 1597.0,540.0 = ScoX1+  -0.6,   0.1 ra,dec = 274.27, -2.65   29.1 σ for 176 s at 89 cps 4 dets
+2606201532_alldets ji = 1124.0,994.0 = ScoX1+  -0.2,  -0.6 ra,dec = 263.51,-14.49   27.8 σ for 546 s at 184 cps 4 dets
+2606201522_alldets no sources found with Sco X-1 inside FOV  for 541 s, 185 cps, >3.4 keV
+2606201512_alldets no sources found with Sco X-1 inside FOV  for 549 s, 0 cps, >5.5 keV
+2606201502_alldets no sources found with Sco X-1 inside FOV  for 559 s, 232 cps, >2.6 keV
+2606201452_alldets no sources found with Sco X-1 inside FOV  for 565 s, 109 cps, >2.6 keV
+2606201442_alldets no sources found with Sco X-1 outside FOV  for 565 s, 230 cps, >2.5 keV
+2606201432_alldets no sources found with Sco X-1 outside FOV  for 567 s, 126 cps, >2.9 keV
+2606201402_alldets ji = 1419.0,626.0 = ScoX1+  -0.6,  -0.3 ra,dec = 267.80, -5.77   26.6 σ for 333 s at 46 cps 4 dets
+2606201352_alldets ji = 974.0,1175.0 = ScoX1+   0.3,  -0.1 ra,dec = 264.52,-19.33   22.4 σ for 546 s at 122 cps 4 dets
+2606201342_alldets no sources found with Sco X-1 inside FOV  for 320 s, 0 cps, >6.1 keV
+2606201332_alldets no sources found with Sco X-1 inside FOV  for 552 s, 180 cps, >2.4 keV
+2606201322_alldets no sources found with Sco X-1 inside FOV  for 562 s, 3 cps, >4.7 keV
+2606201312_alldets no sources found with Sco X-1 inside FOV  for 565 s, 3 cps, >4.9 keV
+2606201302_alldets no sources found with Sco X-1 outside FOV  for 565 s, 233 cps, >2.6 keV
+2606201219_alldets ji = 1160.0,944.0 = ScoX1+  -0.1,  -0.4 ra,dec = 263.60,-13.31   16.2 σ for 577 s at 29 cps 4 dets
+2606201158_alldets no sources found with Sco X-1 inside FOV  for 575 s, 0 cps, >4.7 keV
+2606201148_alldets no sources found with Sco X-1 inside FOV  for 590 s, 216 cps, >2.3 keV
+2606201137_alldets no sources found with Sco X-1 inside FOV  for 594 s, 5 cps, >4.8 keV
+2606201127_alldets no sources found with Sco X-1 outside FOV  for 595 s, 163 cps, >2.2 keV
+2606201116_alldets no sources found with Sco X-1 outside FOV  for 590 s, 214 cps, >2.5 keV
+2606201054_alldets no sources found with Sco X-1 inside FOV  for 596 s, 11 cps, >2.8 keV
+2606201044_alldets ji = 1216.0,871.0 = ScoX1+  -0.2,  -0.5 ra,dec = 264.00,-11.50   24.6 σ for 578 s at 86 cps 4 dets
+2606201033_alldets ji = 775.0,1388.0 = ScoX1+   0.2,  -1.1 ra,dec = 269.67,-23.97    5.9 σ for 574 s at 225 cps 4 dets
+2606201023_alldets no sources found with Sco X-1 inside FOV  for 578 s, 0 cps, >4.8 keV
+2606201002_alldets no sources found with Sco X-1 inside FOV  for 588 s, 1 cps, >2.7 keV
+2606200951_alldets no sources found with Sco X-1 outside FOV  for 596 s, 65 cps, >1.6 keV
+2606200940_alldets no sources found with Sco X-1 outside FOV  for 578 s, 227 cps, >2.2 keV
+2606200919_alldets no sources found with Sco X-1 inside FOV  for 592 s, 2 cps, >4.7 keV
+2606200908_alldets ji = 1281.0,798.0 = ScoX1+   0.1,  -0.0 ra,dec = 264.78, -9.31   24.7 σ for 580 s at 53 cps 4 dets
+2606200858_alldets ji = 837.0,1334.0 = ScoX1+   0.8,  -0.5 ra,dec = 267.67,-22.56    8.6 σ for 576 s at 224 cps 4 dets
+2606200847_alldets no sources found with Sco X-1 inside FOV  for 560 s, 0 cps, >6.0 keV
+2606200837_alldets no sources found with Sco X-1 inside FOV  for 577 s, 226 cps, >2.5 keV
+2606200826_alldets no sources found with Sco X-1 inside FOV  for 584 s, 123 cps, >1.6 keV
+2606200805_alldets no sources found with Sco X-1 outside FOV  for 591 s, 67 cps, >2.0 keV
+2606200733_alldets ji = 1366.0,689.0 = ScoX1+   0.5,  -0.5 ra,dec = 266.42, -6.96   25.1 σ for 566 s at 118 cps 4 dets
+2606200723_alldets ji = 934.0,1225.0 = ScoX1+   0.6,  -0.5 ra,dec = 265.27,-20.19   10.6 σ for 549 s at 214 cps 4 dets
+2606200713_alldets no sources found with Sco X-1 inside FOV  for 526 s, 191 cps, >3.2 keV
+2606200703_alldets no sources found with Sco X-1 inside FOV  for 538 s, 241 cps, >2.5 keV
+2606200653_alldets no sources found with Sco X-1 inside FOV  for 537 s, 0 cps, >3.4 keV
+2606200633_alldets no sources found with Sco X-1 outside FOV  for 567 s, 22 cps, >2.2 keV
+2606200623_alldets no sources found with Sco X-1 outside FOV  for 565 s, 233 cps, >2.4 keV
+2606200613_alldets no sources found with Sco X-1 inside FOV  for 547 s, 107 cps, >2.3 keV
+2606200603_alldets no sources found with Sco X-1 inside FOV  for 551 s, 2 cps, >4.8 keV
+2606200553_alldets ji = 1207.0,886.0 = ScoX1+   0.2,  -0.3 ra,dec = 263.87,-11.61   25.2 σ for 550 s at 55 cps 4 dets
+2606200543_alldets ji = 793.0,1377.0 = ScoX1+   0.9,  -0.1 ra,dec = 269.13,-23.25    7.9 σ for 545 s at 231 cps 4 dets
+2606200523_alldets no sources found with Sco X-1 inside FOV  for 559 s, 1 cps, >4.9 keV
+2606200513_alldets no sources found with Sco X-1 inside FOV  for 395 s, 89 cps, >2.3 keV
+2606200503_alldets no sources found with Sco X-1 inside FOV  for 553 s, 94 cps, >2.3 keV
+2606200443_alldets no sources found with Sco X-1 outside FOV  for 358 s, 5 cps, >4.0 keV
+2606200433_alldets no sources found with Sco X-1 inside FOV  for 344 s, 3 cps, >4.9 keV
+2606200423_alldets no sources found with Sco X-1 inside FOV  for 563 s, 2 cps, >5.9 keV
+2606200413_alldets ji = 1058.0,1072.0 = ScoX1+   0.9,  -0.7 ra,dec = 263.67,-16.43   20.8 σ for 549 s at 166 cps 4 dets
+2606200403_alldets no sources found with Sco X-1 inside FOV  for 549 s, 189 cps, >3.4 keV
+2606200353_alldets no sources found with Sco X-1 inside FOV  for 535 s, 0 cps, >4.8 keV
+2606200343_alldets no sources found with Sco X-1 inside FOV  for 556 s, 176 cps, >1.5 keV
+2606200332_alldets no sources found with Sco X-1 inside FOV  for 562 s, 1 cps, >4.7 keV
+2606200302_alldets no sources found with Sco X-1 outside FOV  for 454 s, 11 cps, >2.8 keV
+2606200252_alldets no sources found with Sco X-1 inside FOV  for 564 s, 7 cps, >5.9 keV
+2606200242_alldets no sources found with Sco X-1 inside FOV  for 551 s, 2 cps, >6.5 keV
+2606200232_alldets ji = 914.0,1243.0 = ScoX1+   1.3,  -1.2 ra,dec = 265.74,-20.64    6.5 σ for 551 s at 229 cps 4 dets
+2606200222_alldets no sources found with Sco X-1 inside FOV  for 549 s, 1 cps, >6.7 keV
+2606200152_alldets ji = 1505.0,197.0 = ScoX1+  -0.5,   0.9 ra,dec = 222.55,-30.70   14.2 σ for 468 s at 145 cps 4 dets
+2606200132_alldets no sources found with Sco X-1 outside FOV  for 281 s, 9 cps, >4.1 keV
+2606200122_alldets no sources found with Sco X-1 inside FOV  for 565 s, 220 cps, >1.5 keV
+2606200112_alldets no sources found with Sco X-1 inside FOV  for 550 s, 20 cps, >2.8 keV
+2606200102_alldets no sources found with Sco X-1 inside FOV  for 513 s, 2 cps, >3.4 keV
+2606200052_alldets no sources found with Sco X-1 inside FOV  for 549 s, 222 cps, >2.5 keV
+2606200042_alldets no sources found with Sco X-1 inside FOV  for 533 s, 1 cps, >6.4 keV
+2606200032_alldets no sources found with Sco X-1 inside FOV  for 561 s, 232 cps, >2.9 keV
+2606200022_alldets no sources found with Sco X-1 inside FOV  for 544 s, 1 cps, >6.1 keV
+2606200002_alldets no sources found with Sco X-1 outside FOV  for 566 s, 222 cps, >2.9 keV
+2606192352_alldets no sources found with Sco X-1 outside FOV  for 562 s, 27 cps, >3.4 keV
+2606192342_alldets no sources found with Sco X-1 inside FOV  for 566 s, 234 cps, >2.5 keV
+2606192332_alldets no sources found with Sco X-1 inside FOV  for 565 s, 3 cps, >6.3 keV
+2606192322_alldets ji = 1036.0,1093.0 = ScoX1+   0.6,  -0.4 ra,dec = 263.83,-17.09   21.6 σ for 546 s at 208 cps 4 dets
+2606192311_alldets no sources found with Sco X-1 inside FOV  for 528 s, 1 cps, >7.1 keV
+2606192301_alldets no sources found with Sco X-1 inside FOV  for 537 s, 1 cps, >6.2 keV
+2606192251_alldets ji = 871.0,964.0 = ScoX1+   0.6,   0.1 ra,dec = 246.98,  6.09    9.5 σ for 562 s at 229 cps 4 dets
+2606192241_alldets no sources found with Sco X-1 inside FOV  for 550 s, 1 cps, >5.3 keV
+2606192231_alldets no sources found with Sco X-1 outside FOV  for 567 s, 29 cps, >2.2 keV
+2606192221_alldets no sources found with Sco X-1 outside FOV  for 565 s, 227 cps, >2.5 keV
+2606192211_alldets no sources found with Sco X-1 outside FOV  for 547 s, 5 cps, >2.9 keV
+2606192201_alldets no sources found with Sco X-1 inside FOV  for 553 s, 236 cps, >2.2 keV
+2606192151_alldets ji = 1312.0,739.0 = ScoX1+   0.2,  -0.5 ra,dec = 265.28, -8.50   13.3 σ for 550 s at 30 cps 4 dets
+2606192131_alldets no sources found with Sco X-1 inside FOV  for 536 s, 151 cps, >1.8 keV
+2606192121_alldets no sources found with Sco X-1 inside FOV  for 557 s, 1 cps, >5.3 keV
+2606192111_alldets no sources found with Sco X-1 inside FOV  for 564 s, 150 cps, >2.2 keV
+2606192101_alldets no sources found with Sco X-1 inside FOV  for 553 s, 180 cps, >2.7 keV
+2606192051_alldets no sources found with Sco X-1 outside FOV  for 567 s, 230 cps, >2.9 keV
+2606192041_alldets no sources found with Sco X-1 outside FOV  for 548 s, 5 cps, >6.2 keV
+2606192031_alldets no sources found with Sco X-1 inside FOV  for 547 s, 237 cps, >2.2 keV
+2606192021_alldets no sources found with Sco X-1 inside FOV  for 323 s, 2 cps, >6.6 keV
+2606192011_alldets no sources found with Sco X-1 inside FOV  for 549 s, 4 cps, >2.5 keV
+2606192001_alldets no sources found with Sco X-1 inside FOV  for 541 s, 173 cps, >1.9 keV
+2606191951_alldets no sources found with Sco X-1 inside FOV  for 541 s, 143 cps, >2.1 keV
+2606191941_alldets ji = 735.0,1131.0 = ScoX1+   0.8,  -0.3 ra,dec = 258.62,  7.59   13.5 σ for 554 s at 221 cps 4 dets
+2606191931_alldets no sources found with Sco X-1 inside FOV  for 561 s, 1 cps, >5.0 keV
+2606191921_alldets no sources found with Sco X-1 outside FOV  for 552 s, 37 cps, >2.0 keV
+2606191850_alldets no sources found with Sco X-1 inside FOV  for 518 s, 251 cps, >1.6 keV
+2606191820_alldets no sources found with Sco X-1 inside FOV  for 546 s, 165 cps, >1.8 keV
+2606191810_alldets no sources found with Sco X-1 inside FOV  for 551 s, 39 cps, >2.7 keV
+2606191740_alldets no sources found with Sco X-1 outside FOV  for 566 s, 229 cps, >2.6 keV
+2606191730_alldets no sources found with Sco X-1 outside FOV  for 564 s, 86 cps, >2.8 keV
+2606191720_alldets no sources found with Sco X-1 outside FOV  for 548 s, 8 cps, >2.6 keV
+2606191710_alldets no sources found with Sco X-1 inside FOV  for 549 s, 2 cps, >4.9 keV
+2606191700_alldets ji = 1286.0,765.0 = ScoX1+   0.6,   0.5 ra,dec = 264.78, -9.27   27.7 σ for 548 s at 82 cps 4 dets
+2606191650_alldets ji = 875.0,1280.0 = ScoX1+   1.0,   0.1 ra,dec = 266.71,-21.41    6.0 σ for 545 s at 235 cps 4 dets
+2606191640_alldets no sources found with Sco X-1 inside FOV  for 549 s, 132 cps, >2.7 keV
+2606191630_alldets no sources found with Sco X-1 inside FOV  for 557 s, 1 cps, >6.1 keV
+2606191610_alldets ji = 1558.0,144.0 = ScoX1+  -0.7,   0.3 ra,dec = 222.76,-34.28    7.7 σ for 565 s at 95 cps 4 dets
+2606191600_alldets no sources found with Sco X-1 outside FOV  for 566 s, 225 cps, >3.4 keV
+2606191550_alldets no sources found with Sco X-1 outside FOV  for 549 s, 2 cps, >3.2 keV
+2606191530_alldets ji = 1591.0,511.0 = ScoX1+  -0.3,   0.1 ra,dec = 274.00, -3.12   25.8 σ for 280 s at 20 cps 4 dets
+2606191510_alldets no sources found with Sco X-1 inside FOV  for 435 s, 283 cps, >3.2 keV
+2606191500_alldets no sources found with Sco X-1 inside FOV  for 523 s, 0 cps, >5.0 keV
+2606191450_alldets no sources found with Sco X-1 inside FOV  for 561 s, 231 cps, >2.3 keV
+2606191440_alldets no sources found with Sco X-1 inside FOV  for 550 s, 0 cps, >5.2 keV
+2606191429_alldets no sources found with Sco X-1 outside FOV  for 552 s, 79 cps, >2.5 keV
+2606191349_alldets ji = 1420.0,590.0 = ScoX1+   0.6,   0.3 ra,dec = 267.67, -5.88   28.7 σ for 509 s at 95 cps 4 dets
+2606191339_alldets ji = 994.0,1134.0 = ScoX1+   0.9,  -0.7 ra,dec = 264.33,-18.28   17.9 σ for 545 s at 192 cps 4 dets
+2606191329_alldets no sources found with Sco X-1 inside FOV  for 547 s, 106 cps, >3.3 keV
+2606191259_alldets no sources found with Sco X-1 inside FOV  for 565 s, 0 cps, >7.1 keV
+2606191249_alldets no sources found with Sco X-1 outside FOV  for 552 s, 233 cps, >2.7 keV
+2606191239_alldets no sources found with Sco X-1 outside FOV  for 548 s, 5 cps, >3.8 keV
+2606191217_alldets no sources found with Sco X-1 inside FOV  for 452 s, 0 cps, >7.1 keV
+2606191207_alldets ji = 1172.0,904.0 = ScoX1+   0.8,  -0.2 ra,dec = 263.57,-12.75   27.2 σ for 575 s at 43 cps 4 dets
+2606191146_alldets no sources found with Sco X-1 inside FOV  for 581 s, 1 cps, >7.9 keV
+2606191135_alldets no sources found with Sco X-1 inside FOV  for 589 s, 1 cps, >7.9 keV
+2606191124_alldets no sources found with Sco X-1 inside FOV  for 578 s, 1 cps, >7.5 keV
+2606191114_alldets no sources found with Sco X-1 outside FOV  for 579 s, 117 cps, >3.3 keV
+2606191042_alldets no sources found with Sco X-1 inside FOV  for 484 s, 0 cps, >7.8 keV
+2606191031_alldets ji = 1226.0,831.0 = ScoX1+   0.5,   0.0 ra,dec = 263.98,-11.09   33.4 σ for 336 s at 94 cps 4 dets
+2606190959_alldets no sources found with Sco X-1 inside FOV  for 110 s, 1088 cps, >4.6 keV
+2606190938_alldets no sources found with Sco X-1 outside FOV  for 445 s, 0 cps, >11.3 keV
+2606190731_alldets no sources found with Sco X-1 inside FOV  for 550 s, 6 cps, >4.7 keV
+2606190721_alldets ji = 1364.0,647.0 = ScoX1+   0.4,  -0.2 ra,dec = 266.28, -7.27   36.4 σ for 563 s at 149 cps 4 dets
+2606190711_alldets ji = 952.0,1179.0 = ScoX1+   0.6,  -0.3 ra,dec = 265.01,-19.37   25.6 σ for 544 s at 141 cps 4 dets
+2606190701_alldets no sources found with Sco X-1 inside FOV  for 527 s, 159 cps, >3.3 keV
+2606190651_alldets ji = 582.0,1374.0 = ScoX1+   1.9,   0.6 ra,dec = 274.13,  0.47   10.6 σ for 556 s at 224 cps 4 dets
+2606190641_alldets no sources found with Sco X-1 inside FOV  for 534 s, 0 cps, >5.0 keV
+2606190631_alldets no sources found with Sco X-1 inside FOV  for 549 s, 14 cps, >1.2 keV
+2606190621_alldets no sources found with Sco X-1 outside FOV  for 563 s, 22 cps, >2.3 keV
+2606190601_alldets no sources found with Sco X-1 inside FOV  for 545 s, 11 cps, >4.1 keV
+2606190551_alldets no sources found with Sco X-1 inside FOV  for 556 s, 2 cps, >5.1 keV
+2606190541_alldets ji = 1233.0,814.0 = ScoX1+   0.7,  -0.1 ra,dec = 264.03,-10.89   22.6 σ for 547 s at 58 cps 4 dets
+2606190531_alldets ji = 839.0,1310.0 = ScoX1+   1.1,  -0.9 ra,dec = 267.87,-21.82    8.8 σ for 547 s at 236 cps 4 dets
+2606190521_alldets no sources found with Sco X-1 inside FOV  for 543 s, 1 cps, >8.1 keV
+2606190511_alldets no sources found with Sco X-1 inside FOV  for 553 s, 1 cps, >4.8 keV
+2606190501_alldets no sources found with Sco X-1 inside FOV  for 560 s, 0 cps, >4.9 keV
+2606190451_alldets no sources found with Sco X-1 inside FOV  for 529 s, 103 cps, >3.0 keV
+2606190431_alldets no sources found with Sco X-1 outside FOV  for 285 s, 4 cps, >4.2 keV
+2606190421_alldets no sources found with Sco X-1 inside FOV  for 546 s, 71 cps, >2.6 keV
+2606190411_alldets no sources found with Sco X-1 inside FOV  for 554 s, 2 cps, >5.8 keV
+2606190401_alldets ji = 1110.0,973.0 = ScoX1+   0.8,  -0.6 ra,dec = 263.44,-14.70   35.1 σ for 548 s at 122 cps 4 dets
+2606190351_alldets no sources found with Sco X-1 inside FOV  for 546 s, 207 cps, >3.6 keV
+2606190341_alldets no sources found with Sco X-1 inside FOV  for 544 s, 0 cps, >5.0 keV
+2606190331_alldets no sources found with Sco X-1 inside FOV  for 559 s, 155 cps, >2.7 keV
+2606190321_alldets no sources found with Sco X-1 inside FOV  for 548 s, 1 cps, >4.9 keV
+2606190251_alldets no sources found with Sco X-1 outside FOV  for 382 s, 4 cps, >3.2 keV
+2606190241_alldets no sources found with Sco X-1 inside FOV  for 561 s, 9 cps, >4.5 keV
+2606190231_alldets no sources found with Sco X-1 inside FOV  for 562 s, 1 cps, >5.8 keV
+2606190221_alldets ji = 991.0,1124.0 = ScoX1+   0.1,  -0.8 ra,dec = 264.39,-18.25   20.3 σ for 542 s at 237 cps 4 dets
+2606190211_alldets no sources found with Sco X-1 inside FOV  for 543 s, 1 cps, >9.6 keV
+2606190201_alldets no sources found with Sco X-1 inside FOV  for 551 s, 1 cps, >6.1 keV
+2606190151_alldets no sources found with Sco X-1 inside FOV  for 553 s, 1 cps, >4.9 keV
+2606190121_alldets no sources found with Sco X-1 outside FOV  for 202 s, 2 cps, >5.3 keV
+2606190111_alldets no sources found with Sco X-1 outside FOV  for 544 s, 3 cps, >3.6 keV
+2606190101_alldets no sources found with Sco X-1 inside FOV  for 562 s, 3 cps, >5.8 keV
+2606190051_alldets no sources found with Sco X-1 inside FOV  for 540 s, 1 cps, >5.8 keV
+2606190041_alldets ji = 878.0,1261.0 = ScoX1+   0.7,  -0.9 ra,dec = 266.76,-20.99   10.9 σ for 545 s at 226 cps 4 dets
+2606190031_alldets no sources found with Sco X-1 inside FOV  for 556 s, 1 cps, >8.6 keV
+2606190011_alldets no sources found with Sco X-1 inside FOV  for 515 s, 0 cps, >5.1 keV
+2606190001_alldets ji = 1558.0,173.0 = ScoX1+  -0.1,   0.5 ra,dec = 222.51,-34.32   18.2 σ for 547 s at 53 cps 4 dets
+2606182351_alldets no sources found with Sco X-1 outside FOV  for 564 s, 37 cps, >3.0 keV
+2606182331_alldets no sources found with Sco X-1 inside FOV  for 546 s, 214 cps, >2.9 keV
+2606182321_alldets no sources found with Sco X-1 inside FOV  for 466 s, 1 cps, >6.4 keV
+2606182312_alldets ji = 1149.0,915.0 = ScoX1+   0.7,   0.2 ra,dec = 263.43,-13.48   11.6 σ for 545 s at 77 cps 4 dets
+2606182302_alldets no sources found with Sco X-1 inside FOV  for 540 s, 239 cps, >4.0 keV
+2606182252_alldets no sources found with Sco X-1 inside FOV  for 543 s, 0 cps, >6.5 keV
+2606182242_alldets ji = 769.0,1137.0 = ScoX1+   1.7,  -0.1 ra,dec = 256.74,  7.03    5.9 σ for 556 s at 98 cps 4 dets
+2606182232_alldets no sources found with Sco X-1 inside FOV  for 318 s, 0 cps, >5.9 keV
+2606182202_alldets no sources found with Sco X-1 outside FOV  for 541 s, 3 cps, >3.2 keV
+2606182152_alldets no sources found with Sco X-1 inside FOV  for 446 s, 206 cps, >2.4 keV
+2606182142_alldets ji = 1448.0,522.0 = ScoX1+  -0.2,  -0.4 ra,dec = 268.42, -5.58   26.0 σ for 550 s at 120 cps 4 dets
+2606182132_alldets ji = 1031.0,1069.0 = ScoX1+   1.3,  -0.3 ra,dec = 263.89,-17.06    9.9 σ for 459 s at 271 cps 4 dets
+2606182112_alldets no sources found with Sco X-1 inside FOV  for 366 s, 1 cps, >9.7 keV
+2606182102_alldets ji = 907.0,978.0 = ScoX1+   0.7,   0.3 ra,dec = 245.10,  5.07    6.9 σ for 554 s at 222 cps 4 dets
+2606182052_alldets no sources found with Sco X-1 inside FOV  for 370 s, 0 cps, >4.7 keV
+2606182042_alldets no sources found with Sco X-1 outside FOV  for 563 s, 231 cps, >2.8 keV
+2606182032_alldets no sources found with Sco X-1 outside FOV  for 561 s, 79 cps, >3.1 keV
+2606182022_alldets no sources found with Sco X-1 outside FOV  for 541 s, 9 cps, >3.6 keV
+2606182012_alldets no sources found with Sco X-1 inside FOV  for 364 s, 5 cps, >4.3 keV
+2606181952_alldets no sources found with Sco X-1 inside FOV  for 542 s, 234 cps, >2.8 keV
+2606181942_alldets no sources found with Sco X-1 inside FOV  for 547 s, 31 cps, >2.1 keV
+2606181932_alldets no sources found with Sco X-1 inside FOV  for 532 s, 0 cps, >6.5 keV
+2606181922_alldets no sources found with Sco X-1 inside FOV  for 560 s, 202 cps, >2.8 keV
+2606181912_alldets no sources found with Sco X-1 inside FOV  for 524 s, 124 cps, >3.0 keV
+2606181902_alldets no sources found with Sco X-1 outside FOV  for 564 s, 225 cps, >3.2 keV
+2606181852_alldets no sources found with Sco X-1 outside FOV  for 561 s, 3 cps, >5.3 keV
+2606181842_alldets no sources found with Sco X-1 inside FOV  for 545 s, 231 cps, >1.9 keV
+2606181832_alldets ji = 1636.0,469.0 = ScoX1+  -0.1,   0.6 ra,dec = 276.11, -3.49   21.3 σ for 549 s at 56 cps 4 dets
+2606181822_alldets ji = 1188.0,856.0 = ScoX1+   0.9,   0.2 ra,dec = 263.59,-12.29   23.5 σ for 545 s at 81 cps 4 dets
+2606181812_alldets no sources found with Sco X-1 inside FOV  for 531 s, 176 cps, >3.2 keV
+2606181802_alldets no sources found with Sco X-1 inside FOV  for 540 s, 1 cps, >4.7 keV
+2606181752_alldets ji = 734.0,1190.0 = ScoX1+   0.9,   0.3 ra,dec = 260.19,  6.53   12.2 σ for 558 s at 214 cps 4 dets
+2606181742_alldets no sources found with Sco X-1 inside FOV  for 550 s, 0 cps, >5.2 keV
+2606181732_alldets ji = 1319.0,890.0 = ( 270.282,  -25.062) ra,dec = 249.66,-38.06    8.1 σ for 547 s at 53 cps 4 dets
+2606181722_alldets no sources found with Sco X-1 outside FOV  for 561 s, 229 cps, >3.4 keV
+2606181712_alldets no sources found with Sco X-1 outside FOV  for 545 s, 3 cps, >4.5 keV
+2606181702_alldets no sources found with Sco X-1 inside FOV  for 544 s, 228 cps, >1.8 keV
+2606181652_alldets ji = 1491.0,501.0 = ScoX1+   0.3,   0.3 ra,dec = 269.91, -4.88   33.5 σ for 547 s at 47 cps 4 dets
+2606181642_alldets ji = 1069.0,1012.0 = ScoX1+   0.2,   0.1 ra,dec = 263.56,-15.91    7.8 σ for 541 s at 237 cps 4 dets
+2606181632_alldets no sources found with Sco X-1 inside FOV  for 535 s, 33 cps, >3.3 keV
+2606181622_alldets no sources found with Sco X-1 inside FOV  for 302 s, 0 cps, >9.2 keV
+2606181612_alldets no sources found with Sco X-1 inside FOV  for 557 s, 227 cps, >2.8 keV
+2606181602_alldets no sources found with Sco X-1 inside FOV  for 552 s, 0 cps, >7.2 keV
+2606181552_alldets no sources found with Sco X-1 outside FOV  for 549 s, 231 cps, >3.2 keV
+2606181542_alldets no sources found with Sco X-1 outside FOV  for 563 s, 2 cps, >6.6 keV
+2606181522_alldets no sources found with Sco X-1 inside FOV  for 92 s, 0 cps, >8.7 keV
+2606181512_alldets ji = 1353.0,631.0 = ScoX1+   0.1,   0.0 ra,dec = 265.96, -7.72   27.6 σ for 547 s at 53 cps 4 dets
+2606181502_alldets ji = 956.0,1158.0 = ScoX1+   1.2,  -1.0 ra,dec = 265.02,-19.04    9.1 σ for 538 s at 238 cps 4 dets
+2606181452_alldets no sources found with Sco X-1 inside FOV  for 547 s, 70 cps, >3.5 keV
+2606181422_alldets no sources found with Sco X-1 inside FOV  for 561 s, 0 cps, >5.0 keV
+2606181412_alldets no sources found with Sco X-1 outside FOV  for 561 s, 227 cps, >2.7 keV
+2606181402_alldets no sources found with Sco X-1 outside FOV  for 552 s, 5 cps, >3.9 keV
+2606181340_alldets ji = 1593.0,475.0 = ScoX1+   0.4,  -0.2 ra,dec = 274.17, -3.82   23.8 σ for 276 s at 57 cps 4 dets
+2606181330_alldets ji = 1133.0,923.0 = ScoX1+   0.7,   0.4 ra,dec = 263.37,-13.96   21.3 σ for 488 s at 63 cps 4 dets
+2606181319_alldets no sources found with Sco X-1 inside FOV  for 575 s, 216 cps, >3.2 keV
+2606181309_alldets no sources found with Sco X-1 inside FOV  for 581 s, 1 cps, >5.0 keV
+2606181258_alldets no sources found with Sco X-1 inside FOV  for 592 s, 1 cps, >4.6 keV
+2606181247_alldets no sources found with Sco X-1 inside FOV  for 588 s, 0 cps, >4.6 keV
+2606181237_alldets no sources found with Sco X-1 outside FOV  for 323 s, 210 cps, >2.8 keV
+2606181226_alldets no sources found with Sco X-1 outside FOV  for 591 s, 5 cps, >4.2 keV
+2606181204_alldets no sources found with Sco X-1 inside FOV  for 430 s, 0 cps, >5.4 keV
+2606181154_alldets ji = 1175.0,863.0 = ScoX1+   1.0,  -0.5 ra,dec = 263.51,-12.69   19.5 σ for 577 s at 30 cps 4 dets
+2606181143_alldets no sources found with Sco X-1 inside FOV  for 573 s, 214 cps, >4.1 keV
+2606181133_alldets no sources found with Sco X-1 inside FOV  for 578 s, 0 cps, >8.0 keV
+2606181122_alldets no sources found with Sco X-1 inside FOV  for 587 s, 1 cps, >6.1 keV
+2606181112_alldets no sources found with Sco X-1 inside FOV  for 594 s, 1 cps, >6.9 keV
+2606181101_alldets no sources found with Sco X-1 outside FOV  for 581 s, 109 cps, >3.7 keV
+2606181051_alldets no sources found with Sco X-1 outside FOV  for 589 s, 213 cps, >4.0 keV
+2606181029_alldets no sources found with Sco X-1 inside FOV  for 580 s, 1 cps, >8.9 keV
+2606181018_alldets ji = 1226.0,791.0 = ScoX1+  -0.1,   0.4 ra,dec = 263.88,-11.18   30.8 σ for 580 s at 68 cps 4 dets
+2606180957_alldets no sources found with Sco X-1 inside FOV  for 135 s, 0 cps, >10.4 keV
+2606180947_alldets no sources found with Sco X-1 inside FOV  for 530 s, 145 cps, >5.2 keV
+2606180936_alldets no sources found with Sco X-1 inside FOV  for 589 s, 0 cps, >13.9 keV
+2606180926_alldets no sources found with Sco X-1 outside FOV  for 462 s, 0 cps, >11.9 keV
+2606180718_alldets no sources found with Sco X-1 inside FOV  for 561 s, 4 cps, >4.8 keV
+2606180708_alldets ji = 1357.0,611.0 = ScoX1+   0.2,   0.3 ra,dec = 266.00, -7.71   27.0 σ for 548 s at 80 cps 3 dets
+2606180658_alldets ji = 965.0,1139.0 = ScoX1+   1.1,   0.1 ra,dec = 264.84,-18.72   23.4 σ for 545 s at 47 cps 3 dets
+2606180648_alldets no sources found with Sco X-1 inside FOV  for 548 s, 118 cps, >3.2 keV
+2606180638_alldets no sources found with Sco X-1 inside FOV  for 558 s, 195 cps, >2.8 keV
+2606180628_alldets no sources found with Sco X-1 inside FOV  for 538 s, 236 cps, >1.6 keV
+2606180618_alldets no sources found with Sco X-1 inside FOV  for 562 s, 203 cps, >1.5 keV
+2606180608_alldets ji = 1284.0,484.0 = ( 270.280,  -25.037) ra,dec = 256.32,-40.13    7.1 σ for 548 s at 21 cps 3 dets
+2606180558_alldets no sources found with Sco X-1 outside FOV  for 305 s, 409 cps, >2.9 keV
+2606180548_alldets no sources found with Sco X-1 inside FOV  for 543 s, 5 cps, >4.0 keV
+2606180538_alldets no sources found with Sco X-1 inside FOV  for 532 s, 3 cps, >4.9 keV
+2606180518_alldets ji = 858.0,1271.0 = ScoX1+   1.3,  -0.8 ra,dec = 267.47,-20.87   10.9 σ for 543 s at 239 cps 3 dets
+2606180508_alldets no sources found with Sco X-1 inside FOV  for 545 s, 0 cps, >7.8 keV
+2606180458_alldets no sources found with Sco X-1 inside FOV  for 556 s, 169 cps, >3.0 keV
+2606180448_alldets no sources found with Sco X-1 inside FOV  for 559 s, 1 cps, >4.8 keV
+2606180438_alldets no sources found with Sco X-1 inside FOV  for 544 s, 106 cps, >2.6 keV
+2606180418_alldets no sources found with Sco X-1 outside FOV  for 333 s, 2 cps, >4.3 keV
+2606180408_alldets no sources found with Sco X-1 inside FOV  for 550 s, 5 cps, >5.2 keV
+2606180358_alldets no sources found with Sco X-1 inside FOV  for 554 s, 15 cps, >2.5 keV
+2606180338_alldets no sources found with Sco X-1 inside FOV  for 545 s, 233 cps, >3.6 keV
+2606180328_alldets no sources found with Sco X-1 inside FOV  for 548 s, 1 cps, >5.8 keV
+2606180318_alldets no sources found with Sco X-1 inside FOV  for 557 s, 1 cps, >6.3 keV
+2606180308_alldets no sources found with Sco X-1 inside FOV  for 562 s, 1 cps, >5.7 keV
+2606180238_alldets no sources found with Sco X-1 outside FOV  for 372 s, 4 cps, >5.4 keV
+2606180228_alldets no sources found with Sco X-1 inside FOV  for 561 s, 7 cps, >6.2 keV
+2606180209_alldets ji = 1002.0,1084.0 = ScoX1+   0.8,  -0.6 ra,dec = 264.27,-17.70   27.5 σ for 544 s at 231 cps 3 dets
+2606180159_alldets no sources found with Sco X-1 inside FOV  for 545 s, 12 cps, >3.5 keV
+2606180149_alldets no sources found with Sco X-1 inside FOV  for 547 s, 3 cps, >4.0 keV
+2606180139_alldets no sources found with Sco X-1 inside FOV  for 558 s, 1 cps, >5.0 keV
+2606180129_alldets no sources found with Sco X-1 inside FOV  for 519 s, 104 cps, >2.9 keV
+2606180109_alldets no sources found with Sco X-1 outside FOV  for 212 s, 3 cps, >5.4 keV
+2606180059_alldets no sources found with Sco X-1 outside FOV  for 545 s, 4 cps, >2.7 keV
+2606180049_alldets no sources found with Sco X-1 inside FOV  for 562 s, 5 cps, >6.6 keV
+2606180039_alldets no sources found with Sco X-1 inside FOV  for 544 s, 1 cps, >6.7 keV
+2606180029_alldets ji = 895.0,1222.0 = ScoX1+   1.2,  -0.7 ra,dec = 266.45,-20.13    9.2 σ for 544 s at 237 cps 3 dets
+2606180019_alldets no sources found with Sco X-1 inside FOV  for 548 s, 1 cps, >8.0 keV
+2606180009_alldets no sources found with Sco X-1 inside FOV  for 550 s, 0 cps, >6.6 keV
+2606172359_alldets no sources found with Sco X-1 inside FOV  for 560 s, 1 cps, >6.2 keV
+2606172349_alldets no sources found with Sco X-1 inside FOV  for 549 s, 68 cps, >2.6 keV
+2606172339_alldets no sources found with Sco X-1 outside FOV  for 564 s, 51 cps, >3.3 keV
+2606172329_alldets no sources found with Sco X-1 outside FOV  for 561 s, 226 cps, >3.6 keV
+2606172319_alldets no sources found with Sco X-1 inside FOV  for 546 s, 52 cps, >2.9 keV
+2606172309_alldets no sources found with Sco X-1 inside FOV  for 416 s, 2 cps, >7.1 keV
+2606172249_alldets no sources found with Sco X-1 inside FOV  for 536 s, 238 cps, >3.3 keV
+2606172239_alldets no sources found with Sco X-1 inside FOV  for 544 s, 94 cps, >3.2 keV
+2606172229_alldets no sources found with Sco X-1 inside FOV  for 559 s, 223 cps, >2.6 keV
+2606172219_alldets no sources found with Sco X-1 inside FOV  for 529 s, 0 cps, >5.2 keV
+2606172209_alldets no sources found with Sco X-1 inside FOV  for 563 s, 16 cps, >2.3 keV
+2606172159_alldets no sources found with Sco X-1 outside FOV  for 563 s, 231 cps, >2.8 keV
+2606172149_alldets no sources found with Sco X-1 outside FOV  for 545 s, 4 cps, >5.7 keV
+2606172139_alldets no sources found with Sco X-1 inside FOV  for 546 s, 228 cps, >2.6 keV
+2606172129_alldets ji = 1438.0,487.0 = ScoX1+  -0.0,   0.1 ra,dec = 268.02, -6.17   21.7 σ for 547 s at 76 cps 3 dets
+2606172119_alldets no sources found with Sco X-1 inside FOV  for 465 s, 265 cps, >3.2 keV
+2606172109_alldets no sources found with Sco X-1 inside FOV  for 542 s, 192 cps, >1.2 keV
+2606172059_alldets no sources found with Sco X-1 inside FOV  for 553 s, 0 cps, >4.8 keV
+2606172049_alldets ji = 933.0,1000.0 = ScoX1+   1.2,   0.0 ra,dec = 243.95,  4.35    5.4 σ for 493 s at 127 cps 3 dets
+2606172039_alldets no sources found with Sco X-1 inside FOV  for 562 s, 1 cps, >6.5 keV
+2606172029_alldets no sources found with Sco X-1 outside FOV  for 563 s, 230 cps, >2.5 keV
+2606172019_alldets no sources found with Sco X-1 outside FOV  for 549 s, 70 cps, >2.6 keV
+2606172009_alldets no sources found with Sco X-1 outside FOV  for 479 s, 5 cps, >2.8 keV
+2606171959_alldets no sources found with Sco X-1 inside FOV  for 546 s, 4 cps, >2.7 keV
+2606171949_alldets ji = 1308.0,655.0 = ScoX1+   0.6,  -0.3 ra,dec = 264.98, -9.03   37.3 σ for 547 s at 74 cps 3 dets
+2606171939_alldets ji = 931.0,1172.0 = ScoX1+   0.3,  -0.3 ra,dec = 265.57,-19.32    5.4 σ for 535 s at 230 cps 3 dets
+2606171919_alldets no sources found with Sco X-1 inside FOV  for 556 s, 1 cps, >4.8 keV
+2606171909_alldets no sources found with Sco X-1 inside FOV  for 554 s, 2 cps, >6.6 keV
+2606171859_alldets ji = 1518.0,278.0 = ScoX1+  -0.4,   0.5 ra,dec = 221.71,-31.61   18.5 σ for 564 s at 144 cps 3 dets
+2606171849_alldets no sources found with Sco X-1 outside FOV  for 561 s, 229 cps, >2.6 keV
+2606171829_alldets no sources found with Sco X-1 inside FOV  for 545 s, 168 cps, >2.4 keV
+2606171819_alldets no sources found with Sco X-1 inside FOV  for 484 s, 1 cps, >6.6 keV
+2606171809_alldets ji = 1188.0,817.0 = ScoX1+   0.6,  -0.4 ra,dec = 263.51,-12.34   17.6 σ for 545 s at 150 cps 3 dets
+2606171759_alldets no sources found with Sco X-1 inside FOV  for 533 s, 73 cps, >3.3 keV
+2606171749_alldets no sources found with Sco X-1 inside FOV  for 548 s, 51 cps, >2.4 keV
+2606171729_alldets no sources found with Sco X-1 inside FOV  for 561 s, 1 cps, >6.6 keV
+2606171719_alldets ji = 1645.0,104.0 = ScoX1+   0.3,   0.4 ra,dec = 223.95,-40.39   10.5 σ for 548 s at 65 cps 3 dets
+2606171709_alldets no sources found with Sco X-1 outside FOV  for 563 s, 205 cps, >3.2 keV
+2606171659_alldets no sources found with Sco X-1 outside FOV  for 545 s, 3 cps, >3.8 keV
+2606171649_alldets no sources found with Sco X-1 inside FOV  for 548 s, 215 cps, >2.5 keV
+2606171639_alldets ji = 1479.0,470.0 = ScoX1+   0.7,  -0.1 ra,dec = 269.47, -5.54   27.2 σ for 549 s at 35 cps 3 dets
+2606171629_alldets ji = 1075.0,974.0 = ScoX1+   1.0,   0.2 ra,dec = 263.49,-15.62   10.8 σ for 527 s at 242 cps 3 dets
+2606171619_alldets no sources found with Sco X-1 inside FOV  for 537 s, 1 cps, >4.7 keV
+2606171609_alldets no sources found with Sco X-1 inside FOV  for 345 s, 0 cps, >4.8 keV
+2606171559_alldets no sources found with Sco X-1 inside FOV  for 555 s, 209 cps, >2.5 keV
+2606171549_alldets no sources found with Sco X-1 inside FOV  for 395 s, 0 cps, >5.7 keV
+2606171539_alldets no sources found with Sco X-1 outside FOV  for 559 s, 230 cps, >2.8 keV
+2606171529_alldets no sources found with Sco X-1 outside FOV  for 562 s, 1 cps, >5.6 keV
+2606171459_alldets ji = 1346.0,594.0 = ScoX1+  -0.2,  -0.2 ra,dec = 265.71, -8.16   35.3 σ for 548 s at 83 cps 3 dets
+2606171449_alldets ji = 968.0,1119.0 = ScoX1+   1.0,  -0.5 ra,dec = 264.84,-18.41   21.1 σ for 541 s at 236 cps 3 dets
+2606171440_alldets no sources found with Sco X-1 inside FOV  for 542 s, 71 cps, >3.3 keV
+2606171430_alldets no sources found with Sco X-1 inside FOV  for 551 s, 0 cps, >4.9 keV
+2606171410_alldets no sources found with Sco X-1 inside FOV  for 542 s, 0 cps, >4.1 keV
+2606171400_alldets no sources found with Sco X-1 outside FOV  for 547 s, 231 cps, >2.5 keV
+2606171350_alldets no sources found with Sco X-1 outside FOV  for 555 s, 4 cps, >3.2 keV
+2606171328_alldets ji = 1577.0,446.0 = ScoX1+   0.3,  -0.4 ra,dec = 273.55, -4.60   27.2 σ for 332 s at 39 cps 3 dets
+2606171317_alldets ji = 1135.0,885.0 = ScoX1+   0.8,   0.2 ra,dec = 263.31,-13.88   29.8 σ for 576 s at 55 cps 3 dets
+2606171256_alldets no sources found with Sco X-1 inside FOV  for 582 s, 0 cps, >5.2 keV
+2606171245_alldets no sources found with Sco X-1 inside FOV  for 590 s, 1 cps, >4.8 keV
+2606171235_alldets no sources found with Sco X-1 inside FOV  for 592 s, 1 cps, >5.0 keV
+2606171224_alldets no sources found with Sco X-1 outside FOV  for 596 s, 213 cps, >2.7 keV
+2606171214_alldets no sources found with Sco X-1 outside FOV  for 574 s, 3 cps, >4.0 keV
+2606171152_alldets no sources found with Sco X-1 inside FOV  for 439 s, 0 cps, >4.8 keV
+2606171141_alldets ji = 1177.0,823.0 = ScoX1+   0.4,   0.6 ra,dec = 263.40,-12.67   21.5 σ for 576 s at 124 cps 3 dets
+2606171131_alldets no sources found with Sco X-1 inside FOV  for 565 s, 60 cps, >3.5 keV
+2606171110_alldets no sources found with Sco X-1 inside FOV  for 591 s, 121 cps, >2.6 keV
+2606171059_alldets no sources found with Sco X-1 inside FOV  for 573 s, 1 cps, >9.4 keV
+2606171049_alldets no sources found with Sco X-1 outside FOV  for 578 s, 207 cps, >3.5 keV
+2606171038_alldets no sources found with Sco X-1 outside FOV  for 578 s, 216 cps, >3.4 keV
+2606171016_alldets no sources found with Sco X-1 inside FOV  for 558 s, 1 cps, >7.1 keV
+2606171006_alldets ji = 1229.0,747.0 = ScoX1+   0.6,   0.1 ra,dec = 263.80,-11.21   34.4 σ for 579 s at 82 cps 4 dets
+2606170934_alldets no sources found with Sco X-1 inside FOV  for 50 s, 2536 cps, >4.3 keV
+2606170924_alldets no sources found with Sco X-1 inside FOV  for 71 s, 1392 cps, >6.1 keV
+2606170913_alldets no sources found with Sco X-1 inside FOV  for 74 s, 796 cps, >6.3 keV
+2606170903_alldets no sources found with Sco X-1 outside FOV  for 75 s, 39 cps, >4.2 keV
+2606170852_alldets no sources found with Sco X-1 outside FOV  for 55 s, 2 cps, >9.3 keV
+2606161627_alldets ji = 1467.0,440.0 = ScoX1+   0.2,   0.6 ra,dec = 269.02, -6.19   28.5 σ for 432 s at 112 cps 4 dets
+2606161607_alldets no sources found with Sco X-1 inside FOV  for 538 s, 1 cps, >7.6 keV
+2606161557_alldets no sources found with Sco X-1 inside FOV  for 331 s, 0 cps, >5.3 keV
+2606161537_alldets no sources found with Sco X-1 inside FOV  for 531 s, 0 cps, >5.6 keV
+2606161527_alldets no sources found with Sco X-1 outside FOV  for 548 s, 222 cps, >3.2 keV
+2606161517_alldets no sources found with Sco X-1 outside FOV  for 560 s, 4 cps, >6.1 keV
+2606161447_alldets ji = 1340.0,558.0 = ScoX1+   0.2,   0.4 ra,dec = 265.43, -8.56   33.0 σ for 548 s at 91 cps 4 dets
+2606161437_alldets ji = 980.0,1080.0 = ScoX1+   0.9,  -0.6 ra,dec = 264.66,-17.77   28.7 σ for 536 s at 236 cps 4 dets
+2606161427_alldets no sources found with Sco X-1 inside FOV  for 546 s, 57 cps, >3.9 keV
+2606161417_alldets no sources found with Sco X-1 inside FOV  for 552 s, 1 cps, >6.0 keV
+2606161407_alldets no sources found with Sco X-1 inside FOV  for 560 s, 1 cps, >5.1 keV
+2606161357_alldets no sources found with Sco X-1 inside FOV  for 540 s, 1 cps, >6.7 keV
+2606161347_alldets no sources found with Sco X-1 outside FOV  for 563 s, 218 cps, >3.1 keV
+2606161337_alldets no sources found with Sco X-1 outside FOV  for 556 s, 6 cps, >4.3 keV
+2606161315_alldets no sources found with Sco X-1 inside FOV  for 131 s, 0 cps, >19.1 keV
+2606161243_alldets no sources found with Sco X-1 inside FOV  for 580 s, 1 cps, >8.2 keV
+2606161233_alldets no sources found with Sco X-1 inside FOV  for 589 s, 1 cps, >8.9 keV
+2606161222_alldets no sources found with Sco X-1 inside FOV  for 593 s, 2 cps, >8.9 keV
+2606161212_alldets no sources found with Sco X-1 outside FOV  for 578 s, 220 cps, >4.0 keV
+2606161201_alldets no sources found with Sco X-1 outside FOV  for 589 s, 4 cps, >5.8 keV
+2606161139_alldets no sources found with Sco X-1 inside FOV  for 443 s, 0 cps, >7.1 keV
+2606161129_alldets ji = 1180.0,782.0 = ScoX1+   0.8,   0.4 ra,dec = 263.32,-12.62   38.7 σ for 576 s at 124 cps 4 dets
+2606161057_alldets no sources found with Sco X-1 inside FOV  for 492 s, 0 cps, >20.5 keV
+2606161046_alldets no sources found with Sco X-1 inside FOV  for 567 s, 0 cps, >10.0 keV
+2606161036_alldets no sources found with Sco X-1 outside FOV  for 426 s, 0 cps, >13.7 keV
+2606161025_alldets no sources found with Sco X-1 outside FOV  for 587 s, 160 cps, >5.2 keV
+2606152353_alldets no sources found with Sco X-1 inside FOV  for 500 s, 0 cps, >20.5 keV
+2606152323_alldets no sources found with Sco X-1 inside FOV  for 111 s, 833 cps, >5.0 keV
+2606152313_alldets no sources found with Sco X-1 outside FOV  for 525 s, 246 cps, >5.0 keV
+2606152303_alldets no sources found with Sco X-1 outside FOV  for 540 s, 99 cps, >5.6 keV
+2606152253_alldets no sources found with Sco X-1 inside FOV  for 213 s, 0 cps, >9.8 keV
+2606152233_alldets ji = 1154.0,800.0 = ScoX1+  -0.1,   0.6 ra,dec = 263.17,-13.33   26.8 σ for 547 s at 51 cps 4 dets
+2606152223_alldets no sources found with Sco X-1 inside FOV  for 499 s, 236 cps, >5.2 keV
+2606152133_alldets no sources found with Sco X-1 outside FOV  for 291 s, 442 cps, >5.5 keV
+2606152123_alldets no sources found with Sco X-1 outside FOV  for 526 s, 233 cps, >5.7 keV
+2606152103_alldets ji = 1417.0,418.0 = ScoX1+  -0.2,  -0.1 ra,dec = 267.21, -7.36   14.8 σ for 552 s at 56 cps 4 dets
+2606152054_alldets ji = 1054.0,952.0 = ScoX1+   1.1,  -0.3 ra,dec = 263.61,-15.88    7.2 σ for 461 s at 266 cps 4 dets
+2606152053_alldets ji = 1054.0,952.0 = ScoX1+   1.1,  -0.3 ra,dec = 263.61,-15.88    7.2 σ for 460 s at 266 cps 4 dets
+2606152024_alldets ji = 983.0,1043.0 = ScoX1+   0.7,  -0.5 ra,dec = 241.68,  2.99    7.5 σ for 290 s at 442 cps 4 dets
+2606152004_alldets no sources found with Sco X-1 outside FOV  for 547 s, 34 cps, >5.1 keV
+2606151954_alldets no sources found with Sco X-1 outside FOV  for 557 s, 139 cps, >5.8 keV
+2606151934_alldets no sources found with Sco X-1 inside FOV  for 203 s, 622 cps, >4.6 keV
+2606151924_alldets ji = 1297.0,582.0 = ScoX1+  -0.3,   0.7 ra,dec = 264.51, -9.74   29.7 σ for 546 s at 51 cps 4 dets
+2606151914_alldets no sources found with Sco X-1 inside FOV  for 181 s, 681 cps, >5.3 keV
+2606151844_alldets no sources found with Sco X-1 inside FOV  for 53 s, 2445 cps, >4.6 keV
+2606151834_alldets no sources found with Sco X-1 inside FOV  for 49 s, 1984 cps, >5.3 keV
+2606151824_alldets no sources found with Sco X-1 outside FOV  for 462 s, 277 cps, >4.9 keV
+2606151814_alldets no sources found with Sco X-1 outside FOV  for 526 s, 0 cps, >8.7 keV
+2606151754_alldets no sources found with Sco X-1 inside FOV  for 60 s, 0 cps, >20.5 keV
+2606151744_alldets ji = 1187.0,742.0 = ScoX1+  -0.1,  -0.0 ra,dec = 263.28,-12.47   25.9 σ for 547 s at 56 cps 2 dets
+2606151734_alldets no sources found with Sco X-1 inside FOV  for 117 s, 911 cps, >5.8 keV
+2606151724_alldets no sources found with Sco X-1 inside FOV  for 538 s, 151 cps, >5.4 keV
+2606151654_alldets ji = 1636.0,189.0 = ScoX1+   0.1,   0.1 ra,dec = 223.37,-40.32   16.9 σ for 412 s at 73 cps 3 dets
+2606151644_alldets no sources found with Sco X-1 outside FOV  for 34 s, 1669 cps, >5.4 keV
+2606151434_alldets ji = 1333.0,521.0 = ScoX1+   0.1,   0.2 ra,dec = 265.15, -9.01   34.0 σ for 515 s at 68 cps 4 dets
+2606151424_alldets ji = 992.0,1042.0 = ScoX1+   1.2,   0.1 ra,dec = 264.45,-17.16   20.4 σ for 542 s at 128 cps 4 dets
+2606151414_alldets no sources found with Sco X-1 inside FOV  for 67 s, 1526 cps, >5.9 keV
+2606151324_alldets no sources found with Sco X-1 outside FOV  for 397 s, 0 cps, >7.2 keV
+2606151252_alldets ji = 1141.0,806.0 = ScoX1+   0.3,  -0.1 ra,dec = 263.14,-13.66   31.0 σ for 576 s at 74 cps 4 dets
+2606151241_alldets ji = 823.0,1288.0 = ScoX1+   0.7,  -0.0 ra,dec = 268.99,-18.62    5.1 σ for 192 s at 647 cps 3 dets
+2606151159_alldets no sources found with Sco X-1 outside FOV  for 182 s, 714 cps, >5.2 keV
+2606151148_alldets no sources found with Sco X-1 outside FOV  for 233 s, 0 cps, >6.7 keV
+2606151116_alldets ji = 1182.0,741.0 = ScoX1+   0.6,   0.4 ra,dec = 263.21,-12.62   31.3 σ for 578 s at 73 cps 4 dets
+2606151105_alldets ji = 857.0,1241.0 = ScoX1+   1.0,   0.0 ra,dec = 267.85,-18.64    7.5 σ for 252 s at 507 cps 4 dets
+2606151044_alldets no sources found with Sco X-1 inside FOV  for 91 s, 1428 cps, >4.7 keV
+2606151023_alldets no sources found with Sco X-1 inside FOV  for 58 s, 1348 cps, >5.3 keV
+2606151013_alldets no sources found with Sco X-1 outside FOV  for 589 s, 206 cps, >4.9 keV
+2606150940_alldets ji = 1227.0,668.0 = ScoX1+  -0.2,   0.3 ra,dec = 263.53,-11.49   32.7 σ for 578 s at 65 cps 4 dets
+2606150930_alldets no sources found with Sco X-1 inside FOV  for 335 s, 384 cps, >5.4 keV
+2606150919_alldets no sources found with Sco X-1 inside FOV  for 7 s, 18590 cps, >5.4 keV
+2606150909_alldets no sources found with Sco X-1 inside FOV  for 54 s, 2356 cps, >4.8 keV
+2606150837_alldets no sources found with Sco X-1 outside FOV  for 590 s, 218 cps, >4.7 keV
+2606150744_alldets no sources found with Sco X-1 inside FOV  for 18 s, 7047 cps, >5.6 keV
+2606150733_alldets no sources found with Sco X-1 inside FOV  for 20 s, 6457 cps, >4.9 keV
+2606150722_alldets no sources found with Sco X-1 inside FOV  for 112 s, 1138 cps, >4.5 keV
+2606150712_alldets no sources found with Sco X-1 inside FOV  for 77 s, 1665 cps, >4.4 keV
+2606150701_alldets no sources found with Sco X-1 outside FOV  for 437 s, 15 cps, >5.0 keV
+2606150640_alldets no sources found with Sco X-1 inside FOV  for 561 s, 93 cps, >4.9 keV
+2606150600_alldets no sources found with Sco X-1 inside FOV  for 228 s, 573 cps, >4.8 keV
+2606150520_alldets no sources found with Sco X-1 outside FOV  for 149 s, 784 cps, >4.8 keV
+2606150510_alldets no sources found with Sco X-1 inside FOV  for 77 s, 1113 cps, >4.5 keV
+2606150500_alldets no sources found with Sco X-1 inside FOV  for 563 s, 35 cps, >5.2 keV
+2606150430_alldets no sources found with Sco X-1 inside FOV  for 521 s, 247 cps, >5.0 keV
+2606150420_alldets no sources found with Sco X-1 inside FOV  for 250 s, 289 cps, >4.8 keV
+2606150410_alldets no sources found with Sco X-1 inside FOV  for 562 s, 84 cps, >4.9 keV
+2606150400_alldets no sources found with Sco X-1 inside FOV  for 530 s, 26 cps, >5.3 keV
+2606150330_alldets no sources found with Sco X-1 inside FOV  for 310 s, 318 cps, >5.0 keV
+2606150320_alldets no sources found with Sco X-1 inside FOV  for 563 s, 35 cps, >5.4 keV
+2606150310_alldets no sources found with Sco X-1 inside FOV  for 525 s, 0 cps, >5.3 keV
+2606150250_alldets no sources found with Sco X-1 inside FOV  for 441 s, 286 cps, >4.9 keV
+2606150240_alldets no sources found with Sco X-1 inside FOV  for 46 s, 2010 cps, >4.9 keV
+2606150230_alldets no sources found with Sco X-1 inside FOV  for 562 s, 26 cps, >5.2 keV
+2606150150_alldets no sources found with Sco X-1 inside FOV  for 551 s, 113 cps, >5.0 keV
+2606150130_alldets no sources found with Sco X-1 inside FOV  for 543 s, 0 cps, >5.2 keV
+2606150120_alldets no sources found with Sco X-1 inside FOV  for 548 s, 75 cps, >5.5 keV
+2606150110_alldets no sources found with Sco X-1 inside FOV  for 294 s, 437 cps, >4.8 keV
+2606150040_alldets no sources found with Sco X-1 outside FOV  for 542 s, 0 cps, >5.4 keV
+2606150030_alldets no sources found with Sco X-1 outside FOV  for 559 s, 72 cps, >5.1 keV
+2606150020_alldets no sources found with Sco X-1 outside FOV  for 544 s, 185 cps, >4.6 keV
+2606150010_alldets no sources found with Sco X-1 inside FOV  for 562 s, 100 cps, >5.1 keV
+2606150000_alldets no sources found with Sco X-1 inside FOV  for 519 s, 3 cps, >5.4 keV
+2606142351_alldets no sources found with Sco X-1 inside FOV  for 542 s, 29 cps, >5.8 keV
+2606142331_alldets no sources found with Sco X-1 inside FOV  for 555 s, 44 cps, >5.0 keV
+2606142321_alldets no sources found with Sco X-1 inside FOV  for 562 s, 106 cps, >4.7 keV
+2606142311_alldets no sources found with Sco X-1 inside FOV  for 556 s, 1 cps, >4.8 keV
+2606142221_alldets no sources found with Sco X-1 inside FOV  for 537 s, 0 cps, >5.6 keV
+2606142211_alldets no sources found with Sco X-1 inside FOV  for 543 s, 143 cps, >4.9 keV
+2606142201_alldets no sources found with Sco X-1 inside FOV  for 556 s, 192 cps, >5.0 keV
+2606142151_alldets no sources found with Sco X-1 inside FOV  for 558 s, 225 cps, >4.7 keV
+2606142141_alldets no sources found with Sco X-1 inside FOV  for 561 s, 37 cps, >5.1 keV
+2606142111_alldets no sources found with Sco X-1 outside FOV  for 293 s, 440 cps, >4.7 keV
+2606142051_alldets no sources found with Sco X-1 inside FOV  for 523 s, 0 cps, >5.0 keV
+2606142041_alldets no sources found with Sco X-1 inside FOV  for 529 s, 28 cps, >4.5 keV
+2606142031_alldets no sources found with Sco X-1 inside FOV  for 546 s, 192 cps, >4.8 keV
+2606142011_alldets no sources found with Sco X-1 inside FOV  for 559 s, 190 cps, >4.6 keV
+2606142001_alldets no sources found with Sco X-1 inside FOV  for 559 s, 9 cps, >5.1 keV
+2606141941_alldets no sources found with Sco X-1 outside FOV  for 562 s, 41 cps, >5.0 keV
+2606141931_alldets no sources found with Sco X-1 outside FOV  for 118 s, 1080 cps, >4.5 keV
+2606141921_alldets no sources found with Sco X-1 inside FOV  for 508 s, 109 cps, >5.0 keV
+2606141911_alldets no sources found with Sco X-1 inside FOV  for 542 s, 0 cps, >5.0 keV
+2606141901_alldets no sources found with Sco X-1 inside FOV  for 528 s, 46 cps, >4.7 keV
+2606141851_alldets no sources found with Sco X-1 inside FOV  for 545 s, 168 cps, >5.1 keV
+2606141811_alldets no sources found with Sco X-1 outside FOV  for 539 s, 8 cps, >5.3 keV
+2606141801_alldets no sources found with Sco X-1 outside FOV  for 427 s, 305 cps, >4.6 keV
+2606141751_alldets no sources found with Sco X-1 inside FOV  for 545 s, 38 cps, >4.8 keV
+2606141731_alldets no sources found with Sco X-1 inside FOV  for 512 s, 0 cps, >4.8 keV
+2606141721_alldets no sources found with Sco X-1 inside FOV  for 544 s, 58 cps, >4.9 keV
+2606141701_alldets no sources found with Sco X-1 inside FOV  for 460 s, 284 cps, >4.7 keV
+2606141631_alldets no sources found with Sco X-1 outside FOV  for 563 s, 53 cps, >5.2 keV
+2606141541_alldets no sources found with Sco X-1 inside FOV  for 543 s, 27 cps, >5.4 keV
+2606141531_alldets no sources found with Sco X-1 inside FOV  for 551 s, 64 cps, >4.8 keV
+2606141521_alldets no sources found with Sco X-1 inside FOV  for 166 s, 789 cps, >4.7 keV
+2606141511_alldets no sources found with Sco X-1 inside FOV  for 562 s, 27 cps, >5.1 keV
+2606141451_alldets no sources found with Sco X-1 outside FOV  for 377 s, 305 cps, >4.6 keV
+2606141421_alldets no sources found with Sco X-1 inside FOV  for 401 s, 0 cps, >5.2 keV
+2606141341_alldets no sources found with Sco X-1 inside FOV  for 407 s, 185 cps, >4.6 keV
+2606141311_alldets no sources found with Sco X-1 outside FOV  for 413 s, 306 cps, >4.4 keV
+2606141249_alldets no sources found with Sco X-1 inside FOV  for 340 s, 0 cps, >4.7 keV
+2606141239_alldets no sources found with Sco X-1 inside FOV  for 556 s, 0 cps, >4.7 keV
+2606141228_alldets no sources found with Sco X-1 inside FOV  for 576 s, 94 cps, >5.2 keV
+2606141207_alldets no sources found with Sco X-1 inside FOV  for 167 s, 585 cps, >4.4 keV
+2606141146_alldets no sources found with Sco X-1 inside FOV  for 590 s, 1 cps, >4.6 keV
+2606141136_alldets no sources found with Sco X-1 outside FOV  for 554 s, 235 cps, >4.6 keV
+2606141103_alldets ji = 1184.0,700.0 = ScoX1+   0.5,   0.4 ra,dec = 263.10,-12.61   19.0 σ for 577 s at 24 cps 2 dets
+2606141053_alldets no sources found with Sco X-1 inside FOV  for 319 s, 407 cps, >5.4 keV
+2606141011_alldets no sources found with Sco X-1 inside FOV  for 582 s, 30 cps, >4.6 keV
+2606141000_alldets no sources found with Sco X-1 outside FOV  for 581 s, 223 cps, >4.4 keV
+2606140928_alldets ji = 1227.0,627.0 = ScoX1+  -0.2,   0.0 ra,dec = 263.39,-11.61   16.7 σ for 578 s at 21 cps 2 dets
+2606140856_alldets no sources found with Sco X-1 inside FOV  for 31 s, 1977 cps, >4.7 keV
+2606140846_alldets no sources found with Sco X-1 inside FOV  for 2 s, 3291 cps, >4.7 keV
+2606140835_alldets no sources found with Sco X-1 inside FOV  for 14 s, 5860 cps, >4.6 keV
+2606140824_alldets no sources found with Sco X-1 outside FOV  for 551 s, 235 cps, >4.6 keV
+2606140723_alldets no sources found with Sco X-1 inside FOV  for 402 s, 323 cps, >4.4 keV
+2606140713_alldets no sources found with Sco X-1 inside FOV  for 350 s, 352 cps, >4.8 keV
+2606140643_alldets no sources found with Sco X-1 outside FOV  for 548 s, 237 cps, >5.0 keV
+2606140633_alldets no sources found with Sco X-1 inside FOV  for 241 s, 397 cps, >4.8 keV
+2606140613_alldets ji = 1173.0,709.0 = ScoX1+  -0.3,   0.4 ra,dec = 263.03,-12.88   18.8 σ for 549 s at 18 cps 4 dets
+2606140522_alldets no sources found with Sco X-1 inside FOV  for 12 s, 2885 cps, >5.1 keV
+2606140432_alldets ji = 1066.0,888.0 = ScoX1+   0.4,   0.2 ra,dec = 263.39,-15.26    5.1 σ for 551 s at 133 cps 4 dets
+2606140422_alldets no sources found with Sco X-1 inside FOV  for 96 s, 1137 cps, >5.8 keV
+2606140252_alldets ji = 967.0,1055.0 = ScoX1+   0.2,   0.3 ra,dec = 264.95,-16.88    5.2 σ for 341 s at 378 cps 4 dets
+2606140152_alldets no sources found with Sco X-1 outside FOV  for 141 s, 761 cps, >5.1 keV
+2606140142_alldets no sources found with Sco X-1 inside FOV  for 225 s, 304 cps, >4.7 keV
+2606140111_alldets no sources found with Sco X-1 inside FOV  for 544 s, 69 cps, >5.6 keV
+2606140101_alldets no sources found with Sco X-1 inside FOV  for 303 s, 382 cps, >5.4 keV
+2606140051_alldets no sources found with Sco X-1 inside FOV  for 83 s, 1546 cps, >4.4 keV
+2606140011_alldets no sources found with Sco X-1 outside FOV  for 377 s, 331 cps, >4.6 keV
+2606140001_alldets no sources found with Sco X-1 inside FOV  for 351 s, 357 cps, >5.0 keV
+2606132351_alldets no sources found with Sco X-1 inside FOV  for 552 s, 78 cps, >5.4 keV
+2606132311_alldets no sources found with Sco X-1 inside FOV  for 297 s, 441 cps, >4.7 keV
+2606132301_alldets no sources found with Sco X-1 inside FOV  for 561 s, 4 cps, >5.0 keV
+2606132251_alldets no sources found with Sco X-1 outside FOV  for 560 s, 0 cps, >4.5 keV
+2606132241_alldets no sources found with Sco X-1 outside FOV  for 528 s, 247 cps, >4.7 keV
+2606132211_alldets ji = 1252.0,568.0 = ScoX1+   0.1,   0.4 ra,dec = 263.57,-11.13   19.3 σ for 551 s at 24 cps 4 dets
+2606132151_alldets no sources found with Sco X-1 inside FOV  for 41 s, 1835 cps, >4.5 keV
+2606132111_alldets no sources found with Sco X-1 outside FOV  for 564 s, 49 cps, >5.5 keV
+2606132051_alldets no sources found with Sco X-1 inside FOV  for 482 s, 178 cps, >4.5 keV
+2606132040_alldets no sources found with Sco X-1 inside FOV  for 14 s, 2101 cps, >6.5 keV
+2606132020_alldets no sources found with Sco X-1 inside FOV  for 152 s, 100 cps, >7.2 keV
+2606132000_alldets no sources found with Sco X-1 inside FOV  for 401 s, 321 cps, >4.5 keV
+2606131930_alldets no sources found with Sco X-1 outside FOV  for 516 s, 160 cps, >6.8 keV
+2606131920_alldets no sources found with Sco X-1 outside FOV  for 317 s, 242 cps, >5.4 keV
+2606131910_alldets no sources found with Sco X-1 inside FOV  for 123 s, 1032 cps, >4.7 keV
+2606131830_alldets no sources found with Sco X-1 inside FOV  for 15 s, 1741 cps, >6.5 keV
+2606131800_alldets no sources found with Sco X-1 outside FOV  for 449 s, 214 cps, >6.4 keV
+2606131740_alldets no sources found with Sco X-1 outside FOV  for 415 s, 0 cps, >8.7 keV
+2606131720_alldets ji = 1233.0,591.0 = ScoX1+   0.8,  -0.0 ra,dec = 263.34,-11.57   22.0 σ for 550 s at 24 cps 4 dets
+2606131650_alldets ji = 858.0,1288.0 = ScoX1+   1.6,  -0.1 ra,dec = 255.84,  3.46   12.6 σ for 258 s at 360 cps 4 dets
+2606131549_alldets no sources found with Sco X-1 inside FOV  for 250 s, 0 cps, >4.4 keV
+2606131529_alldets no sources found with Sco X-1 inside FOV  for 544 s, 72 cps, >5.4 keV
+2606131519_alldets no sources found with Sco X-1 inside FOV  for 213 s, 584 cps, >5.1 keV
+2606131509_alldets no sources found with Sco X-1 inside FOV  for 188 s, 692 cps, >4.7 keV
+2606131439_alldets no sources found with Sco X-1 outside FOV  for 514 s, 247 cps, >4.9 keV
+2606131409_alldets no sources found with Sco X-1 inside FOV  for 325 s, 0 cps, >4.6 keV
+2606131349_alldets no sources found with Sco X-1 inside FOV  for 369 s, 340 cps, >4.9 keV
+2606131309_alldets no sources found with Sco X-1 outside FOV  for 496 s, 261 cps, >5.0 keV
+2606120708_alldets no sources found with Sco X-1 inside FOV  for 416 s, 304 cps, >4.7 keV
+2606120657_alldets no sources found with Sco X-1 inside FOV  for 417 s, 313 cps, >4.7 keV
+2606120637_alldets no sources found with Sco X-1 inside FOV  for 13 s, 2248 cps, >4.3 keV
+2606120547_alldets ji = 1176.0,631.0 = ScoX1+   0.4,   0.3 ra,dec = 262.76,-12.88    8.3 σ for 549 s at 52 cps 3 dets
+2606131226_alldets ji = 1148.0,727.0 = ScoX1+   0.9,   0.2 ra,dec = 262.91,-13.44   11.2 σ for 563 s at 230 cps 4 dets
+2606131123_alldets no sources found with Sco X-1 outside FOV  for 589 s, 166 cps, >5.6 keV
+2606131051_alldets ji = 1186.0,658.0 = ScoX1+   0.4,  -0.1 ra,dec = 262.98,-12.62   19.6 σ for 579 s at 17 cps 4 dets
+2606131040_alldets no sources found with Sco X-1 inside FOV  for 338 s, 379 cps, >6.0 keV
+2606130958_alldets no sources found with Sco X-1 inside FOV  for 580 s, 34 cps, >5.2 keV
+2606130947_alldets no sources found with Sco X-1 outside FOV  for 533 s, 241 cps, >5.3 keV
+2606130915_alldets ji = 1227.0,587.0 = ScoX1+   0.7,   0.5 ra,dec = 263.22,-11.75   20.2 σ for 583 s at 15 cps 4 dets
+2606130904_alldets no sources found with Sco X-1 inside FOV  for 421 s, 306 cps, >6.2 keV
+2606130833_alldets no sources found with Sco X-1 inside FOV  for 211 s, 0 cps, >3.7 keV
+2606130822_alldets no sources found with Sco X-1 inside FOV  for 85 s, 1122 cps, >4.9 keV
+2606130812_alldets no sources found with Sco X-1 outside FOV  for 492 s, 263 cps, >4.8 keV
+2606130740_alldets ji = 1288.0,484.0 = ScoX1+   0.5,  -0.0 ra,dec = 263.98,-10.52   20.4 σ for 549 s at 40 cps 4 dets
+2606130730_alldets ji = 994.0,997.0 = ScoX1+   0.6,  -0.6 ra,dec = 264.43,-16.11    8.3 σ for 549 s at 177 cps 4 dets
+2606130720_alldets no sources found with Sco X-1 inside FOV  for 372 s, 0 cps, >20.5 keV
+2606130710_alldets no sources found with Sco X-1 inside FOV  for 158 s, 788 cps, >4.7 keV
+2606130650_alldets no sources found with Sco X-1 inside FOV  for 57 s, 1653 cps, >4.1 keV
+2606130630_alldets no sources found with Sco X-1 outside FOV  for 204 s, 635 cps, >5.1 keV
+2606130530_alldets no sources found with Sco X-1 inside FOV  for 18 s, 2 cps, >5.0 keV
+2606130520_alldets no sources found with Sco X-1 inside FOV  for 464 s, 1 cps, >5.9 keV
+2606130450_alldets no sources found with Sco X-1 outside FOV  for 48 s, 0 cps, >4.7 keV
+2606130440_alldets no sources found with Sco X-1 inside FOV  for 311 s, 410 cps, >4.8 keV
+2606130430_alldets no sources found with Sco X-1 inside FOV  for 94 s, 1002 cps, >5.3 keV
+2606130420_alldets no sources found with Sco X-1 inside FOV  for 550 s, 45 cps, >5.9 keV
+2606130410_alldets no sources found with Sco X-1 inside FOV  for 332 s, 370 cps, >5.9 keV
+2606130359_alldets no sources found with Sco X-1 inside FOV  for 164 s, 1 cps, >3.3 keV
+2606130309_alldets no sources found with Sco X-1 outside FOV  for 310 s, 0 cps, >8.6 keV
+2606130239_alldets ji = 982.0,1016.0 = ScoX1+   0.3,  -0.1 ra,dec = 264.64,-16.13    7.2 σ for 394 s at 320 cps 3 dets
+2606130139_alldets no sources found with Sco X-1 outside FOV  for 85 s, 0 cps, >7.7 keV
+2606130129_alldets no sources found with Sco X-1 inside FOV  for 218 s, 365 cps, >4.7 keV
+2606130039_alldets no sources found with Sco X-1 inside FOV  for 459 s, 158 cps, >4.6 keV
+2606130009_alldets no sources found with Sco X-1 outside FOV  for 559 s, 17 cps, >5.3 keV
+2606122359_alldets no sources found with Sco X-1 outside FOV  for 134 s, 953 cps, >5.1 keV
+2606122328_alldets no sources found with Sco X-1 inside FOV  for 549 s, 4 cps, >5.5 keV
+2606122318_alldets no sources found with Sco X-1 inside FOV  for 548 s, 212 cps, >5.3 keV
+2606122258_alldets no sources found with Sco X-1 inside FOV  for 143 s, 660 cps, >4.8 keV
+2606122238_alldets no sources found with Sco X-1 inside FOV  for 553 s, 0 cps, >5.0 keV
+2606122208_alldets no sources found with Sco X-1 inside FOV  for 222 s, 589 cps, >4.6 keV
+2606122158_alldets no sources found with Sco X-1 inside FOV  for 542 s, 0 cps, >5.4 keV
+2606122138_alldets no sources found with Sco X-1 inside FOV  for 434 s, 276 cps, >5.1 keV
+2606122128_alldets no sources found with Sco X-1 inside FOV  for 119 s, 1015 cps, >4.5 keV
+2606122118_alldets no sources found with Sco X-1 inside FOV  for 190 s, 684 cps, >4.4 keV
+2606122108_alldets no sources found with Sco X-1 inside FOV  for 547 s, 3 cps, >5.4 keV
+2606122048_alldets no sources found with Sco X-1 outside FOV  for 306 s, 421 cps, >4.9 keV
+2606122028_alldets no sources found with Sco X-1 inside FOV  for 330 s, 0 cps, >20.5 keV
+2606122018_alldets no sources found with Sco X-1 inside FOV  for 545 s, 219 cps, >5.5 keV
+2606122008_alldets no sources found with Sco X-1 inside FOV  for 545 s, 176 cps, >4.8 keV
+2606121948_alldets ji = 979.0,1194.0 = ScoX1+   1.2,  -0.0 ra,dec = 245.16,  3.23    8.2 σ for 366 s at 342 cps 4 dets
+2606121857_alldets no sources found with Sco X-1 inside FOV  for 178 s, 728 cps, >4.4 keV
+2606121847_alldets ji = 1348.0,365.0 = ScoX1+   0.9,   0.1 ra,dec = 265.00, -9.65    6.5 σ for 551 s at 11 cps 4 dets
+2606121837_alldets no sources found with Sco X-1 inside FOV  for 253 s, 181 cps, >5.9 keV
+2606121807_alldets no sources found with Sco X-1 inside FOV  for 108 s, 1164 cps, >4.8 keV
+2606121747_alldets no sources found with Sco X-1 inside FOV  for 512 s, 196 cps, >6.1 keV
+2606121737_alldets no sources found with Sco X-1 outside FOV  for 9 s, 3305 cps, >6.4 keV
+2606121707_alldets ji = 1231.0,553.0 = ScoX1+   0.8,   0.5 ra,dec = 263.15,-11.76   21.5 σ for 549 s at 23 cps 4 dets
+2606121657_alldets no sources found with Sco X-1 inside FOV  for 97 s, 565 cps, >6.6 keV
+2606121617_alldets no sources found with Sco X-1 inside FOV  for 550 s, 85 cps, >5.6 keV
+2606121557_alldets no sources found with Sco X-1 outside FOV  for 191 s, 0 cps, >9.1 keV
+2606121537_alldets no sources found with Sco X-1 inside FOV  for 264 s, 7 cps, >5.4 keV
+2606121527_alldets ji = 1128.0,734.0 = ScoX1+   0.8,  -0.1 ra,dec = 262.85,-13.80    7.0 σ for 525 s at 153 cps 4 dets
+2606121346_alldets ji = 1036.0,908.0 = ScoX1+   1.2,  -0.3 ra,dec = 263.69,-15.26    6.0 σ for 529 s at 244 cps 4 dets
+2606121336_alldets no sources found with Sco X-1 inside FOV  for 3 s, 11229 cps, >5.9 keV
+2606121326_alldets ji = 829.0,1361.0 = ScoX1+   1.0,  -1.3 ra,dec = 261.34,  0.33    5.3 σ for 145 s at 264 cps 4 dets
+2606121316_alldets no sources found with Sco X-1 inside FOV  for 392 s, 207 cps, >2.9 keV
+2606121256_alldets no sources found with Sco X-1 outside FOV  for 558 s, 225 cps, >5.4 keV
+2606121246_alldets no sources found with Sco X-1 outside FOV  for 290 s, 0 cps, >7.0 keV
+2606121213_alldets ji = 1151.0,687.0 = ScoX1+   0.5,  -0.0 ra,dec = 262.79,-13.35   23.9 σ for 579 s at 32 cps 4 dets
+2606121203_alldets no sources found with Sco X-1 inside FOV  for 570 s, 223 cps, >6.4 keV
+2606121152_alldets no sources found with Sco X-1 inside FOV  for 574 s, 0 cps, >20.5 keV
+2606121131_alldets no sources found with Sco X-1 inside FOV  for 315 s, 0 cps, >20.5 keV
+2606121038_alldets ji = 1187.0,618.0 = ScoX1+  -0.0,   0.5 ra,dec = 262.82,-12.66   26.2 σ for 578 s at 56 cps 4 dets
+2606121006_alldets no sources found with Sco X-1 inside FOV  for 587 s, 0 cps, >4.3 keV
+2606120935_alldets no sources found with Sco X-1 outside FOV  for 184 s, 461 cps, >8.0 keV
+2606120337_alldets no sources found with Sco X-1 inside FOV  for 2 s, 57282 cps, >5.3 keV
+2606120226_alldets no sources found with Sco X-1 inside FOV  for 307 s, 419 cps, >6.0 keV
+2606120116_alldets no sources found with Sco X-1 inside FOV  for 301 s, 0 cps, >8.6 keV
+2606120106_alldets no sources found with Sco X-1 inside FOV  for 391 s, 0 cps, >20.5 keV
+2606120056_alldets no sources found with Sco X-1 inside FOV  for 544 s, 0 cps, >20.5 keV
+2606120046_alldets no sources found with Sco X-1 inside FOV  for 523 s, 233 cps, >5.5 keV
+2606120036_alldets no sources found with Sco X-1 inside FOV  for 227 s, 0 cps, >19.1 keV
+2606120026_alldets no sources found with Sco X-1 inside FOV  for 61 s, 1386 cps, >4.7 keV
+2606112316_alldets no sources found with Sco X-1 inside FOV  for 240 s, 483 cps, >5.1 keV
+2606112306_alldets no sources found with Sco X-1 inside FOV  for 31 s, 2187 cps, >4.8 keV
+2606112246_alldets no sources found with Sco X-1 inside FOV  for 20 s, 5754 cps, >4.5 keV
+2606112205_alldets no sources found with Sco X-1 outside FOV  for 173 s, 750 cps, >4.7 keV
+2606112155_alldets no sources found with Sco X-1 inside FOV  for 115 s, 1071 cps, >4.6 keV
+2606112145_alldets ji = 1246.0,491.0 = ScoX1+   0.5,   0.3 ra,dec = 263.16,-11.62   19.1 σ for 550 s at 24 cps 2 dets
+2606112135_alldets no sources found with Sco X-1 inside FOV  for 123 s, 982 cps, >5.3 keV
+2606112125_alldets no sources found with Sco X-1 inside FOV  for 101 s, 1036 cps, >4.2 keV
+2606111935_alldets no sources found with Sco X-1 inside FOV  for 470 s, 274 cps, >4.6 keV
+2606111915_alldets no sources found with Sco X-1 inside FOV  for 48 s, 1679 cps, >5.0 keV
+2606111905_alldets no sources found with Sco X-1 outside FOV  for 42 s, 2563 cps, >5.2 keV
+2606111855_alldets no sources found with Sco X-1 outside FOV  for 353 s, 0 cps, >7.1 keV
+2606111805_alldets no sources found with Sco X-1 inside FOV  for 35 s, 1803 cps, >4.5 keV
+2606111754_alldets no sources found with Sco X-1 inside FOV  for 121 s, 1011 cps, >4.1 keV
+2606111744_alldets no sources found with Sco X-1 inside FOV  for 19 s, 1951 cps, >5.1 keV
+2606111734_alldets no sources found with Sco X-1 inside FOV  for 414 s, 309 cps, >5.2 keV
+2606111714_alldets no sources found with Sco X-1 outside FOV  for 486 s, 0 cps, >7.7 keV
+2606111704_alldets no sources found with Sco X-1 inside FOV  for 128 s, 0 cps, >20.5 keV
+2606111654_alldets ji = 1229.0,513.0 = ScoX1+   0.6,   0.3 ra,dec = 262.96,-11.96   31.9 σ for 548 s at 75 cps 4 dets
+2606111614_alldets no sources found with Sco X-1 inside FOV  for 55 s, 2020 cps, >5.1 keV
+2606111604_alldets no sources found with Sco X-1 inside FOV  for 553 s, 121 cps, >5.0 keV
+2606111554_alldets no sources found with Sco X-1 outside FOV  for 124 s, 957 cps, >5.1 keV
+2606111544_alldets no sources found with Sco X-1 outside FOV  for 131 s, 1 cps, >7.5 keV
+2606111524_alldets ji = 1441.0,281.0 = ScoX1+   0.3,   0.4 ra,dec = 268.01, -9.21   23.3 σ for 270 s at 37 cps 4 dets
+2606111444_alldets no sources found with Sco X-1 inside FOV  for 74 s, 1702 cps, >4.8 keV
+2606111414_alldets no sources found with Sco X-1 outside FOV  for 54 s, 1405 cps, >5.0 keV
+2606111243_alldets no sources found with Sco X-1 inside FOV  for 467 s, 277 cps, >4.9 keV
+2606111233_alldets no sources found with Sco X-1 outside FOV  for 560 s, 152 cps, >5.0 keV
+2606120226_alldets no sources found with Sco X-1 inside FOV  for 307 s, 419 cps, >6.0 keV
+2606120116_alldets no sources found with Sco X-1 inside FOV  for 301 s, 0 cps, >8.6 keV
+2606120106_alldets no sources found with Sco X-1 inside FOV  for 391 s, 0 cps, >20.5 keV
+2606120056_alldets no sources found with Sco X-1 inside FOV  for 544 s, 0 cps, >20.5 keV
+2606120046_alldets no sources found with Sco X-1 inside FOV  for 523 s, 233 cps, >5.5 keV
+2606120036_alldets no sources found with Sco X-1 inside FOV  for 227 s, 0 cps, >19.1 keV
+2606120026_alldets no sources found with Sco X-1 inside FOV  for 61 s, 1386 cps, >4.7 keV
+2606112316_alldets no sources found with Sco X-1 inside FOV  for 240 s, 483 cps, >5.1 keV
+2606112306_alldets no sources found with Sco X-1 inside FOV  for 31 s, 2187 cps, >4.8 keV
+2606112246_alldets no sources found with Sco X-1 inside FOV  for 20 s, 5754 cps, >4.5 keV
+2606112205_alldets no sources found with Sco X-1 outside FOV  for 173 s, 750 cps, >4.7 keV
+2606112155_alldets no sources found with Sco X-1 inside FOV  for 115 s, 1071 cps, >4.6 keV
+2606112145_alldets ji = 1246.0,491.0 = ScoX1+   0.5,   0.3 ra,dec = 263.16,-11.62   19.1 σ for 550 s at 24 cps 2 dets
+2606112135_alldets no sources found with Sco X-1 inside FOV  for 123 s, 982 cps, >5.3 keV
+2606112125_alldets no sources found with Sco X-1 inside FOV  for 101 s, 1036 cps, >4.2 keV
+2606111935_alldets no sources found with Sco X-1 inside FOV  for 470 s, 274 cps, >4.6 keV
+2606111915_alldets no sources found with Sco X-1 inside FOV  for 48 s, 1679 cps, >5.0 keV
+2606111905_alldets no sources found with Sco X-1 outside FOV  for 42 s, 2563 cps, >5.2 keV
+2606111855_alldets no sources found with Sco X-1 outside FOV  for 353 s, 0 cps, >7.1 keV
+2606111805_alldets no sources found with Sco X-1 inside FOV  for 35 s, 1803 cps, >4.5 keV
+2606111754_alldets no sources found with Sco X-1 inside FOV  for 121 s, 1011 cps, >4.1 keV
+2606111744_alldets no sources found with Sco X-1 inside FOV  for 19 s, 1951 cps, >5.1 keV
+2606111734_alldets no sources found with Sco X-1 inside FOV  for 414 s, 309 cps, >5.2 keV
+2606111714_alldets no sources found with Sco X-1 outside FOV  for 486 s, 0 cps, >7.7 keV
+2606111704_alldets no sources found with Sco X-1 inside FOV  for 128 s, 0 cps, >20.5 keV
+2606111654_alldets ji = 1229.0,513.0 = ScoX1+   0.6,   0.3 ra,dec = 262.96,-11.96   31.9 σ for 548 s at 75 cps 4 dets
+2606111150_alldets no sources found with Sco X-1 inside FOV  for 225 s, 565 cps, >4.8 keV
+2606111108_alldets ji = 1730.0,143.0 = ScoX1+  -0.0,  -0.1 ra,dec = 230.73,-48.44    8.2 σ for 579 s at 212 cps 3 dets
+2606111015_alldets no sources found with Sco X-1 inside FOV  for 569 s, 218 cps, >6.5 keV
+2606110954_alldets no sources found with Sco X-1 inside FOV  for 587 s, 224 cps, >5.8 keV
+2606110933_alldets ji = 1694.0,217.0 = ScoX1+  -0.3,   0.5 ra,dec = 227.35,-46.05   11.1 σ for 580 s at 114 cps 3 dets
+2606110922_alldets no sources found with Sco X-1 outside FOV  for 573 s, 226 cps, >5.0 keV
+2606110900_alldets no sources found with Sco X-1 inside FOV  for 113 s, 0 cps, >17.6 keV
+2606110746_alldets no sources found with Sco X-1 outside FOV  for 549 s, 231 cps, >5.8 keV
+2606110635_alldets no sources found with Sco X-1 inside FOV  for 418 s, 281 cps, >6.3 keV
+2606110605_alldets no sources found with Sco X-1 outside FOV  for 562 s, 219 cps, >6.5 keV
+2606110555_alldets no sources found with Sco X-1 inside FOV  for 470 s, 1 cps, >11.8 keV
+2606110535_alldets ji = 1193.0,560.0 = ScoX1+   0.3,   0.1 ra,dec = 262.66,-12.64   17.0 σ for 547 s at 128 cps 3 dets
+2606110525_alldets ji = 962.0,1048.0 = ScoX1+   0.3,  -0.1 ra,dec = 264.98,-14.67    7.8 σ for 329 s at 390 cps 3 dets
+2606110415_alldets no sources found with Sco X-1 inside FOV  for 80 s, 0 cps, >11.0 keV
+2606110355_alldets no sources found with Sco X-1 inside FOV  for 0 s, 533 cps, >6.5 keV
+2606110345_alldets no sources found with Sco X-1 inside FOV  for 14 s, 3267 cps, >6.8 keV
+2606110245_alldets no sources found with Sco X-1 outside FOV  for 127 s, 0 cps, >10.8 keV
+2606110135_alldets no sources found with Sco X-1 inside FOV  for 281 s, 395 cps, >6.4 keV
+2606110105_alldets no sources found with Sco X-1 outside FOV  for 183 s, 0 cps, >10.7 keV
+2606102346_alldets no sources found with Sco X-1 outside FOV  for 563 s, 127 cps, >6.1 keV
+2606102336_alldets no sources found with Sco X-1 outside FOV  for 559 s, 192 cps, >6.5 keV
+2606102326_alldets no sources found with Sco X-1 inside FOV  for 209 s, 0 cps, >11.4 keV
+2606102246_alldets no sources found with Sco X-1 inside FOV  for 550 s, 147 cps, >6.4 keV
+2606102236_alldets no sources found with Sco X-1 inside FOV  for 479 s, 272 cps, >5.3 keV
+2606102216_alldets no sources found with Sco X-1 inside FOV  for 546 s, 0 cps, >5.2 keV
+2606102156_alldets no sources found with Sco X-1 outside FOV  for 264 s, 480 cps, >5.8 keV
+2606102146_alldets no sources found with Sco X-1 inside FOV  for 213 s, 595 cps, >6.1 keV
+2606102136_alldets no sources found with Sco X-1 inside FOV  for 546 s, 20 cps, >6.6 keV
+2606102126_alldets no sources found with Sco X-1 inside FOV  for 354 s, 338 cps, >6.6 keV
+2606102056_alldets no sources found with Sco X-1 inside FOV  for 289 s, 440 cps, >5.8 keV
+2606102036_alldets no sources found with Sco X-1 inside FOV  for 455 s, 283 cps, >6.3 keV
+2606102006_alldets no sources found with Sco X-1 inside FOV  for 29 s, 3600 cps, >5.7 keV
+2606101946_alldets no sources found with Sco X-1 inside FOV  for 134 s, 895 cps, >6.4 keV
+2606101916_alldets no sources found with Sco X-1 inside FOV  for 8 s, 10501 cps, >5.5 keV
+2606101836_alldets no sources found with Sco X-1 inside FOV  for 546 s, 115 cps, >6.1 keV
+2606101816_alldets no sources found with Sco X-1 inside FOV  for 544 s, 0 cps, >6.5 keV
+2606101806_alldets no sources found with Sco X-1 inside FOV  for 545 s, 75 cps, >6.3 keV
+2606101746_alldets no sources found with Sco X-1 inside FOV  for 349 s, 349 cps, >5.6 keV
+2606101656_alldets no sources found with Sco X-1 inside FOV  for 154 s, 838 cps, >4.4 keV
+2606101636_alldets no sources found with Sco X-1 inside FOV  for 467 s, 274 cps, >5.9 keV
+2606101606_alldets no sources found with Sco X-1 inside FOV  for 106 s, 1222 cps, >4.7 keV
+2606101506_alldets ji = 1272.0,385.0 = ScoX1+   0.1,   0.7 ra,dec = 263.23,-11.50    8.3 σ for 547 s at 18 cps 3 dets
+2606101456_alldets no sources found with Sco X-1 inside FOV  for 545 s, 236 cps, >5.5 keV
+2606101324_alldets ji = 1131.0,664.0 = ScoX1+   0.4,  -0.0 ra,dec = 262.58,-13.55   12.4 σ for 577 s at 30 cps 2 dets
+2606101313_alldets no sources found with Sco X-1 inside FOV  for 213 s, 538 cps, >5.4 keV
+2606101221_alldets no sources found with Sco X-1 outside FOV  for 86 s, 4 cps, >5.8 keV
+2606101148_alldets ji = 1157.0,605.0 = ScoX1+   0.2,   0.1 ra,dec = 262.49,-13.22   26.6 σ for 582 s at 36 cps 2 dets
+2606101045_alldets no sources found with Sco X-1 outside FOV  for 582 s, 214 cps, >5.5 keV
+2606101013_alldets ji = 1190.0,534.0 = ScoX1+   0.1,  -0.0 ra,dec = 262.51,-12.75   31.2 σ for 579 s at 55 cps 3 dets
+2606101002_alldets ji = 966.0,1046.0 = ScoX1+   0.7,  -0.6 ra,dec = 264.80,-13.78    5.1 σ for 192 s at 668 cps 3 dets
+2606100941_alldets no sources found with Sco X-1 inside FOV  for 572 s, 227 cps, >4.2 keV
+2606100930_alldets no sources found with Sco X-1 inside FOV  for 594 s, 136 cps, >3.7 keV
+2606100920_alldets no sources found with Sco X-1 inside FOV  for 566 s, 1 cps, >4.8 keV
+2606091032_alldets no sources found with Sco X-1 outside FOV  for 567 s, 230 cps, >4.2 keV
+2606091000_alldets no sources found with Sco X-1 inside FOV  for 553 s, 0 cps, >4.6 keV
+2606090939_alldets no sources found with Sco X-1 inside FOV  for 578 s, 37 cps, >4.9 keV
+2606090928_alldets no sources found with Sco X-1 inside FOV  for 208 s, 627 cps, >4.1 keV
+2606090918_alldets no sources found with Sco X-1 inside FOV  for 595 s, 137 cps, >3.1 keV
+2606090857_alldets no sources found with Sco X-1 outside FOV  for 536 s, 41 cps, >4.6 keV
+2606090835_alldets no sources found with Sco X-1 inside FOV  for 577 s, 51 cps, >4.7 keV
+2606090824_alldets no sources found with Sco X-1 inside FOV  for 460 s, 0 cps, >5.0 keV
+2606090753_alldets no sources found with Sco X-1 inside FOV  for 584 s, 117 cps, >4.3 keV
+2606090742_alldets no sources found with Sco X-1 inside FOV  for 435 s, 260 cps, >2.4 keV
+2606090649_alldets ji = 1267.0,328.0 = ScoX1+  -0.2,  -0.0 ra,dec = 262.89,-11.96   11.4 σ for 563 s at 77 cps 3 dets
+2606090640_alldets ji = 1048.0,839.0 = ScoX1+   0.2,   0.3 ra,dec = 263.23,-13.55   16.3 σ for 545 s at 126 cps 3 dets
+2606090630_alldets no sources found with Sco X-1 inside FOV  for 69 s, 1594 cps, >5.7 keV
+2606090620_alldets ji = 963.0,1338.0 = ScoX1+   0.8,  -0.0 ra,dec = 252.91,  1.55    7.0 σ for 291 s at 418 cps 3 dets
+2606090600_alldets no sources found with Sco X-1 inside FOV  for 77 s, 1242 cps, >4.5 keV
+2606090550_alldets ji = 1762.0, 87.0 = ScoX1+  -0.4,  -0.3 ra,dec = 239.01,-51.11    9.4 σ for 563 s at 33 cps 3 dets
+2606090540_alldets no sources found with Sco X-1 outside FOV  for 561 s, 230 cps, >5.2 keV
+2606090530_alldets no sources found with Sco X-1 outside FOV  for 288 s, 0 cps, >13.1 keV
+2606090430_alldets no sources found with Sco X-1 inside FOV  for 561 s, 150 cps, >4.6 keV
+2606090350_alldets no sources found with Sco X-1 inside FOV  for 266 s, 489 cps, >4.9 keV
+2606090340_alldets no sources found with Sco X-1 inside FOV  for 550 s, 94 cps, >5.4 keV
+2606090320_alldets no sources found with Sco X-1 inside FOV  for 545 s, 76 cps, >5.5 keV
+2606090310_alldets no sources found with Sco X-1 inside FOV  for 303 s, 407 cps, >4.9 keV
+2606090300_alldets no sources found with Sco X-1 inside FOV  for 203 s, 643 cps, >3.9 keV
+2606090210_alldets no sources found with Sco X-1 inside FOV  for 459 s, 270 cps, >4.9 keV
+2606090200_alldets no sources found with Sco X-1 inside FOV  for 543 s, 58 cps, >5.6 keV
+2606090140_alldets no sources found with Sco X-1 inside FOV  for 455 s, 177 cps, >5.6 keV
+2606090130_alldets no sources found with Sco X-1 inside FOV  for 212 s, 582 cps, >5.0 keV
+2606090110_alldets no sources found with Sco X-1 inside FOV  for 25 s, 1480 cps, >5.3 keV
+2606090020_alldets no sources found with Sco X-1 inside FOV  for 543 s, 1 cps, >5.4 keV
+2606090000_alldets no sources found with Sco X-1 inside FOV  for 559 s, 90 cps, >5.4 keV
+2606082310_alldets no sources found with Sco X-1 outside FOV  for 476 s, 273 cps, >4.3 keV
+2606082300_alldets no sources found with Sco X-1 inside FOV  for 549 s, 50 cps, >4.6 keV
+2606082240_alldets no sources found with Sco X-1 inside FOV  for 543 s, 0 cps, >4.8 keV
+2606082220_alldets no sources found with Sco X-1 inside FOV  for 518 s, 174 cps, >4.9 keV
+2606082210_alldets no sources found with Sco X-1 inside FOV  for 548 s, 123 cps, >4.2 keV
+2606082200_alldets no sources found with Sco X-1 inside FOV  for 548 s, 109 cps, >4.7 keV
+2606082150_alldets no sources found with Sco X-1 inside FOV  for 520 s, 0 cps, >4.8 keV
+2606082140_alldets no sources found with Sco X-1 outside FOV  for 560 s, 7 cps, >5.1 keV
+2606082130_alldets no sources found with Sco X-1 outside FOV  for 154 s, 616 cps, >4.6 keV
+2606082110_alldets no sources found with Sco X-1 inside FOV  for 541 s, 0 cps, >4.8 keV
+2606082100_alldets no sources found with Sco X-1 inside FOV  for 518 s, 12 cps, >3.1 keV
+2606082050_alldets no sources found with Sco X-1 inside FOV  for 480 s, 263 cps, >4.9 keV
+2606082030_alldets no sources found with Sco X-1 inside FOV  for 305 s, 422 cps, >4.7 keV
+2606082000_alldets no sources found with Sco X-1 outside FOV  for 37 s, 2226 cps, >5.4 keV
+2606081950_alldets no sources found with Sco X-1 outside FOV  for 276 s, 190 cps, >4.4 keV
+2606081930_alldets ji = 1236.0,368.0 = ScoX1+  -0.6,   0.8 ra,dec = 262.44,-12.43   19.3 σ for 548 s at 20 cps 1 dets
+2606081920_alldets no sources found with Sco X-1 inside FOV  for 203 s, 599 cps, >5.6 keV
+2606081910_alldets no sources found with Sco X-1 inside FOV  for 98 s, 1133 cps, >5.3 keV
+2606081831_alldets no sources found with Sco X-1 inside FOV  for 539 s, 5 cps, >4.9 keV
+2606081821_alldets no sources found with Sco X-1 outside FOV  for 406 s, 315 cps, >4.6 keV
+2606081811_alldets no sources found with Sco X-1 inside FOV  for 545 s, 116 cps, >4.3 keV
+2606081801_alldets no sources found with Sco X-1 inside FOV  for 540 s, 1 cps, >5.0 keV
+2606081751_alldets no sources found with Sco X-1 inside FOV  for 542 s, 0 cps, >4.8 keV
+2606081731_alldets no sources found with Sco X-1 inside FOV  for 470 s, 263 cps, >5.0 keV
+2606081721_alldets no sources found with Sco X-1 inside FOV  for 463 s, 283 cps, >4.4 keV
+2606081711_alldets no sources found with Sco X-1 inside FOV  for 563 s, 62 cps, >4.7 keV
+2606081701_alldets no sources found with Sco X-1 inside FOV  for 543 s, 0 cps, >4.6 keV
+2606081651_alldets no sources found with Sco X-1 outside FOV  for 563 s, 38 cps, >5.0 keV
+2606081621_alldets no sources found with Sco X-1 inside FOV  for 439 s, 0 cps, >5.7 keV
+2606081611_alldets no sources found with Sco X-1 inside FOV  for 535 s, 1 cps, >5.0 keV
+2606081601_alldets no sources found with Sco X-1 inside FOV  for 544 s, 141 cps, >5.3 keV
+2606081551_alldets no sources found with Sco X-1 inside FOV  for 34 s, 3289 cps, >5.1 keV
+2606081351_alldets no sources found with Sco X-1 inside FOV  for 534 s, 3 cps, >5.0 keV
+2606081341_alldets no sources found with Sco X-1 inside FOV  for 540 s, 11 cps, >5.1 keV
+2606081227_alldets no sources found with Sco X-1 inside FOV  for 263 s, 448 cps, >4.6 keV
+2606081206_alldets ji = 1715.0,208.0 = ScoX1+  -0.8,  -0.6 ra,dec = 233.02,-48.92    6.9 σ for 583 s at 144 cps 3 dets
+2606081123_alldets ji = 1163.0,522.0 = ScoX1+  -0.0,   0.1 ra,dec = 262.15,-13.12   24.6 σ for 578 s at 22 cps 3 dets
+2606081112_alldets no sources found with Sco X-1 inside FOV  for 289 s, 447 cps, >5.3 keV
+2606081030_alldets ji = 1690.0,276.0 = ScoX1+  -0.6,   0.4 ra,dec = 229.56,-47.22   22.7 σ for 595 s at 47 cps 3 dets
+2606081020_alldets no sources found with Sco X-1 outside FOV  for 575 s, 224 cps, >4.9 keV
+2606080947_alldets ji = 1192.0,451.0 = ScoX1+   0.7,  -0.0 ra,dec = 262.15,-12.90   29.9 σ for 579 s at 79 cps 4 dets
+2606080916_alldets no sources found with Sco X-1 inside FOV  for 154 s, 708 cps, >4.6 keV
+2606080822_alldets no sources found with Sco X-1 inside FOV  for 594 s, 53 cps, >5.1 keV
+2606080812_alldets no sources found with Sco X-1 inside FOV  for 571 s, 0 cps, >4.9 keV
+2606080729_alldets no sources found with Sco X-1 inside FOV  for 595 s, 183 cps, >2.5 keV
+2606080719_alldets no sources found with Sco X-1 inside FOV  for 591 s, 23 cps, >4.3 keV
+2606080708_alldets no sources found with Sco X-1 outside FOV  for 589 s, 0 cps, >5.5 keV
+2606050952_alldets no sources found with Sco X-1 inside FOV  for 579 s, 0 cps, >5.1 keV
+2606050941_alldets no sources found with Sco X-1 outside FOV  for 552 s, 15 cps, >5.2 keV
+2606050734_alldets ji = 1223.0,227.0 = ScoX1+   0.0,   0.1 ra,dec = 261.53,-13.41   25.1 σ for 554 s at 51 cps 4 dets
+2606050724_alldets ji = 1086.0,742.0 = ScoX1+   0.8,   0.4 ra,dec = 262.05,-10.74   12.0 σ for 490 s at 258 cps 4 dets
+2606050714_alldets no sources found with Sco X-1 inside FOV  for 15 s, 1645 cps, >7.8 keV
+2606050634_alldets ji = 1709.0,179.0 = ScoX1+  -0.1,   0.1 ra,dec = 241.47,-49.70   18.9 σ for 539 s at 42 cps 4 dets
+2606050554_alldets ji = 1165.0,408.0 = ScoX1+   0.1,   0.4 ra,dec = 261.56,-13.00   29.0 σ for 552 s at 52 cps 4 dets
+2606050544_alldets ji = 1057.0,906.0 = ScoX1+   0.6,  -0.1 ra,dec = 261.77, -8.62    8.8 σ for 375 s at 329 cps 4 dets
+2606050424_alldets no sources found with Sco X-1 inside FOV  for 7 s, 19047 cps, >6.7 keV
+2606050404_alldets no sources found with Sco X-1 inside FOV  for 117 s, 965 cps, >7.0 keV
+2606050243_alldets no sources found with Sco X-1 inside FOV  for 32 s, 3932 cps, >6.5 keV
+2606050113_alldets no sources found with Sco X-1 inside FOV  for 6 s, 21970 cps, >6.1 keV
+2606042333_alldets no sources found with Sco X-1 inside FOV  for 4 s, 33686 cps, >7.1 keV
+2606042312_alldets no sources found with Sco X-1 inside FOV  for 11 s, 11066 cps, >7.2 keV
+2606042232_alldets ji = 1675.0,320.0 = ScoX1+  -0.2,   0.7 ra,dec = 233.75,-48.05   20.0 σ for 540 s at 55 cps 4 dets
+2606042152_alldets ji = 1202.0,269.0 = ScoX1+  -0.1,   0.4 ra,dec = 261.38,-13.41   26.6 σ for 540 s at 34 cps 4 dets
+2606042112_alldets no sources found with Sco X-1 inside FOV  for 63 s, 2080 cps, >6.3 keV
+2606042022_alldets no sources found with Sco X-1 inside FOV  for 4 s, 29810 cps, >6.6 keV
+2606041922_alldets ji = 1636.0,480.0 = ScoX1+   0.3,  -0.2 ra,dec = 225.97,-44.47   23.6 σ for 567 s at 42 cps 4 dets
+2606041751_alldets ji = 1534.0,807.0 = ScoX1+  -0.5,  -0.1 ra,dec = 217.04,-31.72   19.3 σ for 550 s at 167 cps 4 dets
+2606041741_alldets ji = 1678.0,298.0 = ScoX1+  -0.6,   0.6 ra,dec = 235.36,-48.39    7.3 σ for 432 s at 299 cps 4 dets
+2606041701_alldets ji = 1193.0,291.0 = ScoX1+   0.4,   0.9 ra,dec = 261.33,-13.36   20.8 σ for 511 s at 44 cps 4 dets
+2606041621_alldets no sources found with Sco X-1 inside FOV  for 3 s, 42737 cps, >6.3 keV
+2606041611_alldets ji = 1592.0,638.0 = ScoX1+  -0.4,   0.3 ra,dec = 220.47,-39.31   24.6 σ for 553 s at 105 cps 4 dets
+2606041531_alldets ji = 1317.0, 59.0 = ScoX1+   0.6,  -0.2 ra,dec = 263.07,-13.97    8.3 σ for 196 s at 18 cps 4 dets
+2606041430_alldets ji = 1641.0,460.0 = ScoX1+   0.0,   0.7 ra,dec = 227.23,-45.19   10.6 σ for 473 s at 254 cps 3 dets
+2606041300_alldets no sources found with Sco X-1 inside FOV  for 3 s, 36509 cps, >6.7 keV
+2606041125_alldets no sources found with Sco X-1 inside FOV  for 1 s, 83003 cps, >8.3 keV
+2606041115_alldets no sources found with Sco X-1 inside FOV  for 152 s, 581 cps, >7.4 keV
+2606041104_alldets no sources found with Sco X-1 outside FOV  for 22 s, 582 cps, >8.8 keV
+2606040622_alldets ji = 1686.0,240.0 = ScoX1+   0.2,  -0.0 ra,dec = 239.58,-48.96   16.9 σ for 537 s at 57 cps 4 dets
+2606040552_alldets no sources found with Sco X-1 inside FOV  for 3 s, 41174 cps, >6.4 keV
+2606040542_alldets ji = 1175.0,336.0 = ScoX1+   0.5,   0.0 ra,dec = 261.31,-13.14   19.2 σ for 505 s at 46 cps 4 dets
+2606040452_alldets no sources found with Sco X-1 inside FOV  for 17 s, 7353 cps, >6.6 keV
+2606040412_alldets no sources found with Sco X-1 inside FOV  for 9 s, 13169 cps, >6.3 keV
+2606040402_alldets ji = 1139.0,490.0 = ScoX1+   0.2,   0.7 ra,dec = 261.53,-12.13   27.0 σ for 505 s at 59 cps 4 dets
+2606040322_alldets no sources found with Sco X-1 inside FOV  for 522 s, 239 cps, >6.5 keV
+2606040232_alldets no sources found with Sco X-1 inside FOV  for 7 s, 17676 cps, >7.0 keV
+2606040012_alldets no sources found with Sco X-1 inside FOV  for 544 s, 240 cps, >5.6 keV
+2606040002_alldets ji = 1591.0,663.0 = ScoX1+   0.3,   0.1 ra,dec = 220.35,-39.30   20.0 σ for 549 s at 102 cps 4 dets
+2606032352_alldets ji = 1698.0,144.0 = ScoX1+   0.1,  -0.1 ra,dec = 245.85,-49.04    8.1 σ for 563 s at 136 cps 4 dets
+2606032222_alldets ji = 1628.0,513.0 = ScoX1+  -0.5,   0.2 ra,dec = 225.87,-44.25   27.3 σ for 563 s at 75 cps 4 dets
+2606032212_alldets no sources found with Sco X-1 outside FOV  for 241 s, 533 cps, >6.3 keV
+2606032143_alldets ji = 1251.0, 69.0 = ScoX1+   1.0,   0.5 ra,dec = 261.26,-14.09    5.9 σ for 549 s at 110 cps 4 dets
+2606032053_alldets no sources found with Sco X-1 inside FOV  for 6 s, 19829 cps, >6.9 keV
+2606032043_alldets ji = 1660.0,358.0 = ScoX1+  -0.4,   0.3 ra,dec = 233.58,-47.58    8.0 σ for 537 s at 173 cps 3 dets
+2606032003_alldets ji = 1201.0,219.0 = ScoX1+  -0.0,   0.5 ra,dec = 261.10,-13.67   20.9 σ for 537 s at 18 cps 3 dets
+2606031923_alldets no sources found with Sco X-1 inside FOV  for 2 s, 52196 cps, >6.7 keV
+2606031823_alldets ji = 1163.0,373.0 = ScoX1+   0.8,   0.8 ra,dec = 261.28,-12.80   15.6 σ for 537 s at 108 cps 4 dets
+2606031743_alldets no sources found with Sco X-1 inside FOV  for 8 s, 15026 cps, >6.6 keV
+2606031643_alldets ji = 1132.0,527.0 = ScoX1+   0.4,   0.5 ra,dec = 261.50,-11.50    8.9 σ for 489 s at 242 cps 4 dets
+2606031513_alldets ji = 1214.0,161.0 = ScoX1+  -0.4,   0.3 ra,dec = 261.03,-13.93   20.5 σ for 500 s at 27 cps 4 dets
+2606031503_alldets ji = 1109.0,677.0 = ScoX1+   0.4,   0.6 ra,dec = 261.44, -9.74   12.3 σ for 379 s at 330 cps 4 dets
+2606031331_alldets ji = 1148.0,439.0 = ScoX1+   0.3,   0.3 ra,dec = 261.37,-12.21   28.1 σ for 577 s at 55 cps 4 dets
+2606031155_alldets ji = 1159.0,382.0 = ScoX1+   0.4,   1.1 ra,dec = 261.25,-12.66   22.3 σ for 578 s at 27 cps 4 dets
+2606031144_alldets no sources found with Sco X-1 inside FOV  for 209 s, 598 cps, >6.4 keV
+2606031123_alldets no sources found with Sco X-1 inside FOV  for 1 s, 108108 cps, >9.0 keV
+2606030937_alldets no sources found with Sco X-1 inside FOV  for 1 s, 50690 cps, >11.9 keV
+2606030844_alldets no sources found with Sco X-1 inside FOV  for 579 s, 23 cps, >7.1 keV
+2606021910_alldets no sources found with Sco X-1 inside FOV  for 25 s, 5153 cps, >6.6 keV
+2606021820_alldets ji = 1316.0,373.0 = ScoX1+   0.2,   0.7 ra,dec = 265.15,-15.71   21.8 σ for 549 s at 55 cps 4 dets
+2606021810_alldets ji = 1165.0,333.0 = ScoX1+   0.5,   0.5 ra,dec = 261.08,-12.75   14.7 σ for 537 s at 94 cps 4 dets
+2606021730_alldets no sources found with Sco X-1 inside FOV  for 4 s, 28105 cps, >6.6 keV
+2606021640_alldets ji = 1261.0,351.0 = ScoX1+   0.3,   0.0 ra,dec = 263.34,-14.64   22.0 σ for 548 s at 24 cps 4 dets
+2606021630_alldets ji = 1140.0,488.0 = ScoX1+  -0.1,   0.4 ra,dec = 261.25,-11.14    6.2 σ for 453 s at 265 cps 4 dets
+2606021500_alldets ji = 1214.0,321.0 = ScoX1+   0.4,   0.2 ra,dec = 261.98,-13.88   22.4 σ for 458 s at 31 cps 4 dets
+2606021450_alldets ji = 1123.0,639.0 = ScoX1+   0.6,  -0.1 ra,dec = 261.08, -9.10   10.0 σ for 407 s at 312 cps 4 dets
+2606021328_alldets ji = 1297.0,362.0 = ScoX1+   1.1,   1.1 ra,dec = 264.45,-15.47    7.6 σ for 93 s at 21 cps 3 dets
+2606021318_alldets ji = 1153.0,400.0 = ScoX1+   0.5,   0.6 ra,dec = 261.15,-12.02   11.7 σ for 577 s at 28 cps 3 dets
+2606021246_alldets no sources found with Sco X-1 inside FOV  for 1 s, 71592 cps, >8.0 keV
+2606021153_alldets no sources found with Sco X-1 inside FOV  for 419 s, 0 cps, >20.5 keV
+2606021142_alldets ji = 1162.0,339.0 = ScoX1+  -0.4,   0.5 ra,dec = 261.05,-12.60   12.6 σ for 576 s at 47 cps 4 dets
+2606021132_alldets ji = 1109.0,870.0 = ScoX1+   0.5,   0.4 ra,dec = 259.46, -5.20    6.1 σ for 570 s at 222 cps 4 dets
+2606020956_alldets ji = 1113.0,806.0 = ScoX1+   0.6,   0.4 ra,dec = 260.03, -6.22    5.9 σ for 305 s at 419 cps 4 dets
+2606020831_alldets ji = 1189.0,292.0 = ScoX1+  -0.5,  -0.2 ra,dec = 261.34,-13.51   14.3 σ for 581 s at 74 cps 4 dets
+2606020820_alldets ji = 1117.0,744.0 = ScoX1+  -0.0,   0.1 ra,dec = 260.45, -7.17    9.5 σ for 276 s at 262 cps 4 dets
+2606020556_alldets ji = 1649.0,318.0 = ScoX1+  -0.6,  -0.1 ra,dec = 238.51,-47.75   18.7 σ for 537 s at 51 cps 4 dets
+2606020526_alldets no sources found with Sco X-1 inside FOV  for 15 s, 8040 cps, >7.6 keV
+2606020436_alldets no sources found with Sco X-1 inside FOV  for 52 s, 2200 cps, >6.5 keV
+2606020346_alldets no sources found with Sco X-1 inside FOV  for 27 s, 2652 cps, >6.5 keV
+2606020257_alldets no sources found with Sco X-1 inside FOV  for 16 s, 7898 cps, >6.5 keV
+2606020217_alldets no sources found with Sco X-1 inside FOV  for 42 s, 1093 cps, >7.6 keV
+2606020117_alldets ji = 1553.0,879.0 = ScoX1+  -0.3,   0.4 ra,dec = 216.65,-33.44   17.5 σ for 505 s at 116 cps 4 dets
+2606012337_alldets ji = 1586.0,739.0 = ScoX1+   0.1,  -0.0 ra,dec = 220.03,-39.20   22.5 σ for 547 s at 46 cps 4 dets
+2606012327_alldets ji = 1654.0,220.0 = ScoX1+   0.0,  -0.2 ra,dec = 244.30,-47.68   13.5 σ for 539 s at 63 cps 4 dets
+2606012307_alldets no sources found with Sco X-1 inside FOV  for 2 s, 56948 cps, >6.9 keV
+2606012157_alldets ji = 1612.0,590.0 = ScoX1+  -0.1,  -0.0 ra,dec = 225.56,-43.73   25.6 σ for 547 s at 38 cps 4 dets
+2606012117_alldets ji = 1238.0,317.0 = ScoX1+   0.1,   0.4 ra,dec = 262.58,-14.76   11.4 σ for 538 s at 77 cps 4 dets
+2606012027_alldets no sources found with Sco X-1 inside FOV  for 355 s, 353 cps, >7.0 keV
+2606011937_alldets ji = 1197.0,283.0 = ScoX1+  -0.6,  -0.1 ra,dec = 261.47,-13.84   13.2 σ for 537 s at 31 cps 3 dets
+2606011807_alldets no sources found with Sco X-1 inside FOV  for 13 s, 9707 cps, >6.4 keV
+2606011757_alldets ji = 1167.0,293.0 = ScoX1+   0.2,   0.7 ra,dec = 260.85,-12.70   13.7 σ for 538 s at 60 cps 4 dets
+2606011607_alldets no sources found with Sco X-1 inside FOV  for 59 s, 1838 cps, >6.8 keV
+2606011547_alldets no sources found with Sco X-1 inside FOV  for 1 s, 28399 cps, >8.5 keV
+2606011448_alldets ji = 1209.0,287.0 = ScoX1+   0.4,   0.1 ra,dec = 261.73,-14.18   22.5 σ for 503 s at 32 cps 4 dets
+2606011438_alldets ji = 1136.0,602.0 = ScoX1+   0.1,   0.5 ra,dec = 260.69, -8.51   14.0 σ for 454 s at 280 cps 4 dets
+2606020556_alldets ji = 1649.0,318.0 = ScoX1+  -0.6,  -0.1 ra,dec = 238.51,-47.75   18.7 σ for 537 s at 51 cps 4 dets
+2606020526_alldets no sources found with Sco X-1 inside FOV  for 15 s, 8040 cps, >7.6 keV
+2606020436_alldets no sources found with Sco X-1 inside FOV  for 52 s, 2200 cps, >6.5 keV
+2606020346_alldets no sources found with Sco X-1 inside FOV  for 27 s, 2652 cps, >6.5 keV
+2606020257_alldets no sources found with Sco X-1 inside FOV  for 16 s, 7898 cps, >6.5 keV
+2606020217_alldets no sources found with Sco X-1 inside FOV  for 42 s, 1093 cps, >7.6 keV
+2606020117_alldets ji = 1553.0,879.0 = ScoX1+  -0.3,   0.4 ra,dec = 216.65,-33.44   17.5 σ for 505 s at 116 cps 4 dets
+2606012337_alldets ji = 1586.0,739.0 = ScoX1+   0.1,  -0.0 ra,dec = 220.03,-39.20   22.5 σ for 547 s at 46 cps 4 dets
+2606012327_alldets ji = 1654.0,220.0 = ScoX1+   0.0,  -0.2 ra,dec = 244.30,-47.68   13.5 σ for 539 s at 63 cps 4 dets
+2606012307_alldets no sources found with Sco X-1 inside FOV  for 2 s, 56948 cps, >6.9 keV
+2606012157_alldets ji = 1612.0,590.0 = ScoX1+  -0.1,  -0.0 ra,dec = 225.56,-43.73   25.6 σ for 547 s at 38 cps 4 dets
+2606012117_alldets ji = 1238.0,317.0 = ScoX1+   0.1,   0.4 ra,dec = 262.58,-14.76   11.4 σ for 538 s at 77 cps 4 dets
+2606012027_alldets no sources found with Sco X-1 inside FOV  for 355 s, 353 cps, >7.0 keV
+2606011937_alldets ji = 1197.0,283.0 = ScoX1+  -0.6,  -0.1 ra,dec = 261.47,-13.84   13.2 σ for 537 s at 31 cps 3 dets
+2606011807_alldets no sources found with Sco X-1 inside FOV  for 13 s, 9707 cps, >6.4 keV
+2606011757_alldets ji = 1167.0,293.0 = ScoX1+   0.2,   0.7 ra,dec = 260.85,-12.70   13.7 σ for 538 s at 60 cps 4 dets
+2606011305_alldets ji = 1158.0,359.0 = ScoX1+   0.2,   0.2 ra,dec = 260.93,-11.84   17.5 σ for 578 s at 49 cps 3 dets
+2606011129_alldets ji = 1166.0,296.0 = ScoX1+   0.4,   0.5 ra,dec = 260.82,-12.52   22.4 σ for 580 s at 33 cps 4 dets
+2606011119_alldets ji = 1131.0,834.0 = ScoX1+   0.8,   0.2 ra,dec = 258.76, -4.31    5.5 σ for 245 s at 516 cps 4 dets
+2606011047_alldets ji = 1526.0,1009.0 = ScoX1+   0.4,   0.5 ra,dec = 215.18,-28.15    5.6 σ for 29 s at 111 cps 3 dets
+2606010808_alldets no sources found with Sco X-1 inside FOV  for 48 s, 2186 cps, >7.6 keV
+2605310411_alldets no sources found with Sco X-1 inside FOV  for 36 s, 3349 cps, >6.3 keV
+2605310231_alldets no sources found with Sco X-1 inside FOV  for 508 s, 220 cps, >6.8 keV
+2605310121_alldets no sources found with Sco X-1 inside FOV  for 373 s, 297 cps, >7.0 keV
+2605310051_alldets ji = 1561.0,951.0 = ScoX1+  -0.0,   0.3 ra,dec = 216.15,-33.82    5.8 σ for 282 s at 438 cps 3 dets
+2605302351_alldets no sources found with Sco X-1 inside FOV  for 242 s, 482 cps, >7.0 keV
+2605302231_alldets no sources found with Sco X-1 inside FOV  for 218 s, 295 cps, >6.8 keV
+2605302121_alldets no sources found with Sco X-1 inside FOV  for 7 s, 17053 cps, >7.1 keV
+2605302101_alldets no sources found with Sco X-1 inside FOV  for 1 s, 283 cps, >7.9 keV
+2605302002_alldets no sources found with Sco X-1 inside FOV  for 3 s, 42887 cps, >6.5 keV
+2605301952_alldets ji = 1604.0,513.0 = ScoX1+  -0.5,   0.1 ra,dec = 232.29,-45.59    5.3 σ for 477 s at 254 cps 4 dets
+2605301942_alldets no sources found with Sco X-1 inside FOV  for 1 s, 4077 cps, >7.4 keV
+2605301912_alldets ji = 1191.0,214.0 = ScoX1+   0.0,   0.4 ra,dec = 260.99,-14.26   15.8 σ for 539 s at 34 cps 4 dets
+2605301842_alldets no sources found with Sco X-1 inside FOV  for 8 s, 123 cps, >6.4 keV
+2605301652_alldets no sources found with Sco X-1 inside FOV  for 19 s, 6368 cps, >6.5 keV
+2605301632_alldets no sources found with Sco X-1 inside FOV  for 101 s, 1254 cps, >7.5 keV
+2605301602_alldets ji = 1228.0,254.0 = ScoX1+  -0.4,   0.0 ra,dec = 262.07,-16.34   11.8 σ for 364 s at 11 cps 1 dets
+2605301452_alldets no sources found with Sco X-1 inside FOV  for 9 s, 13691 cps, >7.1 keV
+2605301250_alldets ji = 1252.0,272.0 = ScoX1+   0.0,   1.1 ra,dec = 262.66,-17.62   10.0 σ for 262 s at 13 cps 1 dets
+2605301157_alldets no sources found with Sco X-1 inside FOV  for 3 s, 38039 cps, >6.7 keV
+2605301147_alldets no sources found with Sco X-1 inside FOV  for 534 s, 235 cps, >6.8 keV
+2605301001_alldets no sources found with Sco X-1 inside FOV  for 589 s, 206 cps, >6.4 keV
+2605300928_alldets ji = 1177.0,177.0 = ScoX1+  -0.3,   0.1 ra,dec = 260.44,-13.37   11.2 σ for 578 s at 28 cps 1 dets
+2605300753_alldets ji = 1185.0,189.0 = ScoX1+   0.6,   0.5 ra,dec = 260.71,-13.97   18.4 σ for 596 s at 46 cps 4 dets
+2605300649_alldets ji = 1591.0,164.0 = ScoX1+  -0.2,   0.4 ra,dec = 249.63,-44.24   19.1 σ for 592 s at 34 cps 4 dets
+2605300448_alldets no sources found with Sco X-1 inside FOV  for 9 s, 2277 cps, >6.4 keV
+2605300438_alldets no sources found with Sco X-1 inside FOV  for 62 s, 1032 cps, >7.3 keV
+2605300308_alldets no sources found with Sco X-1 inside FOV  for 19 s, 6623 cps, >6.4 keV
+2605300138_alldets no sources found with Sco X-1 inside FOV  for 0 s, 124240 cps, >8.9 keV
+2605300038_alldets no sources found with Sco X-1 inside FOV  for 104 s, 1245 cps, >6.7 keV
+2605300028_alldets ji = 1594.0,492.0 = ScoX1+  -0.1,   0.5 ra,dec = 234.49,-45.57   23.8 σ for 538 s at 49 cps 4 dets
+2605292358_alldets no sources found with Sco X-1 inside FOV  for 2 s, 16354 cps, >9.2 keV
+2605292249_alldets ji = 1591.0,333.0 = ScoX1+   0.1,   0.5 ra,dec = 242.01,-45.58    6.1 σ for 498 s at 257 cps 4 dets
+2605292129_alldets no sources found with Sco X-1 inside FOV  for 55 s, 2316 cps, >3.9 keV
+2605292119_alldets no sources found with Sco X-1 inside FOV  for 9 s, 3691 cps, >7.1 keV
+2605292109_alldets ji = 1581.0,173.0 = ScoX1+  -0.8,   0.0 ra,dec = 248.90,-43.97    5.1 σ for 219 s at 573 cps 3 dets
+2605292039_alldets ji = 1210.0,217.0 = ScoX1+  -0.1,   0.3 ra,dec = 261.47,-16.23   23.0 σ for 528 s at 51 cps 4 dets
+2605291859_alldets ji = 1187.0,179.0 = ScoX1+  -0.2,   0.4 ra,dec = 260.75,-14.51   17.9 σ for 538 s at 40 cps 4 dets
+2605291809_alldets ji = 1576.0,905.0 = ScoX1+   0.2,  -0.1 ra,dec = 218.20,-37.57   19.0 σ for 562 s at 28 cps 1 dets
+2605291719_alldets ji = 1173.0,169.0 = ScoX1+  -0.2,   0.6 ra,dec = 260.16,-12.61   22.0 σ for 377 s at 53 cps 4 dets
+2605291709_alldets no sources found with Sco X-1 inside FOV  for 71 s, 1361 cps, >6.7 keV
+2605291639_alldets no sources found with Sco X-1 inside FOV  for 22 s, 5648 cps, >7.2 keV
+2605291549_alldets ji = 1217.0,222.0 = ScoX1+   0.2,   0.9 ra,dec = 261.60,-16.92   17.9 σ for 355 s at 30 cps 4 dets
+2605291539_alldets ji = 1172.0,328.0 = ScoX1+   0.0,  -0.1 ra,dec = 260.21, -9.85   11.5 σ for 545 s at 203 cps 4 dets
+2605291409_alldets ji = 1193.0,184.0 = ScoX1+   0.4,   0.4 ra,dec = 260.93,-15.13   11.1 σ for 391 s at 22 cps 4 dets
+2605291359_alldets ji = 1176.0,487.0 = ScoX1+  -0.2,   0.2 ra,dec = 259.57, -6.79    9.4 σ for 480 s at 266 cps 4 dets
+2605291216_alldets no sources found with Sco X-1 inside FOV  for 12 s, 9668 cps, >7.1 keV
+2605291155_alldets no sources found with Sco X-1 inside FOV  for 3 s, 30121 cps, >8.1 keV
+2605291051_alldets ji = 1174.0,163.0 = ScoX1+   0.1,   0.6 ra,dec = 260.10,-12.49   24.5 σ for 576 s at 38 cps 4 dets
+2605291041_alldets ji = 1193.0,724.0 = ScoX1+  -0.4,   0.5 ra,dec = 256.82, -1.87    9.2 σ for 174 s at 699 cps 4 dets
+2605291009_alldets no sources found with Sco X-1 inside FOV  for 5 s, 7732 cps, >10.6 keV
+2605290916_alldets ji = 1178.0,143.0 = ScoX1+   0.6,   1.1 ra,dec = 260.23,-13.45    8.6 σ for 579 s at 57 cps 4 dets
+2605290905_alldets ji = 1189.0,654.0 = ScoX1+  -0.3,   0.3 ra,dec = 257.78, -3.17    7.2 σ for 567 s at 134 cps 4 dets
+2605290813_alldets ji = 1561.0,197.0 = ScoX1+  -0.3,   0.4 ra,dec = 250.26,-43.09    9.7 σ for 488 s at 215 cps 4 dets
+2605290741_alldets ji = 1186.0,164.0 = ScoX1+   0.0,   1.1 ra,dec = 260.64,-14.64   12.9 σ for 551 s at 23 cps 2 dets
+2605290731_alldets ji = 1183.0,529.0 = ScoX1+   0.7,   0.2 ra,dec = 259.07, -5.58   14.6 σ for 542 s at 97 cps 2 dets
+2605290701_alldets no sources found with Sco X-1 inside FOV  for 5 s, 26710 cps, >7.0 keV
+2605290611_alldets no sources found with Sco X-1 inside FOV  for 9 s, 13063 cps, >6.6 keV
+2605290551_alldets ji = 1197.0,710.0 = ScoX1+   0.0,   0.2 ra,dec = 256.80, -1.82    8.5 σ for 295 s at 402 cps 4 dets
+2605290510_alldets no sources found with Sco X-1 inside FOV  for 25 s, 4777 cps, >7.5 keV
+2605290250_alldets no sources found with Sco X-1 inside FOV  for 377 s, 340 cps, >7.2 keV
+2605290210_alldets no sources found with Sco X-1 inside FOV  for 39 s, 3280 cps, >6.8 keV
+2605290059_alldets no sources found with Sco X-1 inside FOV  for 120 s, 992 cps, >8.1 keV
+2605290029_alldets no sources found with Sco X-1 inside FOV  for 6 s, 20773 cps, >7.4 keV
+2605282339_alldets no sources found with Sco X-1 inside FOV  for 16 s, 7928 cps, >6.7 keV
+2605282329_alldets no sources found with Sco X-1 inside FOV  for 514 s, 206 cps, >6.9 keV
+2605282239_alldets ji = 1578.0,540.0 = ScoX1+  -0.3,  -0.2 ra,dec = 233.68,-44.91   25.2 σ for 541 s at 49 cps 4 dets
+2605282159_alldets ji = 1180.0,135.0 = ScoX1+  -0.0,   0.5 ra,dec = 260.32,-14.00   10.5 σ for 540 s at 48 cps 4 dets
+2605282028_alldets ji = 1220.0,213.0 = ScoX1+   0.5,   0.8 ra,dec = 261.48,-18.36   10.5 σ for 232 s at 35 cps 3 dets
+2605281948_alldets no sources found with Sco X-1 inside FOV  for 6 s, 1286 cps, >4.2 keV
+2605281918_alldets no sources found with Sco X-1 inside FOV  for 6 s, 21789 cps, >7.4 keV
+2605281758_alldets no sources found with Sco X-1 inside FOV  for 8 s, 16365 cps, >7.0 keV
+2605281748_alldets ji = 1574.0,518.0 = ScoX1+   0.2,   0.4 ra,dec = 234.97,-44.90    7.4 σ for 349 s at 340 cps 4 dets
+2605281708_alldets no sources found with Sco X-1 inside FOV  for 548 s, 6 cps, >7.2 keV
+2605281627_alldets no sources found with Sco X-1 inside FOV  for 64 s, 1936 cps, >5.7 keV
+2605281617_alldets ji = 1578.0,857.0 = ScoX1+  -0.3,  -0.3 ra,dec = 220.96,-40.16   24.7 σ for 550 s at 70 cps 4 dets
+2605281537_alldets ji = 1212.0,200.0 = ScoX1+  -0.0,   0.5 ra,dec = 261.28,-18.14   20.0 σ for 308 s at 20 cps 4 dets
+2605281257_alldets no sources found with Sco X-1 inside FOV  for 50 s, 2350 cps, >6.4 keV
+2605290551_alldets ji = 1197.0,710.0 = ScoX1+   0.0,   0.2 ra,dec = 256.80, -1.82    8.5 σ for 295 s at 402 cps 4 dets
+2605290510_alldets no sources found with Sco X-1 inside FOV  for 25 s, 4777 cps, >7.5 keV
+2605290250_alldets no sources found with Sco X-1 inside FOV  for 377 s, 340 cps, >7.2 keV
+2605290210_alldets no sources found with Sco X-1 inside FOV  for 39 s, 3280 cps, >6.8 keV
+2605290059_alldets no sources found with Sco X-1 inside FOV  for 120 s, 992 cps, >8.1 keV
+2605290029_alldets no sources found with Sco X-1 inside FOV  for 6 s, 20773 cps, >7.4 keV
+2605282339_alldets no sources found with Sco X-1 inside FOV  for 16 s, 7928 cps, >6.7 keV
+2605282329_alldets no sources found with Sco X-1 inside FOV  for 514 s, 206 cps, >6.9 keV
+2605282239_alldets ji = 1578.0,540.0 = ScoX1+  -0.3,  -0.2 ra,dec = 233.68,-44.91   25.2 σ for 541 s at 49 cps 4 dets
+2605282159_alldets ji = 1180.0,135.0 = ScoX1+  -0.0,   0.5 ra,dec = 260.32,-14.00   10.5 σ for 540 s at 48 cps 4 dets
+2605282028_alldets ji = 1220.0,213.0 = ScoX1+   0.5,   0.8 ra,dec = 261.48,-18.36   10.5 σ for 232 s at 35 cps 3 dets
+2605281948_alldets no sources found with Sco X-1 inside FOV  for 6 s, 1286 cps, >4.2 keV
+2605281918_alldets no sources found with Sco X-1 inside FOV  for 6 s, 21789 cps, >7.4 keV
+2605281758_alldets no sources found with Sco X-1 inside FOV  for 8 s, 16365 cps, >7.0 keV
+2605281748_alldets ji = 1574.0,518.0 = ScoX1+   0.2,   0.4 ra,dec = 234.97,-44.90    7.4 σ for 349 s at 340 cps 4 dets
+2605281708_alldets no sources found with Sco X-1 inside FOV  for 548 s, 6 cps, >7.2 keV
+2605281627_alldets no sources found with Sco X-1 inside FOV  for 64 s, 1936 cps, >5.7 keV
+2605281617_alldets ji = 1578.0,857.0 = ScoX1+  -0.3,  -0.3 ra,dec = 220.96,-40.16   24.7 σ for 550 s at 70 cps 4 dets
+2605281537_alldets ji = 1212.0,200.0 = ScoX1+  -0.0,   0.5 ra,dec = 261.28,-18.14   20.0 σ for 308 s at 20 cps 4 dets
+2605281204_alldets no sources found with Sco X-1 inside FOV  for 167 s, 732 cps, >7.2 keV
+2605281132_alldets no sources found with Sco X-1 inside FOV  for 388 s, 334 cps, >7.0 keV
+2605280718_alldets ji = 1200.0,714.0 = ScoX1+   0.7,   0.5 ra,dec = 259.27, -4.19    8.2 σ for 47 s at 158 cps 4 dets
+2605280628_alldets ji = 1557.0,864.0 = ScoX1+  -0.5,  -0.0 ra,dec = 237.83,-46.35   35.9 σ for 539 s at 72 cps 4 dets
+2605280558_alldets no sources found with Sco X-1 inside FOV  for 100 s, 1184 cps, >7.2 keV
+2605280548_alldets ji = 1188.0,781.0 = ScoX1+   0.3,  -0.1 ra,dec = 262.83,-10.37   18.5 σ for 567 s at 13 cps 1 dets
+2605280458_alldets no sources found with Sco X-1 inside FOV  for 8 s, 15429 cps, >6.8 keV
+2605280237_alldets no sources found with Sco X-1 inside FOV  for 335 s, 371 cps, >6.7 keV
+2605272356_alldets no sources found with Sco X-1 inside FOV  for 28 s, 4513 cps, >7.1 keV
+2605272146_alldets ji = 1190.0,798.0 = ScoX1+   0.2,   0.1 ra,dec = 263.56,-12.72   11.6 σ for 47 s at 121 cps 4 dets
+2605272046_alldets no sources found with Sco X-1 inside FOV  for 53 s, 507 cps, >6.8 keV
+2605272016_alldets ji = 1214.0,873.0 = ScoX1+   1.3,   1.2 ra,dec = 264.42,-18.96    8.2 σ for 22 s at 33 cps 4 dets
+2605271925_alldets no sources found with Sco X-1 inside FOV  for 49 s, 2378 cps, >6.9 keV
+2605271905_alldets no sources found with Sco X-1 inside FOV  for 23 s, 1750 cps, >6.7 keV
+2605271835_alldets no sources found with Sco X-1 inside FOV  for 65 s, 12 cps, >6.4 keV
+2605271645_alldets no sources found with Sco X-1 inside FOV  for 59 s, 1980 cps, >7.0 keV
+2605271434_alldets no sources found with Sco X-1 inside FOV  for 34 s, 3687 cps, >6.7 keV
+2605271324_alldets no sources found with Sco X-1 inside FOV  for 17 s, 2471 cps, >6.6 keV
+2605271314_alldets no sources found with Sco X-1 inside FOV  for 2 s, 74 cps, >6.9 keV
+2605271201_alldets ji = 1192.0,749.0 = ScoX1+   0.2,   0.5 ra,dec = 262.42, -9.42   28.5 σ for 584 s at 32 cps 2 dets
+2605271151_alldets no sources found with Sco X-1 inside FOV  for 210 s, 603 cps, >6.7 keV
+2605271130_alldets no sources found with Sco X-1 inside FOV  for 2 s, 38991 cps, >7.3 keV
+2605271109_alldets ji = 1560.0,855.0 = ScoX1+   0.4,   0.1 ra,dec = 230.63,-44.57    8.2 σ for 158 s at 15 cps 2 dets
+2605271015_alldets no sources found with Sco X-1 inside FOV  for 12 s, 10597 cps, >7.5 keV
+2605270944_alldets no sources found with Sco X-1 inside FOV  for 4 s, 15040 cps, >11.4 keV
+2605261314_alldets no sources found with Sco X-1 inside FOV  for 36 s, 3404 cps, >6.7 keV
+2605261232_alldets no sources found with Sco X-1 inside FOV  for 17 s, 987 cps, >6.0 keV
+2605261138_alldets no sources found with Sco X-1 inside FOV  for 14 s, 8945 cps, >6.8 keV
+2605261002_alldets no sources found with Sco X-1 inside FOV  for 68 s, 1713 cps, >7.3 keV
+2605260653_alldets no sources found with Sco X-1 inside FOV  for 6 s, 355 cps, >6.9 keV
+2605260533_alldets no sources found with Sco X-1 inside FOV  for 21 s, 5963 cps, >7.2 keV
+2605260523_alldets ji = 1193.0,724.0 = ScoX1+  -0.0,   0.4 ra,dec = 262.87,-10.85   10.2 σ for 563 s at 38 cps 1 dets
+2605260353_alldets no sources found with Sco X-1 inside FOV  for 56 s, 2073 cps, >6.3 keV
+2605260223_alldets no sources found with Sco X-1 inside FOV  for 1 s, 29166 cps, >7.2 keV
+2605252153_alldets no sources found with Sco X-1 inside FOV  for 54 s, 499 cps, >6.7 keV
+2605252124_alldets no sources found with Sco X-1 inside FOV  for 56 s, 137 cps, >1.9 keV
+2605252024_alldets no sources found with Sco X-1 inside FOV  for 65 s, 63 cps, >7.2 keV
+2605251944_alldets ji = 1188.0,734.0 = ScoX1+   0.6,   1.0 ra,dec = 263.37,-13.15    6.6 σ for 17 s at 31 cps 4 dets
+2605251904_alldets no sources found with Sco X-1 inside FOV  for 78 s, 1671 cps, >6.3 keV
+2605251804_alldets no sources found with Sco X-1 inside FOV  for 36 s, 211 cps, >3.1 keV
+2605251614_alldets no sources found with Sco X-1 inside FOV  for 26 s, 4499 cps, >7.4 keV
+2605251554_alldets no sources found with Sco X-1 inside FOV  for 1 s, 4659 cps, >8.1 keV
+2605251454_alldets ji = 1184.0,738.0 = ScoX1+  -0.1,  -0.4 ra,dec = 263.56,-14.40   24.7 σ for 329 s at 44 cps 4 dets
+2605251444_alldets ji = 1239.0,637.0 = ScoX1+  -0.0,  -0.0 ra,dec = 258.39, -2.48    7.0 σ for 309 s at 417 cps 4 dets
+2605251240_alldets no sources found with Sco X-1 inside FOV  for 4 s, 29234 cps, >6.8 keV
+2605250950_alldets no sources found with Sco X-1 inside FOV  for 149 s, 869 cps, >6.9 keV
+2605250732_alldets no sources found with Sco X-1 inside FOV  for 9 s, 19 cps, >6.6 keV
+2605250430_alldets no sources found with Sco X-1 inside FOV  for 54 s, 2280 cps, >5.9 keV
+2605250250_alldets no sources found with Sco X-1 inside FOV  for 9 s, 13690 cps, >7.0 keV
+2605250140_alldets no sources found with Sco X-1 inside FOV  for 254 s, 474 cps, >7.6 keV
+2605250020_alldets no sources found with Sco X-1 inside FOV  for 10 s, 11677 cps, >6.6 keV
+2605242331_alldets ji = 1567.0,997.0 = ScoX1+   0.3,   0.3 ra,dec = 220.74,-39.73   22.8 σ for 506 s at 95 cps 4 dets
+2605242201_alldets no sources found with Sco X-1 inside FOV  for 18 s, 6744 cps, >6.6 keV
+2605242051_alldets no sources found with Sco X-1 inside FOV  for 22 s, 2863 cps, >7.1 keV
+2605241931_alldets ji = 1186.0,701.0 = ScoX1+   0.2,   0.2 ra,dec = 263.28,-13.32    6.0 σ for 61 s at 108 cps 4 dets
+2605241621_alldets ji = 1172.0,748.0 = ScoX1+   0.7,   0.5 ra,dec = 263.39,-18.43   23.7 σ for 456 s at 28 cps 4 dets
+2605241611_alldets ji = 1226.0,634.0 = ScoX1+  -0.1,  -0.1 ra,dec = 260.57, -5.52   12.4 σ for 436 s at 176 cps 4 dets
+2605241531_alldets no sources found with Sco X-1 inside FOV  for 17 s, 7362 cps, >6.1 keV
+2605241441_alldets ji = 1181.0,707.0 = ScoX1+   0.2,   0.7 ra,dec = 263.39,-14.63   23.1 σ for 310 s at 61 cps 4 dets
+2605241309_alldets ji = 1168.0,774.0 = ScoX1+   0.7,   0.5 ra,dec = 262.90,-21.08   23.1 σ for 192 s at 43 cps 4 dets
+2605241259_alldets ji = 1215.0,645.0 = ScoX1+   0.4,   0.5 ra,dec = 261.54, -7.49   22.7 σ for 571 s at 93 cps 4 dets
+2605241206_alldets no sources found with Sco X-1 inside FOV  for 14 s, 1488 cps, >6.0 keV
+2605241123_alldets ji = 1206.0,654.0 = ScoX1+  -0.1,   0.0 ra,dec = 262.17, -9.04   24.4 σ for 570 s at 51 cps 4 dets
+2605241030_alldets ji = 1523.0,943.0 = ScoX1+  -0.4,  -0.4 ra,dec = 229.82,-42.68   11.2 σ for 597 s at 85 cps 4 dets
+2605241020_alldets ji = 1404.0,994.0 = ScoX1+   0.2,  -0.2 ra,dec = 246.80,-40.67    9.3 σ for 593 s at 207 cps 4 dets
+2605240948_alldets ji = 1197.0,666.0 = ScoX1+  -0.0,   0.1 ra,dec = 262.70,-10.80   36.0 σ for 570 s at 90 cps 4 dets
+2605240801_alldets no sources found with Sco X-1 inside FOV  for 30 s, 3989 cps, >7.6 keV
+2605240709_alldets ji = 1431.0,992.0 = ScoX1+  -0.4,   0.4 ra,dec = 243.42,-41.77   20.3 σ for 594 s at 81 cps 2 dets
+2605240627_alldets ji = 1259.0,600.0 = ScoX1+   0.6,   1.0 ra,dec = 257.95, -1.67    7.1 σ for 39 s at 119 cps 4 dets
+2605240517_alldets no sources found with Sco X-1 inside FOV  for 7 s, 1213 cps, >5.6 keV
+2605240457_alldets ji = 1198.0,659.0 = ScoX1+   0.2,   0.1 ra,dec = 262.67,-10.74   20.1 σ for 506 s at 81 cps 4 dets
+2605240327_alldets no sources found with Sco X-1 inside FOV  for 18 s, 6919 cps, >6.4 keV
+2605240237_alldets no sources found with Sco X-1 inside FOV  for 366 s, 341 cps, >6.4 keV
+2605232308_alldets no sources found with Sco X-1 inside FOV  for 40 s, 451 cps, >2.6 keV
+2605232058_alldets ji = 1168.0,709.0 = ScoX1+   0.3,  -0.2 ra,dec = 263.29,-17.59    9.4 σ for 67 s at 123 cps 4 dets
+2605231918_alldets ji = 1186.0,670.0 = ScoX1+   1.8,   1.5 ra,dec = 263.12,-13.44    5.2 σ for 17 s at 49 cps 4 dets
+2605231658_alldets no sources found with Sco X-1 inside FOV  for 440 s, 281 cps, >6.6 keV
+2605231608_alldets ji = 1162.0,717.0 = ScoX1+   0.4,   0.3 ra,dec = 263.08,-19.00   21.9 σ for 444 s at 14 cps 2 dets
+2605231548_alldets no sources found with Sco X-1 inside FOV  for 23 s, 2448 cps, >6.5 keV
+2605231528_alldets no sources found with Sco X-1 inside FOV  for 1 s, 26473 cps, >8.8 keV
+2605231418_alldets no sources found with Sco X-1 inside FOV  for 53 s, 453 cps, >6.7 keV
+2605231110_alldets ji = 1210.0,623.0 = ScoX1+  -0.2,   0.6 ra,dec = 262.06, -8.96   24.2 σ for 422 s at 41 cps 3 dets
+2605230924_alldets ji = 1313.0,557.0 = ScoX1+  -0.5,   0.9 ra,dec = 253.46,  2.85    5.1 σ for 263 s at 480 cps 4 dets
+2605230624_alldets ji = 1176.0,665.0 = ScoX1+   0.6,   0.6 ra,dec = 263.20,-15.09   12.2 σ for 377 s at 18 cps 1 dets
+2605230414_alldets no sources found with Sco X-1 inside FOV  for 0 s, 136081 cps, >8.7 keV
+2605230315_alldets no sources found with Sco X-1 inside FOV  for 52 s, 2413 cps, >6.6 keV
+2605222355_alldets no sources found with Sco X-1 inside FOV  for 132 s, 914 cps, >7.8 keV
+2605222225_alldets ji = 1145.0,727.0 = ScoX1+  -0.1,   1.4 ra,dec = 262.09,-22.14    5.8 σ for 7 s at 65 cps 4 dets
+2605222145_alldets no sources found with Sco X-1 inside FOV  for 9 s, 6879 cps, >8.0 keV
+2605222115_alldets no sources found with Sco X-1 inside FOV  for 20 s, 3190 cps, >7.1 keV
+2605222045_alldets ji = 1160.0,678.0 = ScoX1+   0.4,   0.0 ra,dec = 263.03,-18.08    9.9 σ for 536 s at 42 cps 4 dets
+2605221935_alldets no sources found with Sco X-1 inside FOV  for 369 s, 0 cps, >20.5 keV
+2605221905_alldets ji = 1182.0,637.0 = ScoX1+  -0.3,   0.7 ra,dec = 263.01,-13.68   19.4 σ for 536 s at 46 cps 4 dets
+2605221825_alldets no sources found with Sco X-1 inside FOV  for 60 s, 2173 cps, >7.0 keV
+2605221725_alldets ji = 1211.0,601.0 = ScoX1+  -0.3,   0.3 ra,dec = 262.07, -9.15   22.0 σ for 550 s at 31 cps 2 dets
+2605221715_alldets no sources found with Sco X-1 inside FOV  for 136 s, 833 cps, >6.6 keV
+2605221536_alldets no sources found with Sco X-1 inside FOV  for 61 s, 1906 cps, >7.4 keV
+2605221416_alldets ji = 1174.0,642.0 = ScoX1+   0.8,  -0.1 ra,dec = 263.10,-15.18   25.2 σ for 411 s at 48 cps 4 dets
+2605221233_alldets ji = 1228.0,582.0 = ScoX1+   0.2,   0.7 ra,dec = 261.27, -7.02   11.4 σ for 582 s at 58 cps 3 dets
+2605221223_alldets no sources found with Sco X-1 inside FOV  for 447 s, 257 cps, >6.7 keV
+2605221202_alldets no sources found with Sco X-1 inside FOV  for 7 s, 13543 cps, >6.8 keV
+2605221141_alldets ji = 1485.0,1009.0 = ScoX1+  -0.1,  -0.0 ra,dec = 231.47,-41.61    6.4 σ for 57 s at 202 cps 3 dets
+2605221058_alldets ji = 1214.0,591.0 = ScoX1+   0.0,   0.2 ra,dec = 261.97, -8.90   29.1 σ for 586 s at 66 cps 4 dets
+2605221015_alldets no sources found with Sco X-1 inside FOV  for 16 s, 3031 cps, >8.7 keV
+2605220647_alldets no sources found with Sco X-1 inside FOV  for 25 s, 6 cps, >6.3 keV
+2605220256_alldets no sources found with Sco X-1 inside FOV  for 494 s, 264 cps, >6.6 keV
+2605220246_alldets ji = 1312.0,530.0 = ScoX1+  -0.0,   0.7 ra,dec = 255.33,  1.70    7.2 σ for 288 s at 438 cps 4 dets
+2605220216_alldets no sources found with Sco X-1 inside FOV  for 15 s, 8177 cps, >6.8 keV
+2605220106_alldets no sources found with Sco X-1 inside FOV  for 9 s, 12438 cps, >7.9 keV
+2605212335_alldets ji = 1273.0,540.0 = ScoX1+   0.4,  -0.3 ra,dec = 258.66, -2.17   11.7 σ for 485 s at 170 cps 4 dets
+2605212205_alldets ji = 1192.0,596.0 = ScoX1+   0.1,   0.7 ra,dec = 262.68,-12.15    5.4 σ for 47 s at 83 cps 4 dets
+2605211945_alldets no sources found with Sco X-1 inside FOV  for 21 s, 6074 cps, >6.2 keV
+2605211935_alldets ji = 1507.0,1015.0 = ScoX1+  -0.4,   0.5 ra,dec = 227.55,-40.90   19.7 σ for 510 s at 69 cps 4 dets
+2605211854_alldets no sources found with Sco X-1 inside FOV  for 2 s, 27 cps, >6.3 keV
+2605211754_alldets no sources found with Sco X-1 inside FOV  for 45 s, 2781 cps, >6.7 keV
+2605211704_alldets no sources found with Sco X-1 inside FOV  for 25 s, 4459 cps, >6.2 keV
+2605211634_alldets no sources found with Sco X-1 inside FOV  for 29 s, 4509 cps, >5.7 keV
+2605211624_alldets ji = 1546.0,1078.0 = ScoX1+  -0.2,  -0.5 ra,dec = 222.25,-39.80   15.8 σ for 512 s at 128 cps 4 dets
+2605211453_alldets no sources found with Sco X-1 inside FOV  for 10 s, 11765 cps, >6.4 keV
+2605211343_alldets no sources found with Sco X-1 inside FOV  for 10 s, 12805 cps, >6.7 keV
+2605211210_alldets no sources found with Sco X-1 inside FOV  for 22 s, 5820 cps, >6.6 keV
+2605211149_alldets no sources found with Sco X-1 inside FOV  for 2 s, 37579 cps, >7.7 keV
+2605211128_alldets ji = 1472.0,1038.0 = ScoX1+   0.2,  -0.4 ra,dec = 231.17,-40.90    6.2 σ for 166 s at 110 cps 2 dets
+2605211034_alldets no sources found with Sco X-1 inside FOV  for 44 s, 2796 cps, >7.0 keV
+2605211003_alldets no sources found with Sco X-1 inside FOV  for 12 s, 3961 cps, >10.4 keV
+2605210859_alldets no sources found with Sco X-1 inside FOV  for 23 s, 1330 cps, >7.0 keV
+2605210654_alldets no sources found with Sco X-1 inside FOV  for 103 s, 57 cps, >5.2 keV
+2605210634_alldets ji = 1420.0,1055.0 = ScoX1+   0.0,  -0.5 ra,dec = 235.70,-40.16   13.7 σ for 34 s at 67 cps 4 dets
+2605210604_alldets no sources found with Sco X-1 inside FOV  for 10 s, 10003 cps, >6.3 keV
+2605210544_alldets no sources found with Sco X-1 inside FOV  for 15 s, 1667 cps, >7.0 keV
+2605210053_alldets no sources found with Sco X-1 inside FOV  for 4 s, 9734 cps, >6.7 keV
+2605202232_alldets no sources found with Sco X-1 inside FOV  for 2 s, 90 cps, >6.4 keV
+2605202052_alldets no sources found with Sco X-1 inside FOV  for 73 s, 811 cps, >6.6 keV
+2605201842_alldets ji = 1155.0,598.0 = ScoX1+   1.1,   0.5 ra,dec = 262.69,-17.34   11.9 σ for 176 s at 17 cps 1 dets
+2605201821_alldets no sources found with Sco X-1 inside FOV  for 66 s, 1798 cps, >7.0 keV
+2605201651_alldets no sources found with Sco X-1 inside FOV  for 33 s, 701 cps, >6.9 keV
+2605201601_alldets no sources found with Sco X-1 inside FOV  for 30 s, 4316 cps, >7.0 keV
+2605201441_alldets no sources found with Sco X-1 inside FOV  for 7 s, 17345 cps, >6.1 keV
+2605201157_alldets no sources found with Sco X-1 inside FOV  for 14 s, 6370 cps, >6.3 keV
+2605201115_alldets ji = 1458.0,1068.0 = ScoX1+  -0.5,   0.1 ra,dec = 230.91,-40.16    5.5 σ for 47 s at 60 cps 2 dets
+2605201022_alldets no sources found with Sco X-1 inside FOV  for 162 s, 799 cps, >6.3 keV
+2605200950_alldets no sources found with Sco X-1 inside FOV  for 5 s, 11798 cps, >10.5 keV
+2605192213_alldets no sources found with Sco X-1 inside FOV  for 4 s, 4793 cps, >8.4 keV
+2605192123_alldets no sources found with Sco X-1 inside FOV  for 3 s, 20037 cps, >8.6 keV
+2605192003_alldets ji = 1188.0,531.0 = ScoX1+  -0.3,   1.0 ra,dec = 262.43,-12.71    6.9 σ for 15 s at 45 cps 2 dets
+2605191903_alldets no sources found with Sco X-1 inside FOV  for 58 s, 1141 cps, >7.8 keV
+2605191723_alldets no sources found with Sco X-1 inside FOV  for 3 s, 33590 cps, >7.8 keV
+2605191413_alldets no sources found with Sco X-1 inside FOV  for 10 s, 9435 cps, >7.8 keV
+2605191320_alldets no sources found with Sco X-1 inside FOV  for 0 s, 201083 cps, >6.5 keV
+2605191238_alldets no sources found with Sco X-1 inside FOV  for 1 s, 98915 cps, >8.3 keV
+2605191102_alldets no sources found with Sco X-1 inside FOV  for 16 s, 123 cps, >7.1 keV
+2605190159_alldets no sources found with Sco X-1 inside FOV  for 12 s, 10137 cps, >7.5 keV
+2605181950_alldets ji = 1187.0,498.0 = ScoX1+  -0.5,   0.9 ra,dec = 262.28,-12.84    5.3 σ for 81 s at 104 cps 4 dets
+2605181940_alldets no sources found with Sco X-1 inside FOV  for 12 s, 10 cps, >6.6 keV
+2605180956_alldets no sources found with Sco X-1 inside FOV  for 43 s, 2489 cps, >7.7 keV
+2605180924_alldets no sources found with Sco X-1 inside FOV  for 16 s, 2788 cps, >8.9 keV
+2605170244_alldets no sources found with Sco X-1 inside FOV  for 271 s, 457 cps, >6.5 keV
+2605162154_alldets no sources found with Sco X-1 inside FOV  for 21 s, 6131 cps, >6.1 keV
+2605162144_alldets ji = 1459.0,1168.0 = ScoX1+  -0.2,  -0.5 ra,dec = 227.30,-38.34   16.8 σ for 507 s at 103 cps 4 dets
+2605161645_alldets no sources found with Sco X-1 inside FOV  for 16 s, 6865 cps, >6.7 keV
+2605161615_alldets no sources found with Sco X-1 inside FOV  for 287 s, 39 cps, >6.0 keV
+2605161505_alldets no sources found with Sco X-1 inside FOV  for 83 s, 504 cps, >5.7 keV
+2605161200_alldets no sources found with Sco X-1 inside FOV  for 44 s, 1289 cps, >6.2 keV
+2605160621_alldets no sources found with Sco X-1 inside FOV  for 7 s, 1036 cps, >7.3 keV
+2605160501_alldets no sources found with Sco X-1 inside FOV  for 93 s, 1361 cps, >5.9 keV
+2605160051_alldets ji = 1601.0,1435.0 = ScoX1+  -0.3,   0.1 ra,dec = 216.82,-38.16    6.9 σ for 420 s at 198 cps 4 dets
+2605151912_alldets ji = 1183.0,399.0 = ScoX1+   0.1,   1.3 ra,dec = 261.78,-13.32    7.2 σ for 44 s at 52 cps 4 dets
+2605151552_alldets no sources found with Sco X-1 inside FOV  for 178 s, 172 cps, >6.2 keV
+2605151542_alldets no sources found with Sco X-1 inside FOV  for 201 s, 546 cps, >6.1 keV
+2605151053_alldets no sources found with Sco X-1 inside FOV  for 42 s, 2831 cps, >7.5 keV
+2605151001_alldets no sources found with Sco X-1 inside FOV  for 27 s, 4922 cps, >5.8 keV
+2605150928_alldets ji = 1228.0,365.0 = ScoX1+  -0.4,   0.9 ra,dec = 261.17, -9.23   10.3 σ for 571 s at 25 cps 4 dets
+2605142218_alldets no sources found with Sco X-1 inside FOV  for 40 s, 107 cps, >1.9 keV
+2605141619_alldets no sources found with Sco X-1 inside FOV  for 49 s, 2507 cps, >6.2 keV
+2605140641_alldets no sources found with Sco X-1 inside FOV  for 30 s, 227 cps, >1.8 keV
+2605140610_alldets no sources found with Sco X-1 inside FOV  for 5 s, 26403 cps, >6.0 keV
+2605140600_alldets ji = 1275.0,314.0 = ScoX1+  -0.0,   0.7 ra,dec = 260.01, -5.53   10.9 σ for 513 s at 37 cps 4 dets
+2605140430_alldets no sources found with Sco X-1 inside FOV  for 12 s, 10269 cps, >5.9 keV
+2605140420_alldets ji = 1373.0,300.0 = ScoX1+  -0.6,   0.4 ra,dec = 256.33,  2.03   10.3 σ for 512 s at 140 cps 4 dets
+2605140240_alldets no sources found with Sco X-1 inside FOV  for 21 s, 5775 cps, >7.2 keV
+2605140119_alldets no sources found with Sco X-1 inside FOV  for 5 s, 22959 cps, >6.0 keV
+2605140109_alldets no sources found with Sco X-1 inside FOV  for 28 s, 1720 cps, >6.9 keV
+2605132339_alldets no sources found with Sco X-1 inside FOV  for 7 s, 17490 cps, >6.7 keV
+2605132149_alldets no sources found with Sco X-1 inside FOV  for 15 s, 21 cps, >6.3 keV
+2605131938_alldets no sources found with Sco X-1 outside FOV  for 6 s, 17441 cps, >6.5 keV
+2605131758_alldets ji = 1600.0,1512.0 = ScoX1+  -0.7,  -0.6 ra,dec = 217.48,-38.47    9.3 σ for 512 s at 64 cps 4 dets
+2605131657_alldets no sources found with Sco X-1 inside FOV  for 23 s, 5380 cps, >6.1 keV
+2605131627_alldets no sources found with Sco X-1 outside FOV  for 2 s, 83791 cps, >5.6 keV
+2605131617_alldets ji = 1493.0,1350.0 = ScoX1+   0.1,  -0.1 ra,dec = 224.09,-37.82   20.1 σ for 512 s at 92 cps 4 dets
+2605131447_alldets no sources found with Sco X-1 outside FOV  for 3 s, 49536 cps, >6.5 keV
+2605131427_alldets no sources found with Sco X-1 inside FOV  for 29 s, 375 cps, >6.8 keV
+2605131317_alldets no sources found with Sco X-1 outside FOV  for 1 s, 27444 cps, >6.8 keV
+2605131142_alldets no sources found with Sco X-1 outside FOV  for 1 s, 77514 cps, >8.4 keV
+2605130956_alldets no sources found with Sco X-1 outside FOV  for 8 s, 5160 cps, >9.6 keV
+2605110837_alldets no sources found with Sco X-1 inside FOV  for 27 s, 23 cps, >6.3 keV
+2605081028_alldets no sources found with Sco X-1 outside FOV  for 3 s, 22700 cps, >7.9 keV
+2605080624_alldets no sources found with Sco X-1 inside FOV  for 21 s, 2041 cps, >4.0 keV
+2605080424_alldets no sources found with Sco X-1 inside FOV  for 161 s, 796 cps, >4.3 keV
+2605080414_alldets no sources found with Sco X-1 inside FOV  for 151 s, 775 cps, >3.9 keV
+2605080324_alldets no sources found with Sco X-1 inside FOV  for 154 s, 848 cps, >3.9 keV
+2605080314_alldets no sources found with Sco X-1 inside FOV  for 372 s, 0 cps, >6.6 keV
+2605080304_alldets no sources found with Sco X-1 inside FOV  for 507 s, 89 cps, >4.2 keV
+2605080134_alldets no sources found with Sco X-1 inside FOV  for 212 s, 0 cps, >5.5 keV
+2605080014_alldets no sources found with Sco X-1 inside FOV  for 249 s, 526 cps, >3.4 keV
+2605072015_alldets ji = 2071.0,1162.0 = ScoX1+   0.8,  -3.3 ra,dec = 195.20,  9.43    8.5 σ for 25 s at 94 cps 3 dets
+2605072005_alldets no sources found with Sco X-1 outside FOV  for 336 s, 382 cps, >4.0 keV
+2605071815_alldets no sources found with Sco X-1 outside FOV  for 44 s, 120 cps, >5.7 keV
+2605071645_alldets no sources found with Sco X-1 outside FOV  for 18 s, 7188 cps, >4.6 keV
+2605071515_alldets no sources found with Sco X-1 outside FOV  for 2 s, 37952 cps, >6.9 keV
+2605071335_alldets no sources found with Sco X-1 outside FOV  for 3 s, 36853 cps, >4.7 keV
+2605071015_alldets no sources found with Sco X-1 outside FOV  for 11 s, 11222 cps, >5.2 keV
+2605070521_alldets no sources found with Sco X-1 outside FOV  for 307 s, 422 cps, >2.9 keV
+2605070511_alldets ji = 1136.0,1447.0 = ScoX1+   0.9,  -0.8 ra,dec = 229.33,-25.38   18.5 σ for 310 s at 55 cps 4 dets
+2605070501_alldets no sources found with Sco X-1 inside FOV  for 150 s, 0 cps, >5.5 keV
+2605070441_alldets no sources found with Sco X-1 inside FOV  for 213 s, 0 cps, >7.5 keV
+2605070211_alldets no sources found with Sco X-1 outside FOV  for 452 s, 0 cps, >6.8 keV
+2605070131_alldets no sources found with Sco X-1 inside FOV  for 205 s, 629 cps, >3.5 keV
+2605070122_alldets no sources found with Sco X-1 inside FOV  for 163 s, 0 cps, >5.3 keV
+2605070112_alldets ji = 1534.0, 77.0 = ScoX1+   0.3,   0.1 ra,dec = 251.61,  9.32    6.5 σ for 564 s at 149 cps 4 dets
+2605070102_alldets no sources found with Sco X-1 inside FOV  for 530 s, 95 cps, >4.5 keV
+2605070052_alldets no sources found with Sco X-1 inside FOV  for 542 s, 0 cps, >6.1 keV
+2605062222_alldets ji = 673.0,631.0 = ScoX1+   0.5,   0.2 ra,dec = 224.59,-38.42    6.0 σ for 505 s at 209 cps 4 dets
+2605061952_alldets no sources found with Sco X-1 outside FOV  for 336 s, 381 cps, >4.2 keV
+2605061812_alldets no sources found with Sco X-1 outside FOV  for 223 s, 581 cps, >4.1 keV
+2605061802_alldets no sources found with Sco X-1 outside FOV  for 506 s, 101 cps, >4.3 keV
+2605061323_alldets no sources found with Sco X-1 outside FOV  for 9 s, 14714 cps, >4.2 keV
+2605061148_alldets no sources found with Sco X-1 outside FOV  for 338 s, 380 cps, >4.2 keV
+2605060604_alldets no sources found with Sco X-1 inside FOV  for 146 s, 882 cps, >4.0 keV
+2605060255_alldets no sources found with Sco X-1 inside FOV  for 64 s, 2012 cps, >4.2 keV
+2605060115_alldets no sources found with Sco X-1 inside FOV  for 307 s, 415 cps, >4.1 keV
+2605051626_alldets no sources found with Sco X-1 outside FOV  for 44 s, 2873 cps, >4.2 keV
+2605051446_alldets no sources found with Sco X-1 outside FOV  for 341 s, 376 cps, >3.9 keV
+2605051136_alldets no sources found with Sco X-1 outside FOV  for 1 s, 67882 cps, >6.4 keV
+2605050950_alldets no sources found with Sco X-1 outside FOV  for 25 s, 5173 cps, >4.5 keV
+2605050502_alldets no sources found with Sco X-1 outside FOV  for 205 s, 634 cps, >2.6 keV
+2605050152_alldets no sources found with Sco X-1 outside FOV  for 0 s, 1307350 cps, >4.4 keV
+2605042102_alldets no sources found with Sco X-1 outside FOV  for 19 s, 6924 cps, >3.9 keV
+2605041842_alldets no sources found with Sco X-1 inside FOV  for 495 s, 119 cps, >3.2 keV
+2605041713_alldets no sources found with Sco X-1 inside FOV  for 443 s, 295 cps, >2.6 keV
+2605041553_alldets no sources found with Sco X-1 inside FOV  for 452 s, 209 cps, >4.8 keV
+2605021547_alldets no sources found with Sco X-1 outside FOV  for 3 s, 21427 cps, >5.3 keV
+2605021407_alldets no sources found with Sco X-1 outside FOV  for 52 s, 2068 cps, >5.5 keV
+2605021233_alldets no sources found with Sco X-1 outside FOV  for 1 s, 80003 cps, >5.9 keV
+2605021057_alldets no sources found with Sco X-1 outside FOV  for 259 s, 498 cps, >3.5 keV
+2605021047_alldets no sources found with Sco X-1 outside FOV  for 564 s, 0 cps, >5.9 keV
+2605020911_alldets no sources found with Sco X-1 outside FOV  for 69 s, 839 cps, >4.1 keV
+2605020850_alldets no sources found with Sco X-1 inside FOV  for 1 s, 1603 cps, >2.2 keV
+2605020513_alldets no sources found with Sco X-1 inside FOV  for 183 s, 709 cps, >3.1 keV
+2605020343_alldets no sources found with Sco X-1 inside FOV  for 58 s, 2228 cps, >3.5 keV
+2605020333_alldets no sources found with Sco X-1 outside FOV  for 359 s, 0 cps, >5.9 keV
+2605020023_alldets no sources found with Sco X-1 inside FOV  for 413 s, 316 cps, >3.4 keV
+2605012254_alldets no sources found with Sco X-1 inside FOV  for 506 s, 2 cps, >6.3 keV
+2605012024_alldets no sources found with Sco X-1 outside FOV  for 47 s, 2552 cps, >3.9 keV
+2605011834_alldets no sources found with Sco X-1 outside FOV  for 159 s, 34 cps, >3.1 keV
+2605011724_alldets no sources found with Sco X-1 inside FOV  for 547 s, 1 cps, >4.0 keV
+2605011714_alldets no sources found with Sco X-1 outside FOV  for 309 s, 1 cps, >4.0 keV
+2605011704_alldets no sources found with Sco X-1 outside FOV  for 341 s, 0 cps, >5.4 keV
+2605011534_alldets no sources found with Sco X-1 outside FOV  for 74 s, 978 cps, >5.5 keV
+2605011354_alldets no sources found with Sco X-1 outside FOV  for 34 s, 3409 cps, >4.8 keV
+2605010848_alldets no sources found with Sco X-1 outside FOV  for 229 s, 36 cps, >3.0 keV
+2605010630_alldets no sources found with Sco X-1 outside FOV  for 389 s, 101 cps, >3.4 keV
+2605010420_alldets no sources found with Sco X-1 outside FOV  for 0 s, 1130930 cps, >4.4 keV
+2605010320_alldets no sources found with Sco X-1 outside FOV  for 482 s, 174 cps, >3.8 keV
+2605010150_alldets no sources found with Sco X-1 inside FOV  for 27 s, 4724 cps, >3.3 keV
+2605010140_alldets no sources found with Sco X-1 outside FOV  for 357 s, 6 cps, >4.4 keV
+2605010011_alldets no sources found with Sco X-1 inside FOV  for 60 s, 2173 cps, >2.5 keV
+2604302201_alldets no sources found with Sco X-1 inside FOV  for 526 s, 246 cps, >2.9 keV
+2604302011_alldets no sources found with Sco X-1 outside FOV  for 18 s, 7188 cps, >3.7 keV
+2604302001_alldets no sources found with Sco X-1 outside FOV  for 257 s, 0 cps, >7.5 keV
+2604301851_alldets no sources found with Sco X-1 inside FOV  for 495 s, 0 cps, >5.7 keV
+2604301831_alldets no sources found with Sco X-1 outside FOV  for 521 s, 242 cps, >3.1 keV
+2604301821_alldets no sources found with Sco X-1 outside FOV  for 508 s, 66 cps, >3.4 keV
+2604301711_alldets no sources found with Sco X-1 inside FOV  for 159 s, 818 cps, >3.5 keV
+2604301521_alldets no sources found with Sco X-1 outside FOV  for 189 s, 694 cps, >3.8 keV
+2604301341_alldets no sources found with Sco X-1 outside FOV  for 503 s, 78 cps, >2.6 keV

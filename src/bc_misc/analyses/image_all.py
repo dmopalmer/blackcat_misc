@@ -35,15 +35,15 @@ imager = BC_Imager(
 
 
 if True:
-    ph_all = sorted(set([line.split()[0].split("_")[0] for line in sourcedir.joinpath('found_scox1.txt').open('rt').readlines()]))
+    ph_all = sorted(set([line.split()[0].split("_")[0] for line in sourcedir.joinpath('found_scox1.txt').open('rt').readlines() if 'ScoX1+' in line]))
 else:
     ph_all = (sorted(top_dir.rglob("payload_checkout/CHECKOUT_26_05_*/level1_tmp/ph_2*")) +
         sorted(top_dir.rglob("payload_checkout/CHECKOUT_26_06_*/level1_tmp/ph_2*")))
-    
-
-#%%
-plot=True
+  
+plot=False
 fitsfiles=False
+#%%
+
 # Corrective offsets to add to detector detx, dety
 detpixsize = 40e-6
 impixsize = imager.resolution * detpixsize
@@ -51,6 +51,7 @@ impixsize = imager.resolution * detpixsize
 # alignment_corr = calibration['alignment_corr']
 
 pixoffs = []
+ijs = []
 for f in ph_all:
     f=Path(f)
     try:
@@ -60,9 +61,10 @@ for f in ph_all:
             continue
         # counts,radecroll = calibrate_data(obs['stable_photons'], obs['radecroll'])
         counts,radecroll = obs['stable_photons'], obs['radecroll']
-        obsname = f"{obs['obsname']}_alldets"
+        obsname = f"{obs['obsname']}"
         if len(counts) < 10:
             continue
+        erange = np.percentile(counts['ENERGY'], (5,95))
         imager.set_radecroll(radecroll)
         imhdu = imager.evtlist2image(
                 counts=counts, header=obs['header'],
@@ -71,12 +73,13 @@ for f in ph_all:
             )
         wcs = WCS(imhdu.header)
         height,width = imhdu.data.shape
+        scoij = wcs.world_to_pixel(scox1_coords)
+        fov_scox1 = (0 < scoij[0] < width and 0 < scoij[1] < height)
         # print("finding peaks")
         peaks = imager.imager.findpeaks(imhdu.data, minsigma=5)
         # print(f"Found {len(peaks)} peaks")
         # Can get MANY peaks with local significance due to partial detector population
         peaks = peaks[peaks['signif_global'] > 2]
-        scoij = wcs.world_to_pixel(scox1_coords)
         # ax.plot(width-scoij[0], height-scoij[1], 'v', markerfacecolor='none', markeredgecolor=('k', 0.75))
         # ax.plot(width/2, height/2, '+', markerfacecolor='none', markeredgecolor=('k', 0.75))
         dt = np.ptp(counts['time'])
@@ -87,11 +90,20 @@ for f in ph_all:
             for peak in peaks:
                 pixoff = peak['ijpeak'][::-1] - scoij
                 # alignment is handled by 'calibrate_data()' # - alignment_corr/impixsize
+                radec = wcs.pixel_to_world([peak['ijpeak'][1]], [peak['ijpeak'][0]])
+                ra,dec = [float(v.deg.item()) for v in (radec.ra, radec.dec)]
                 if np.hypot(*pixoff) > 50:
+                    if peak['signif_local'] > 6.5:
+                        print(f"{obsname} ji = {peak['ijpeak'][1]:5.1f},{peak['ijpeak'][0]:5.1f} = ({ra:8.3f}, {dec:+8.3f}) ra,dec = {peak['radecpeak'][0]:6.2f},{peak['radecpeak'][1]:6.2f}  {peak['signif_local']:5.1f} σ for {dt:.0f} s at {rate:.0f} cps {len(dets):1} dets")
                     continue
-                print(f"{obsname} ij = {peak['ijpeak'][1]:5.1f},{peak['ijpeak'][0]:5.1f} = ScoX1+ {pixoff[0]:5.1f}, {pixoff[1]:5.1f} ra,dec = {peak['radecpeak'][0]:6.2f},{peak['radecpeak'][1]:6.2f}  {peak['signif_local']:5.1f} σ for {dt:.0f} s at {rate:.0f} cps {len(dets):1} dets")
+                print(f"{obsname} ji = {peak['ijpeak'][1]:5.1f},{peak['ijpeak'][0]:5.1f} = ScoX1+ {pixoff[0]:5.1f}, {pixoff[1]:5.1f} ra,dec = {peak['radecpeak'][0]:6.2f},{peak['radecpeak'][1]:6.2f}  {peak['signif_local']:5.1f} σ for {dt:.0f} s at {rate:.0f} cps {len(dets):1} dets")
+                nomij = wcs.world_to_pixel(SkyCoord(ra=peak['radecpeak'][0]*u.degree, dec=peak['radecpeak'][1]*u.degree, frame='icrs'))
+                # print(f"Round trip ij = {nomij[1].item():5.1f},{nomij[0].item():5.1f},")
+                ijs.append([peak['ijpeak'][1], peak['ijpeak'][0], nomij[1], nomij[0]])
                 pixoffs.append(np.concatenate((scoij,pixoff)))
-
+        else:
+            print(f"{obsname} no sources found with Sco X-1", 'inside FOV ' if fov_scox1 else 'outside FOV',
+                  f' for {dt:.0f} s, {rate:.0f} cps, >{erange[0]:.1f} keV')
         if plot:
             plt.close('all')
             fig = plt.figure(figsize=(15,9))
@@ -112,7 +124,7 @@ for f in ph_all:
                 inax.set(xlim=[scoij[0]-20, scoij[0]+20], ylim=[scoij[1]-20, scoij[1]+20], xticks=[], yticks=[])
                 ax.indicate_inset_zoom(inax, edgecolor="black")
 
-            ax.set(title=f'OBSID 20{obs['obsname']} for {dt:.0f} s, {rate:.0f} cps, >5 keV')
+            ax.set(title=f'OBSID 20{obs['obsname']} for {dt:.0f} s, {rate:.0f} cps, >{erange[0]:.1f} keV')
             fig.tight_layout()
             fig.savefig(outdir.joinpath(f"{obsname}_full.png"))
             plt.pause(2)
@@ -120,8 +132,17 @@ for f in ph_all:
         print(f'{f.name} : {e}')
 
 pixoffs = np.asarray(pixoffs)
+ijs = np.asarray(ijs)
 #%%
-
+fig, ax = plt.subplots()
+ax.quiver(ijs[:,0], ijs[:,1], ijs[:,2]-ijs[:,0], ijs[:,3]-ijs[:,1])
+for xp,yp,xnom,ynom in ijs: 
+    ax.plot([xp,xnom],[yp,ynom],'r-')
+    # ax.annotate('hey', 
+    #         xy=(xnom.item(), ynom.item()),         # Arrow head destination
+    #         xytext=(xp.item(), yp.item()),     # Arrow tail start
+    #         arrowprops=dict(arrowstyle="->", color="red", lw=2))
+ax.set(aspect=1)
 # %%
 # Significance plot
 
@@ -157,4 +178,10 @@ fig.savefig("/tmp/significance_rate.png")
 
 
 
+# %%
+# Bright ones
+ph_all = sorted(set([line.split()[0].split("_")[0] 
+                     for line in sourcedir.joinpath('found_scox1.txt').open('rt').readlines()
+                     if float(line.split('σ')[0].strip().split()[-1]) > 25]))[::-1]
+plot=True
 # %%

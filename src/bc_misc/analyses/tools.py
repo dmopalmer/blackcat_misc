@@ -63,6 +63,85 @@ class Headers:
         return values
 
 
+class HotMonitor:
+    """Accumulate photons, then 
+    """
+    __RECENT_HOT_FILE = Path(__file__).parent.joinpath('../../../data/gains/hot_pixels_20260630.gz')
+    def __init__(self, hotfile: Optional[Path|bool] = True):
+        if hotfile is True:
+            hotfile = self.__RECENT_HOT_FILE
+        if hotfile:
+            # hots_from_file = 1 if hot
+            # IMPROVEME also use gains/threshold file
+            self.hots_from_file = np.array([fits.getdata(hotfile, ('HOTNESS', i)) for i in range(4)])
+        else:
+            self.hots_from_file = None
+        self.hot_counters = np.zeros((4,550,550), dtype=np.int32)
+        
+    def _id_py_px(self, counts) -> tuple[NDArray, NDArray, NDArray]:
+        """detid, pixel_x, pixel_y
+        """
+        id = counts['DETIC']
+        py  = counts['RAWY']
+        px  = counts['RAWX']
+        
+    def add_hots(self, counts):
+        id,py,px = self._id_py_px(counts)
+        np.add.at(self.hot_counters, (id, py, px), 1)
+        
+    def suggest_threshold(self) -> int:
+        """Suggest a hot pixel threshold
+        
+        Remove the zeros and the file-hots from the counters
+        Take the median of what remains.
+        Remove the values less than 10% of the median
+        Take the new median
+        Threshold at 3 sigma over twice the median
+        
+
+        Returns:
+            int: Threshold  hot = (count > result)
+        """
+        h = np.ravel(self.hot_counters)
+        if self.hots_from_file is not None:
+            h = h[0 == np.ravel(self.hots_from_file)]
+        h = h[h != 0]
+        med = np.median(h)
+        if med > 10:
+            med = np.median(h[h > med//10])
+        return int(2*med + 3 * np.sqrt(med))
+        
+        
+    def hot_map(self, threshold: Optional[int] = None, ignore_file = False) -> NDArray[bool]:
+        if threshold is None:
+            threshold = self.suggest_threshold()
+        result = self.hot_counter > threshold
+        if not ignore_file:
+            result = np.logical_and(result, self.hots_from_file)
+        return result
+    
+    def split_counts(self, counts, threshold: Optional[int] = None, ignore_file = False) -> tuple[NDArray, NDArray]:
+        """Split counts into those from cool and hot pixels
+
+        Args:
+            counts (_type_): _description_
+            threshold (Optional[int], optional): _description_. Defaults to None.
+            ignore_file (bool, optional): _description_. Defaults to False.
+
+        Returns:
+            tuple[NDArray, NDArray]: _description_
+        """
+        hm = self.hot_map(threshold=threshold, ignore_file = ignore_file)
+        id,py,px = self._id_py_px(counts)
+        hot = hot_map[id, py, px]
+        hots = counts[hot]
+        cools = counts[np.logical_not(hot)]
+        return cools, hots
+        
+        
+            
+        
+
 def where_time_good(d):
     # After 2026 Jan 1.0
     w = d["time"] > 1767250800
@@ -188,6 +267,82 @@ def detsplit(data, field='DETID', matches=range(4), apply=None):
         result.append(r)
     return result
 
+def plot_rate_from_count(times, counts, ax, *args, drawstyle='steps-pre', **kwargs):
+    """Plot rate from cumulative counts
+
+    Args:
+        times (_type_): in seconds will have ts_to_time applied
+        counts (_type_): cumulative
+        ax (_type_): axes to plot on
+        **kwargs: passed to plot
+    """
+    rates = np.diff(counts)/np.clip(np.diff(times), 0.01, None)
+    w = times[:-1] > 1e8
+    # w = w & np.roll(w,1) & np.roll(w,-1)
+    ax.plot(ts_to_time(times[:-1][w]), rates[w], *args, drawstyle=drawstyle, **kwargs)
+
+def binspace(low, high, approxwidth):
+    """Generate bins approximately the requested width
+
+    Args:
+        low (_type_): _description_
+        high (_type_): _description_
+        approxwidth (_type_): _description_
+    returns:
+        (bins, binwidth)
+    """
+    dt = high-low
+    if dt == 0:
+        return np.array([low, low+approxwidth]), approxwidth
+    nbins = max(np.round(dt/approxwidth).astype(int), 1)
+    return np.linspace(low, high, nbins+1, endpoint=True), dt/nbins
+
+def plot_photons_and_rates(l1files, datasource, fig=None):
+    if fig is None:
+        fig = plt.figure(figsize=[12,12])
+    gs = plt.GridSpec(nrows=6, ncols=1, figure=fig)
+    # height space
+    gs.update(
+        left=0.08,    # 5% margin from left edge
+        right=0.95,   # 5% margin from right edge
+        top=0.95,     # 5% margin from top edge
+        bottom=0.05,  # 5% margin from bottom edge
+        hspace=0.05   # Keep the subplots close together vertically
+    )
+    ax_ybytime = fig.add_subplot(gs[0,0])
+    # A plot for each detector with 0 at the bottom
+    ax_det = [fig.add_subplot(gs[4-i, 0], sharex=ax_ybytime) for i in range(4)]
+    ax_rings = fig.add_subplot(gs[5,0], sharex=ax_ybytime)
+    for fname in l1files:
+        d,h = fits.getdata(fname, header=True)
+        ax_ybytime.plot(ts_to_time(d['time']),d['rawy']+1600*d['detid'].astype(int), 'b,')
+        bins, binwidth = binspace(d['time'][0], d['time'][-1], 1)
+        for detid in range(4):
+            dd = d[d['detid'] == detid]
+            h, e = np.histogram(dd['time'], bins=bins)
+            ax_det[detid].plot(ts_to_time(bins[:-1]), h/binwidth, 'b-', drawstyle='steps-pre')
+    
+    for detid, ax in enumerate(ax_det):
+        for name_,style,label in [('good_events', 'b:', 'good'), ('hot_events', 'r-', 'hot'), 
+                                  ('adc_limit_events', 'g-', 'adc_lim'), 
+                                  ('fpga_headwrite', 'c-', 'DRAM written'), 
+                                  ('fpga_globalthresh', 'm-', 'Global Thresh'), 
+                                  ('fpga_pixthresh', 'y-', 'Pixel thresh')]:
+            name = f"{name_}({detid})"
+            values = datasource.data(name)[0]
+            plot_rate_from_count(values['time'], values[name], ax, style, label=label)
+        ax.set(ylim=[1,None], ylabel=f"det {detid} rate (Hz)", yscale="log")
+        # if detid != 0:
+        #     ax.set(xticklabels = [])
+    ax_det[-1].legend(ncols=5, loc="lower center", frameon=False, bbox_to_anchor=(0.5,0.75))
+    
+    ringvalues = datasource.data('good-max_index')[0]
+    for name,style in [('good', 'g-'), ('sus', 'b-'), ('bad', 'c:'), ('cr', 'r')]:
+        plot_rate_from_count(ringvalues['time'], ringvalues[f'{name}-max_index'], ax_rings, style, label=name)
+    ax_rings.set(ylim=[1,None], ylabel="ring buffers rate (Hz)", yscale="log")
+    ax_rings.legend(ncols=4,loc="lower center", frameon=False, bbox_to_anchor=(0.5,0.75))
+    fig.tight_layout()
+    return fig
 
 def plot_photons_isl4(name,fname, fig=None):
     """Plot photons including Island4
@@ -223,15 +378,21 @@ def plot_photons_isl4(name,fname, fig=None):
             # ax_dph.text(xave, yave, f"SP{i}", color="r", alpha=1)
             axhist = fig.add_subplot(gs[1-detgrid[i][0], 2+detgrid[i][1]])
             axhist.hist(dd['energy'], bins=np.logspace(np.log10(0.5),np.log10(25),num=100),histtype='step')
-            axhist.set(xscale='log',yscale='log',xlim=[1,21],ylim=[0.5,1e5])
+            axhist.set(xscale='log',yscale='log',xlim=[0.5,23],ylim=[0.5,1e5])
     ax_ybytime = fig.add_subplot(gs[2,:])
-    for dd,c in zip((d[d['island4'] > 2000], d[d['island4'] <= 2000]), 'rb'):
+
+    try:
+        for dd,c in zip((d[d['island4'] > 2000], d[d['island4'] <= 2000]), 'rb'):
+            if len(dd) > 0:
+                ax_ybytime.plot(ts_to_time(dd['time']),dd['rawy']+1600*dd['detid'].astype(int), c+',')
+        ax_I4bytime = fig.add_subplot(gs[3,:], sharex=ax_ybytime)
+        ax_I4bytime.plot(ts_to_time(d['time']),d['island4']+2500*d['detid'].astype(int), 'b,')
+        ax_I4bytime.set(ylabel="island4 + K*detid")
+    except KeyError:
+        dd = d
         if len(dd) > 0:
-            ax_ybytime.plot(ts_to_time(dd['time']),dd['rawy']+1600*dd['detid'].astype(int), c+',')
+            ax_ybytime.plot(ts_to_time(dd['time']),dd['rawy']+1600*dd['detid'].astype(int), 'b,')
     ax_ybytime.set(ylabel="rawY + K*detid")
-    ax_I4bytime = fig.add_subplot(gs[3,:], sharex=ax_ybytime)
-    ax_I4bytime.plot(ts_to_time(d['time']),d['island4']+2500*d['detid'].astype(int), 'b,')
-    ax_I4bytime.set(ylabel="island4 + K*detid")
     fig.tight_layout()
     fig.show()
     return fig, d, h
@@ -329,16 +490,19 @@ def obs_photons(obsname: str|Path, pointing_tolerance=0.25):
     
     return result
     
-    
 
 def plot_stack(data, name=None, cols=['dety','bias','energy','ISLAND4']):
     fig,ax = plt.subplots(len(cols),1,sharex=True, figsize=(8,2.5*len(cols)))
     fig.suptitle(name)
     for col,ax in zip(cols,np.ravel(ax)):
-        ax.plot(d['time'],d[col],',')
-        ax.set(ylabel=col)
+        try:
+            ax.plot(data['time'],data[col],',')
+            ax.set(ylabel=col)
+        except KeyError:
+            pass
     fig.tight_layout()
     return fig
+
 
 def loopcheck(data):
     loops = []

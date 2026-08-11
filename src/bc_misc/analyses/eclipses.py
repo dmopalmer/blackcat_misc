@@ -28,7 +28,7 @@ def is_sunlit(t):
 # check on a 1 minute cadence
 is_sunlit.step_days=1/1440
 
-trange = xraysky.sftime([parsedate("2026-03-01"), parsedate("2026-08-31")])
+trange = xraysky.sftime([parse_as_utc("2026-03-01"), parse_as_utc("2026-08-31")])
 
 t_transition,is_sun_ = almanac.find_discrete(trange[0], trange[1], is_sunlit)
 #%%

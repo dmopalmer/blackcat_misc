@@ -15,8 +15,8 @@ if False:
     ph1_list_all = sorted(top_dir.glob("payload_checkout/CHECKOUT*/level1*/*"))
 else:
     # Just June
-    ph0_list_all = sorted(top_dir.glob("payload_checkout/CHECKOUT_26_06*/raw_level0/ph_*.gz"))
-    ph1_list_all = sorted(top_dir.glob("payload_checkout/CHECKOUT_26_06*/level1*/*"))
+    ph0_list_all = sorted(top_dir.glob("payload_checkout/CHECKOUT_26_07_13/raw_level0/ph_*.gz"))
+    ph1_list_all = sorted(top_dir.glob("payload_checkout/CHECKOUT_26_07_13/level1*/*"))
     
 
 headers0 = Headers(ph0_list_all)
