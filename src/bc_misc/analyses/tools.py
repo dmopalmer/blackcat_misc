@@ -182,7 +182,7 @@ def ts_to_time(values):
         [np.datetime64(int(value * 1e6), "us") for value in values]
     )
 
-
+@cache
 def get_satellite() -> sfapi.EarthSatellite:
     from mission_planner.spacetrack_client import get_bc_tle
     tle = get_bc_tle()
@@ -225,6 +225,62 @@ def stack_extension(f, extname:str, mosaic=True) -> NDArray:
         result = np.stack([v0,v1,v2,v3], axis=0)
     return result
 
+def stable_pointings(datasource:bcd.DataSource, max_change:float=1):
+    """Time intervals when pointing is stable 
+    
+    Return type:
+        dtype([('t_start', '<M8[us]), ('t_end', '<M8[us]'), ('point_dec', '<f8'), ('point_ra', '<f8'), ('point_roll', '<f8'))])
+    
+    Args:
+        datasource (bcd.DataSource): _description_
+    Returns:
+        NDArray[]
+    """
+    d = datasource.data('point_ra')[0]
+    out_dtype = np.dtype([('t_start', '<M8[us]'), ('t_end', '<M8[us]'), 
+                        ('point_dec', '<f8'), ('point_ra', '<f8'), ('point_roll', '<f8')])
+    # Yields an array of
+    # dtype([('t', '<M8[us]'), ('adcs_state', 'S8'), ('num_attitudes', '<i8'), ('num_cmds', '<i8'), ('num_msg_errors', '<i8'), ('num_positions', '<i8'), ('pointing_state', 'S7'), ('point_dec', '<f8'), ('point_ra', '<f8'), ('point_roll', '<f8'), ('time', '<f8')])
+    # Use numpy to find all runs where successive pointing changes (addded in quadrature)
+    # are below max_change
+    if d is None or len(d) == 0:
+        return np.empty(0, dtype=out_dtype)
+    
+    # Calculate successive differences for coordinates
+    diff_ra = np.diff(d['point_ra'])
+    diff_dec = np.diff(d['point_dec'])
+    diff_roll = np.diff(d['point_roll'])
+    
+    # Calculate change added in quadrature
+    quad_change = np.sqrt(diff_ra**2 + diff_dec**2 + diff_roll**2)
+    
+    # Create boolean mask where changes are within acceptable bounds
+    # Note: len(stable_mask) is len(d) - 1
+    stable_mask = quad_change < max_change
+    
+    # Find transitions (pad to capture boundaries correctly)
+    padded = np.concatenate(([False], stable_mask, [False]))
+    diff_padded = np.diff(padded.astype(int))
+    
+    # Start indices are where diff is 1, End indices are where diff is -1
+    start_indices = np.where(diff_padded == 1)[0]
+    end_indices = np.where(diff_padded == -1)[0]
+    
+    results = []
+    for start, end in zip(start_indices, end_indices):
+        # Slice the continuous run array segment
+        segment = d[start:end + 1]
+        
+        results.append((
+            segment['t'][0],              # t_start
+            segment['t'][-1],             # t_end
+            np.median(segment['point_dec']), # Average position over stable run
+            np.median(segment['point_ra']),
+            np.median(segment['point_roll'])
+        ))
+        
+    return np.array(results, dtype=out_dtype)
+
 def plot_orientation(ordata, obsname=None, ax=None):
     if ax is None:
         plt.figure()
@@ -240,8 +296,6 @@ def plot_orientation(ordata, obsname=None, ax=None):
     ax.set(title=f"{obsname} Orientation", ylim=[0, 360], xlabel = f"Time on {t[0].item():%Y-%m-%d}")
     ax.legend()
     return ax
-
-
 
 
 def plot_detpos(data, name=None, ax=None):
@@ -266,6 +320,20 @@ def detsplit(data, field='DETID', matches=range(4), apply=None):
             r = apply(r)
         result.append(r)
     return result
+
+def rate_from_count(ts, counts) -> tuple[NDArray, NDArray]:
+    """Rate from cumulative counts
+
+    Args:
+        times (_type_): in seconds
+        counts (_type_): cumulative
+    Returns:
+        datetime64, counts_per_second
+    """
+    rates = np.diff(counts)/np.clip(np.diff(ts), 0.01, None)
+    w = ts[:-1] > 1e8
+    return ts_to_time(ts[:-1][w]), rates[w]
+    
 
 def plot_rate_from_count(times, counts, ax, *args, drawstyle='steps-pre', **kwargs):
     """Plot rate from cumulative counts
@@ -315,7 +383,9 @@ def plot_photons_and_rates(l1files, datasource, fig=None):
     ax_rings = fig.add_subplot(gs[5,0], sharex=ax_ybytime)
     for fname in l1files:
         d,h = fits.getdata(fname, header=True)
-        ax_ybytime.plot(ts_to_time(d['time']),d['rawy']+1600*d['detid'].astype(int), 'b,')
+        times = ts_to_time(d['time'])
+        ax_ybytime.plot(times, d['rawy']+1600*d['detid'].astype(int), 'b,')
+        ax_ybytime.plot(times[[0,-1]], [6400,7000], 'r', linewidth=0.25, linestyle='-')
         bins, binwidth = binspace(d['time'][0], d['time'][-1], 1)
         for detid in range(4):
             dd = d[d['detid'] == detid]
@@ -343,6 +413,37 @@ def plot_photons_and_rates(l1files, datasource, fig=None):
     ax_rings.legend(ncols=4,loc="lower center", frameon=False, bbox_to_anchor=(0.5,0.75))
     fig.tight_layout()
     return fig
+
+def plot_geographic_rates(datasource, name='good', sat=None, fig=None, ax=None) -> tuple[plt.Figure, plt.Axes]:
+    import cartopy.crs as ccrs
+    from xraysky import sftime
+    from skyfield.api import wgs84
+    if ax is None:
+        if fig is None:
+            fig = plt.figure(figsize=(13,7))
+        ax = fig.add_subplot(111, projection=ccrs.PlateCarree())
+    ax.coastlines()
+    name_rate = name+"-max_index_rate"
+    data = datasource.data(name_rate)[0]
+    if sat is None:
+        sat = get_satellite()
+    sft = sftime(data['t'].astype('object'))
+    geocentric = sat.at(sft)
+    lats, lons = wgs84.latlon_of(geocentric)
+    # 2-6 = 1e2 - 1e4 counts/s
+    log_rate = np.log10(np.clip(data[name_rate], 1e2, 1e4))
+    marker_size = log_rate*10
+    scatter = ax.scatter(lons.degrees, lats.degrees, c=log_rate, s=3, cmap='jet', vmin=2, vmax=4)
+    fig.colorbar(scatter, label="Rate (log10)")
+    return fig, ax
+    
+def plot_pointing_info(datasource: bcd.DataSource):
+    pointings = stable_pointings(datasource)
+    inst = xraysky.BlackCAT()
+    tan_corners = inst.fov()[0]
+    imager = xraysky.BC_Imager()
+    
+    
 
 def plot_photons_isl4(name,fname, fig=None):
     """Plot photons including Island4
