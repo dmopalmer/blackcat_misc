@@ -30,7 +30,7 @@ outdir.mkdir(exist_ok=True)
 # %%
 
 
-for daydir in sorted(top_dir.rglob(f"payload_checkout/CHECKOUT_*")):
+for daydir in sorted(top_dir.rglob(f"payload_checkout/CHECKOUT_*"))[::-1]:
     plt.close('all')
     try:
         datasource = bcd.DataSource(daydir.rglob('**/HOUSEKEEPING*'))

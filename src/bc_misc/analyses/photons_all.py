@@ -38,7 +38,7 @@ imager = BC_Imager(
 if False:
     ph_all = sorted(set([line.split()[0].split("_")[0] for line in sourcedir.joinpath('found_scox1.txt').open('rt').readlines() if 'ScoX1+' in line]))
 else:
-    ph_all = sorted(top_dir.rglob("payload_checkout/CHECKOUT_26_08_10/level1_tmp/ph_2*"))[::-1]
+    ph_all = sorted(top_dir.rglob("payload_checkout/CHECKOUT_26_08_17/level1_tmp/ph_2*"))[::-1]
   
 plot=True
 fitsfiles=False

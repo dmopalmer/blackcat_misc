@@ -437,11 +437,36 @@ def plot_geographic_rates(datasource, name='good', sat=None, fig=None, ax=None) 
     fig.colorbar(scatter, label="Rate (log10)")
     return fig, ax
     
-def plot_pointing_info(datasource: bcd.DataSource):
+def plot_pointing_fovs(datasource: bcd.DataSource):
+    """Plot the FOVs (and sources) covered by the pointings in the datasource
+
+    Plots cartesian so FOVs can look distorted
+    Args:
+        datasource (bcd.DataSource): _description_
+    """
     pointings = stable_pointings(datasource)
+    ra_check = pointings['point_ra']
+    if ra_check.min() < 20 and ra_check.max() > 340:
+        wrap_deg = "180d"
+    else:
+        wrap_deg = "0d"
+    fig, ax = plt.subplots(figsize=(8, 4.2)) #, subplot_kw=dict(projection="aitoff"))
+    ax.set(aspect = 1/np.cos(pointings["point_dec"].mean()))
     inst = xraysky.BlackCAT()
     tan_corners = inst.fov()[0]
-    imager = xraysky.BC_Imager()
+    imager = xraysky.BC_Imager(resolution=8)
+    # points_xy[:,0] x,y of center, [:,1:6] closed counterclockwise FOV starting at image origin
+    points_xy = imager.imager.image_minsize[np.newaxis, ::-1] * np.array([(0.5,0.5),(0,0),(1,0),(1,1),(0,1),(0,0)])
+    
+    for pointing in pointings:
+        imager.set_radecroll(pointing["point_ra"], pointing["point_dec"], pointing["point_roll"])
+        points_sky = imager.imager.imagepixel2skycoords(points_xy)
+        ra = points_sky.ra.wrap_at(wrap_deg).degree
+        dec = points_sky.dec.degree
+        line = ax.plot(ra[1:], dec[1:])
+        plt.plot(np.deg2rad(pointing["point_ra"]), np.deg2rad(pointing["point_dec"]), 'x', marker_color = line[0].get_color)
+    
+
     
     
 
