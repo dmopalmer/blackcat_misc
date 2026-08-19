@@ -436,8 +436,11 @@ def plot_geographic_rates(datasource, name='good', sat=None, fig=None, ax=None) 
     scatter = ax.scatter(lons.degrees, lats.degrees, c=log_rate, s=3, cmap='jet', vmin=2, vmax=4)
     fig.colorbar(scatter, label="Rate (log10)")
     return fig, ax
-    
-def plot_pointing_fovs(datasource: bcd.DataSource):
+
+def wrap_360(ra, at=360):
+    return (ra + at) % 360 - at
+
+def plot_pointing_fovs(datasource: bcd.DataSource, maxpointings=None):
     """Plot the FOVs (and sources) covered by the pointings in the datasource
 
     Plots cartesian so FOVs can look distorted
@@ -445,13 +448,16 @@ def plot_pointing_fovs(datasource: bcd.DataSource):
         datasource (bcd.DataSource): _description_
     """
     pointings = stable_pointings(datasource)
+    if maxpointings is not None:
+        pointings = pointings[:maxpointings]
     ra_check = pointings['point_ra']
-    if ra_check.min() < 20 and ra_check.max() > 340:
-        wrap_deg = "180d"
+    # Is the mean pointing closer to 0 or ±180
+    if np.cos(np.deg2rad(ra_check)).mean() > 0:
+        wrap_deg = 180
     else:
-        wrap_deg = "0d"
+        wrap_deg = 0
+    print(wrap_deg)
     fig, ax = plt.subplots(figsize=(8, 4.2)) #, subplot_kw=dict(projection="aitoff"))
-    ax.set(aspect = 1/np.cos(pointings["point_dec"].mean()))
     inst = xraysky.BlackCAT()
     tan_corners = inst.fov()[0]
     imager = xraysky.BC_Imager(resolution=8)
@@ -461,10 +467,12 @@ def plot_pointing_fovs(datasource: bcd.DataSource):
     for pointing in pointings:
         imager.set_radecroll(pointing["point_ra"], pointing["point_dec"], pointing["point_roll"])
         points_sky = imager.imager.imagepixel2skycoords(points_xy)
-        ra = points_sky.ra.wrap_at(wrap_deg).degree
+        ra = points_sky.ra.wrap_at(wrap_deg * u.deg).degree
         dec = points_sky.dec.degree
         line = ax.plot(ra[1:], dec[1:])
-        plt.plot(np.deg2rad(pointing["point_ra"]), np.deg2rad(pointing["point_dec"]), 'x', marker_color = line[0].get_color)
+        plt.plot(wrap_360(pointing["point_ra"], wrap_deg), pointing["point_dec"], 'x', markeredgecolor = line[0].get_color())
+        plt.plot(ra[0], dec[0], '+', markeredgecolor = line[0].get_color())
+    ax.set(aspect = 1/np.cos(np.deg2rad(pointings["point_dec"].mean())))
     
 
     

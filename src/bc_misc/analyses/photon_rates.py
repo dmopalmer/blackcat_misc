@@ -26,7 +26,7 @@ except NameError:
 outdir = Path("/tmp/images")
 outdir.mkdir(exist_ok=True)
 
-day = parse_as_utc("2026-05-24 12:00")
+day = parse_as_utc("2026-08-19 12:00")
 
 daydir = top_dir.joinpath(f"payload_checkout/CHECKOUT_{day:%y_%m_%d}")
 

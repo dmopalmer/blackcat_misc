@@ -6,6 +6,7 @@ Show photons and rates
 import matplotlib
 matplotlib.use('MacOSX')  # Use 'osx' in some older IPython environments
 
+from bc_misc.analyses.tools import plot_pointing_fovs
 from tools import *
 from xraysky import BC_Imager
 from astropy.wcs import WCS
@@ -40,4 +41,9 @@ for daydir in sorted(top_dir.rglob(f"payload_checkout/CHECKOUT_*"))[::-1]:
         fig.savefig(outdir.joinpath(f"geo_{daystring}.png"))
     except:
         pass
+# %%
+
+daydir = sorted(top_dir.rglob(f"payload_checkout/CHECKOUT_*"))[-1]
+datasource = bcd.DataSource(daydir.rglob('**/HOUSEKEEPING*'))
+plot_pointing_fovs(datasource, maxpointings=10)
 # %%
