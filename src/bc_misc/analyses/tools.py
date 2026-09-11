@@ -1,5 +1,6 @@
 from mylab import *
 from typing import Optional
+import cartopy.crs as ccrs
 from numpy.typing import NDArray
 from functools import cache
 import mission_planner
@@ -7,12 +8,16 @@ import xraysky
 import blackcat_data as bcd
 from collections import Counter
 from collections.abc import Sequence
-from typing import Tuple
 from astropy.coordinates import SkyCoord
 from scipy.spatial.transform import Rotation
 from blackcat import update_calibration
 from astropy.coordinates import SkyCoord
 from astropy import units as u
+
+from xraysky import sftime
+from skyfield.api import wgs84
+# Magnetic coordinates
+import aacgmv2
 
 top_dir = Path("/Volumes/data_x8/blackcat/soc_archive_mirror")
 
@@ -225,6 +230,14 @@ def stack_extension(f, extname:str, mosaic=True) -> NDArray:
         result = np.stack([v0,v1,v2,v3], axis=0)
     return result
 
+def island_array(d):
+    """Convert the 'island{n}' fields into an ND array [:,9]
+    Raises KeyError if not fat photons
+    
+    """
+    result = np.stack([d[f'ISLAND{i}'] for i in range(9)], axis=-1)
+    return result
+
 def stable_pointings(datasource:bcd.DataSource, max_change:float=1):
     """Time intervals when pointing is stable 
     
@@ -345,9 +358,12 @@ def plot_rate_from_count(times, counts, ax, *args, drawstyle='steps-pre', **kwar
         **kwargs: passed to plot
     """
     rates = np.diff(counts)/np.clip(np.diff(times), 0.01, None)
-    w = times[:-1] > 1e8
+    w = (times[:-1] > 1e8) & (np.diff(times) < 125) & (rates >= 0)
+    t = ts_to_time(times[:-1])
+    rates[~w] = np.nan
+    # t[~w] = np.nan 
     # w = w & np.roll(w,1) & np.roll(w,-1)
-    ax.plot(ts_to_time(times[:-1][w]), rates[w], *args, drawstyle=drawstyle, **kwargs)
+    ax.plot(t, rates, *args, drawstyle=drawstyle, **kwargs)
 
 def binspace(low, high, approxwidth):
     """Generate bins approximately the requested width
@@ -415,9 +431,6 @@ def plot_photons_and_rates(l1files, datasource, fig=None):
     return fig
 
 def plot_geographic_rates(datasource, name='good', sat=None, fig=None, ax=None) -> tuple[plt.Figure, plt.Axes]:
-    import cartopy.crs as ccrs
-    from xraysky import sftime
-    from skyfield.api import wgs84
     if ax is None:
         if fig is None:
             fig = plt.figure(figsize=(13,7))
@@ -427,7 +440,7 @@ def plot_geographic_rates(datasource, name='good', sat=None, fig=None, ax=None) 
     data = datasource.data(name_rate)[0]
     if sat is None:
         sat = get_satellite()
-    sft = sftime(data['t'].astype('object'))
+    sft = sftime(data['t'])
     geocentric = sat.at(sft)
     lats, lons = wgs84.latlon_of(geocentric)
     # 2-6 = 1e2 - 1e4 counts/s
@@ -436,6 +449,42 @@ def plot_geographic_rates(datasource, name='good', sat=None, fig=None, ax=None) 
     scatter = ax.scatter(lons.degrees, lats.degrees, c=log_rate, s=3, cmap='jet', vmin=2, vmax=4)
     fig.colorbar(scatter, label="Rate (log10)")
     return fig, ax
+
+
+def plot_geomagnetic_rates(datasource, name='good', sat=None, fig=None) -> tuple[plt.Figure, tuple[plt.Axes]]:
+    if fig is None:
+        fig = plt.figure(figsize=(15,7))
+    gs = plt.GridSpec(nrows=7, ncols=15, figure=fig)
+    # height space
+    gs.update(
+        left=0.08,    # 5% margin from left edge
+        right=0.95,   # 5% margin from right edge
+        top=0.95,     # 5% margin from top edge
+        bottom=0.05,  # 5% margin from bottom edge
+        hspace=0.05   # Keep the subplots close together vertically
+    )
+    ax_geo = fig.add_subplot(gs[0:7, 0:13], projection=ccrs.PlateCarree())
+    ax_geo.coastlines()
+    ax_maglat = fig.add_subplot(gs[0:7, 13:], sharey=ax_geo)
+    
+    name_rate = name+"-max_index_rate"
+    data = datasource.data(name_rate)[0]
+    if sat is None:
+        sat = get_satellite()
+    sft = sftime(data['t'])
+    geocentric = sat.at(sft)
+    lats, lons = wgs84.latlon_of(geocentric)
+    alts = wgs84.height_of(geocentric)
+    # 2-6 = 1e2 - 1e4 counts/s
+    rate = data[name_rate]
+    log_rate = np.log10(np.clip(rate, 1e2, 1e4))
+    marker_size = log_rate*10
+    scatter = ax_geo.scatter(lons.degrees, lats.degrees, c=log_rate, s=3, cmap='jet', vmin=2, vmax=4)
+    mlat, mlon, mlocaltime = aacgmv2.get_aacgm_coord_arr(lats.degrees, lons.degrees, alts.km, data['t'][0].item())
+    scatter_lat = ax_maglat.scatter(rate, mlat, c=log_rate, s=3, cmap='jet', vmin=2, vmax=4)
+    ax_maglat.set(xscale='log', ylabel='Magnetic Latitude')
+    # fig.colorbar((scatter, scatter_lat), label="Rate (log10)")
+    return fig, (ax_geo, ax_maglat)
 
 def wrap_360(ra, at=360):
     return (ra + at) % 360 - at
@@ -496,6 +545,7 @@ def plot_photons_isl4(name,fname, fig=None):
     detgrid = [[1,1],[0,0],[1,0],[0,1]]
     # def plot_photons(fname, name=None, fig=None):
     d,h = fits.getdata(fname, header=True)
+    d = d[d['grade'] <= 12]
     if fig is None:
         fig = plt.figure(figsize=[12,12])
     fig.suptitle(name)
@@ -512,16 +562,17 @@ def plot_photons_isl4(name,fname, fig=None):
             # ax_dph.text(xave, yave, f"SP{i}", color="r", alpha=1)
             axhist = fig.add_subplot(gs[1-detgrid[i][0], 2+detgrid[i][1]])
             axhist.hist(dd['energy'], bins=np.logspace(np.log10(0.5),np.log10(25),num=100),histtype='step')
-            axhist.set(xscale='log',yscale='log',xlim=[0.5,23],ylim=[0.5,1e5])
+            axhist.set(xscale='log',yscale='log',xlim=[0.5,30],ylim=[0.5,1e5])
     ax_ybytime = fig.add_subplot(gs[2,:])
 
     try:
-        for dd,c in zip((d[d['island4'] > 2000], d[d['island4'] <= 2000]), 'rb'):
+        # for dd,c in zip((d[d['island4'] > 2000], d[d['island4'] <= 2000]), 'rb'):
+        for dd,c in zip((d[d['grade'] != 0], d[d['grade'] == 0]), 'rb'):
             if len(dd) > 0:
                 ax_ybytime.plot(ts_to_time(dd['time']),dd['rawy']+1600*dd['detid'].astype(int), c+',')
-        ax_I4bytime = fig.add_subplot(gs[3,:], sharex=ax_ybytime)
-        ax_I4bytime.plot(ts_to_time(d['time']),d['island4']+2500*d['detid'].astype(int), 'b,')
-        ax_I4bytime.set(ylabel="island4 + K*detid")
+                ax_I4bytime = fig.add_subplot(gs[3,:], sharex=ax_ybytime)
+                ax_I4bytime.plot(ts_to_time(d['time']),d['island4']+2500*d['detid'].astype(int), 'b,')
+                ax_I4bytime.set(ylabel="island4 + K*detid")
     except KeyError:
         dd = d
         if len(dd) > 0:
@@ -672,7 +723,7 @@ calibration = dict(
 )
 
 
-def manual_calibrate_data(photons:NDArray, radecroll:Sequence[float], calibration = calibration) -> Tuple[NDArray, Sequence[float]]:
+def manual_calibrate_data(photons:NDArray, radecroll:Sequence[float], calibration = calibration) -> tuple[NDArray, Sequence[float]]:
     """Data and pointing adjusted for calibration
 
     Args:

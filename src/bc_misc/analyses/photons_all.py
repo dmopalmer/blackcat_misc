@@ -38,7 +38,7 @@ imager = BC_Imager(
 if False:
     ph_all = sorted(set([line.split()[0].split("_")[0] for line in sourcedir.joinpath('found_scox1.txt').open('rt').readlines() if 'ScoX1+' in line]))
 else:
-    ph_all = sorted(top_dir.rglob("payload_checkout/CHECKOUT_26_08_1*/level1_tmp/ph_2*"))[::-1]
+    ph_all = sorted(top_dir.rglob("payload_checkout/CHECKOUT_26_09_10/level1_tmp/ph_2*"))[::-1]
   
 plot=True
 fitsfiles=False
@@ -60,5 +60,10 @@ obs = obs_data('2606212204')
 ph_0 = fits.getdata(obs['l0_file'])
 ph_1 = blackcat.convert_events_level0_to_level1(obs['l0_file'], obs['obsname'])
 pass
+
+# %%
+# Fat photons with striping
+obs = obs_data('2608231432')
+d=fits.getdata(obs['l1_file'])
 
 # %%

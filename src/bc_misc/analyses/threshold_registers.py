@@ -16,7 +16,7 @@ from tools import *
 
 
 ds = bcd.DataSource(
-    list(bcd.topdir.rglob("**/CHECKOUT_26_07_19/**/raw_level0/**/HOUSEKEEPING*"))
+    list(bcd.topdir.rglob("**/CHECKOUT_26_08_29/**/raw_level0/**/HOUSEKEEPING*"))
 )
 
 lines=ds.messages(fmt=True, supress=False)
@@ -63,7 +63,7 @@ if False:
 
 # %%
 
-plt.close('all')
+# plt.close('all')
 
 fig, axes = plt.subplots(nrows=13, ncols=1, figsize=(12,12), sharex=True)
 all_axes = np.ravel(axes)

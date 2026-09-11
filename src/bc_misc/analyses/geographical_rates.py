@@ -36,10 +36,13 @@ for daydir in sorted(top_dir.rglob(f"payload_checkout/CHECKOUT_*"))[::-1]:
     try:
         datasource = bcd.DataSource(daydir.rglob('**/HOUSEKEEPING*'))
         daystring = f'{datasource.data('lapped')[0][-1]['t'].item():%Y-%m-%d}'
-        fig,ax = plot_geographic_rates(datasource)
+        fig,ax = plot_geomagnetic_rates(datasource)
         fig.suptitle(f"Good count rates for {datasource.data('lapped')[0][-1]['t'].item():%Y-%m-%d}")
         fig.savefig(outdir.joinpath(f"geo_{daystring}.png"))
-    except:
+        
+    except Exception as e:
+        print(daydir.name, e)
+        break
         pass
 # %%
 

@@ -35,13 +35,14 @@ imager = BC_Imager(
 
 
 if True:
-    ph_all = sorted(set([line.split()[0].split("_")[0] for line in sourcedir.joinpath('found_scox1.txt').open('rt').readlines() if 'ScoX1+' in line]))
+    ph_all = sorted(set([line.split()[0].split("_")[0] for line in sourcedir.joinpath('found_all_images.txt').open('rt').readlines() if 'σ' in line]))[::-1]
 else:
-    ph_all = (sorted(top_dir.rglob("payload_checkout/CHECKOUT_26_05_*/level1_tmp/ph_2*")) +
-        sorted(top_dir.rglob("payload_checkout/CHECKOUT_26_06_*/level1_tmp/ph_2*")))
-  
-plot=False
+    ph_all = sorted(top_dir.rglob("payload_checkout/CHECKOUT_26_0[56789]_*/level1_tmp/ph_2*"))[::-1]
+
+minsigma=5.5
+plot=True
 fitsfiles=False
+ecuts = [1,25]  # Low, high in keV
 #%%
 
 # Corrective offsets to add to detector detx, dety
@@ -61,22 +62,24 @@ for f in ph_all:
             continue
         # counts,radecroll = calibrate_data(obs['stable_photons'], obs['radecroll'])
         counts,radecroll = obs['stable_photons'], obs['radecroll']
+        erange = np.percentile(counts['ENERGY'], (5,95))
+        counts = counts[(counts['ENERGY'] > ecuts[0]) & (counts['ENERGY'] < ecuts[1])]
+        erange = np.clip(erange, ecuts[0], ecuts[1])
         obsname = f"{obs['obsname']}"
         if len(counts) < 10:
             continue
-        erange = np.percentile(counts['ENERGY'], (5,95))
         imager.set_radecroll(radecroll)
         imhdu = imager.evtlist2image(
                 counts=counts, header=obs['header'],
                 add_wcs=True,
-                outfile=outdir.joinpath(f"{obsname}_pos_roll.fits.gz") if fitsfiles else None,
+                outfile=outdir.joinpath(f"{obsname}.fits.gz") if fitsfiles else None,
             )
         wcs = WCS(imhdu.header)
         height,width = imhdu.data.shape
         scoij = wcs.world_to_pixel(scox1_coords)
         fov_scox1 = (0 < scoij[0] < width and 0 < scoij[1] < height)
         # print("finding peaks")
-        peaks = imager.imager.findpeaks(imhdu.data, minsigma=5)
+        peaks = imager.imager.findpeaks(imhdu.data, minsigma=minsigma)
         # print(f"Found {len(peaks)} peaks")
         # Can get MANY peaks with local significance due to partial detector population
         peaks = peaks[peaks['signif_global'] > 2]
@@ -88,9 +91,9 @@ for f in ph_all:
         
         if len(peaks):
             for peak in peaks:
-                pixoff = peak['ijpeak'][::-1] - scoij
-                # alignment is handled by 'calibrate_data()' # - alignment_corr/impixsize
                 radec = wcs.pixel_to_world([peak['ijpeak'][1]], [peak['ijpeak'][0]])
+                # alignment is handled by 'calibrate_data()' # - alignment_corr/impixsize
+                pixoff = peak['ijpeak'][::-1] - scoij
                 ra,dec = [float(v.deg.item()) for v in (radec.ra, radec.dec)]
                 if np.hypot(*pixoff) > 50:
                     if peak['signif_local'] > 6.5:
@@ -103,8 +106,8 @@ for f in ph_all:
                 pixoffs.append(np.concatenate((scoij,pixoff)))
         else:
             print(f"{obsname} no sources found with Sco X-1", 'inside FOV ' if fov_scox1 else 'outside FOV',
-                  f' for {dt:.0f} s, {rate:.0f} cps, >{erange[0]:.1f} keV')
-        if plot:
+                  f' for {dt:.0f} s, {rate:.0f} cps, {erange[0]:.1f} - {erange[1]:0.1f} keV')
+        if plot and len(peaks):
             plt.close('all')
             fig = plt.figure(figsize=(15,9))
             ax = fig.add_subplot(1,1,1, projection=wcs)
@@ -113,7 +116,7 @@ for f in ph_all:
             ax.coords['ra'].set_format_unit(u.degree)
             ax.plot(peaks['ijpeak'][:,1], peaks['ijpeak'][:,0], 'o', markersize=15, markerfacecolor='none', markeredgecolor='k')
             ax.grid(color='black', linestyle='dotted', alpha=0.5)
-            if len(peaks):
+            if len(peaks) and fov_scox1:
                 ny,nx = imhdu.data.shape
                 vfrac = 0.2
                 hfrac = vfrac * ny/nx
@@ -124,7 +127,7 @@ for f in ph_all:
                 inax.set(xlim=[scoij[0]-20, scoij[0]+20], ylim=[scoij[1]-20, scoij[1]+20], xticks=[], yticks=[])
                 ax.indicate_inset_zoom(inax, edgecolor="black")
 
-            ax.set(title=f'OBSID 20{obs['obsname']} for {dt:.0f} s, {rate:.0f} cps, >{erange[0]:.1f} keV')
+            ax.set(title=f'OBSID 20{obs['obsname']} for {dt:.0f} s, {rate:.0f} cps, {erange[0]:.1f} - {erange[1]:0.1f} keV')
             fig.tight_layout()
             fig.savefig(outdir.joinpath(f"{obsname}_full.png"))
             plt.pause(2)
