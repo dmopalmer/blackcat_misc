@@ -54,6 +54,7 @@ override-dependencies = [
 
 [dependency-groups]
 dev = [
+    "black>=26.10.1",
     "ipympl>=0.10.0",
     "ipython>=9.9.0",
 ]

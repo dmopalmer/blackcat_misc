@@ -6,8 +6,10 @@ Format as in
 https://git.psu.edu/BlackCAT/shared/interfaces/-/blob/main/dram-pixel-format.md
 
 """
+
 import matplotlib as mpl
-mpl.use('module://ipympl.backend_nbagg')
+
+mpl.use("module://ipympl.backend_nbagg")
 
 from tools import *
 import gzip
@@ -40,12 +42,12 @@ def hexes(
     result = incipit + linesep.join([sep.join(chunk) for chunk in chunks]) + terminus
     return result
 
-def field(structs:list[dict], fieldname:str|list[str]):
+
+def field(structs: list[dict], fieldname: str | list[str]):
     if isinstance(fieldname, str):
         return [struct[fieldname] for struct in structs]
     return [field(structs, name) for name in fieldname]
-    
-    
+
 
 # %%
 dA = readsplit(dramdir, "A")
@@ -146,13 +148,14 @@ def headers(data, start_address=0):
     headers = [frame_header(data, istart) for istart in w]
     return headers
 
+
 heads = headers(data=dA)
-times = np.array(field(heads,'timestamp'))*1e-8
+times = np.array(field(heads, "timestamp")) * 1e-8
 
 for h in heads:
     print(h)
 
 
-plt.plot(times, field(heads, 'frame_idx'), '.')
+plt.plot(times, field(heads, "frame_idx"), ".")
 
 # %%
